@@ -1,0 +1,1605 @@
+# Ukrainian translation of xarchiver.
+# Copyright (C) 2008 Dmitry Nikitin
+# This file is distributed under the same license as the xarchiver package.
+#
+# Dmitry Nikitin <luckas_fb@mail.ru>, 2008
+# Andriy Matkovsky <sidius.ua@gmail.com>, 2009
+# Юрій Яновський <lytvyn349@urk.net>, 2020
+msgid ""
+msgstr ""
+"Project-Id-Version: xarchiver\n"
+"Report-Msgid-Bugs-To: https://github.com/ib/xarchiver/issues\n"
+"POT-Creation-Date: 2024-02-28 14:06+0100\n"
+"PO-Revision-Date: 2020-12-08 11:32+0100\n"
+"Last-Translator: Юрій Яновський <lytvyn349@ukr.net>\n"
+"Language-Team: Ukrainian <xfce4-dev@xfce.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.3\n"
+
+#: ../src/window.c
+#, c-format
+msgid ""
+"\n"
+"Name: "
+msgstr ""
+"\n"
+"Імʼя: "
+
+#: ../src/new_dialog.c
+#, c-format
+msgid "\"%s\" is already open!"
+msgstr "\"%s\" вже відкрито!"
+
+#: ../src/window.c
+#, c-format
+msgid "%d dir %s (%s)"
+msgid_plural "%d dirs %s (%s)"
+msgstr[0] "%d каталог %s (%s)"
+msgstr[1] "%d каталоги %s (%s)"
+msgstr[2] "%d каталогів %s (%s)"
+
+#: ../src/window.c
+#, c-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "Додати %d файл"
+msgstr[1] "Додати %d файли"
+msgstr[2] "Додати %d файлів"
+
+#: ../src/window.c
+#, c-format
+msgid "%d file %s (%s)"
+msgid_plural "%d files %s (%s)"
+msgstr[0] "%d файл %s (%s)"
+msgstr[1] "%d файлів %s (%s)"
+msgstr[2] "%d файлів %s (%s)"
+
+#: ../src/add_dialog.c
+#, fuzzy, c-format
+#| msgid "0 = no compression, 1 is default, 4 = fastest but least compression"
+msgid ""
+"%hu is least compression\n"
+"%hu is default compression\n"
+"%hu is best compression"
+msgstr "0 = без стиснення, 1 типово, 4 = швидше, але з меншим стисненням"
+
+#: ../src/pref_dialog.c
+msgid "/tmp"
+msgstr "/tmp"
+
+#: ../src/interface.c
+msgid "<span weight='bold' size='larger'>Enter password for:</span>"
+msgstr "<span weight='bold' size='larger'>Введіть пароль для:</span>"
+
+#: ../src/interface.c
+msgid "<span weight='bold' size='larger'>Password required for:</span>"
+msgstr "<span weight='bold' size='larger'>Необхідний пароль для:</span>"
+
+#: ../src/window.c
+#, c-format
+msgid "<th>Files:</th>"
+msgstr "<th>Файли:</th>"
+
+#: ../src/window.c
+#, c-format
+msgid "<th>Size:</th>"
+msgstr "<th>Розмір:</th>"
+
+#: ../src/window.c
+msgid "A GTK+ only lightweight archive manager"
+msgstr "Легка програма для управління архівами, що використовує GTK+"
+
+#: ../src/interface.c
+msgid "A_ction"
+msgstr "Д_ії"
+
+#: ../src/interface.c
+msgid "A_dd"
+msgstr "Д_одати"
+
+#: ../src/add_dialog.c
+msgid "Actions"
+msgstr "Дії"
+
+#: ../src/interface.c
+msgid "Add"
+msgstr "_Додати"
+
+#: ../src/add_dialog.c ../src/interface.c
+msgid "Add files"
+msgstr "Додати файли"
+
+#: ../src/main.c
+msgid ""
+"Add the given files by asking the name of\n"
+"                                     the archive and quit"
+msgstr ""
+"Додати поточні файли, запитуючи назву\n"
+"                                     архіву та вийти"
+
+#: ../src/main.c
+msgid ""
+"Add to archive by asking which files and\n"
+"                                     quit"
+msgstr ""
+"Додати файли до архіву, запитуючи їх назви і\n"
+"                                     вийти"
+
+#: ../src/window.c
+msgid "Adding files to archive, please wait..."
+msgstr "Додавання файлів до архіву, будь ласка, зачекайте.."
+
+#: ../src/interface.c
+msgid "Adding to archive:"
+msgstr "Додати файли до архіву:"
+
+#: ../src/pref_dialog.c
+msgid "Advanced"
+msgstr "Додаткові"
+
+#: ../src/pref_dialog.c
+#, fuzzy
+#| msgid "Icons size (requires restart)"
+msgid "Advanced incremental search (requires restart)"
+msgstr "Розмір значків (потребує перезапуску)"
+
+#: ../src/extract_dialog.c ../src/new_dialog.c ../src/window.c
+msgid "All files"
+msgstr "Всі файли"
+
+#: ../src/pref_dialog.c
+#, fuzzy
+#| msgid "Allow subdirs with drag and drop"
+msgid "Allow subdirs with clipboard and drag-and-drop"
+msgstr "Дозволити перетягувати підкаталоги мишкою"
+
+#: ../src/window.c
+msgid "An error occurred while accessing the archive:"
+msgstr "Під час доступу до архіву сталася помилка:"
+
+#: ../src/add_dialog.c ../src/main.c ../src/window.c
+msgid "An error occurred!"
+msgstr "Виникла помилка!"
+
+#: ../src/extract_dialog.c ../src/pref_dialog.c
+msgid "Archive"
+msgstr "Архів"
+
+#: ../src/interface.c
+msgid "Archive Properties"
+msgstr "Властивості архіву"
+
+#: ../src/interface.c
+msgid "Archive _comment"
+msgstr "_Коментар до архіву"
+
+#: ../src/window.c
+#, c-format
+msgid "Archive content:\n"
+msgstr "Вміст архіву:\n"
+
+#: ../src/window.c
+msgid "Archive format is not recognized!"
+msgstr "Формат архіву не розпізнано!"
+
+#: ../xarchiver.desktop.in.h
+msgid "Archive manager"
+msgstr "Менеджер архівів"
+
+#: ../src/interface.c
+msgid "Archive tree"
+msgstr "Дерево архіву"
+
+#: ../src/pref_dialog.c
+msgid ""
+"Archive tree nodes already expand when the node name is selected by mouse "
+"click or keyboard shortcut."
+msgstr ""
+
+#: ../src/new_dialog.c
+msgid "Archive type:"
+msgstr "Тип архіву:"
+
+#: ../src/interface.c
+msgid "Archiver executable:"
+msgstr "Виконуваний файл архіватора:"
+
+#: ../src/window.c
+msgid "Archiver output"
+msgstr "Вивід архіватора"
+
+#: ../src/window.c
+msgid "Are you sure you want to do this?"
+msgstr "Ви впевнені, що хочете це зробити?"
+
+#: ../src/7zip.c ../src/arj.c ../src/rar.c
+msgid "Attributes"
+msgstr "Атрибути"
+
+#: ../src/pref_dialog.c
+msgid "Automatically expand archive tree nodes on selection"
+msgstr ""
+
+#: ../src/interface.c
+msgid "Back"
+msgstr "Назад"
+
+#: ../src/open-with-dlg.c
+msgid "Browse"
+msgstr "Огляд"
+
+#: ../src/add_dialog.c ../src/main.c
+msgid "Can't add files to the archive:"
+msgstr "Неможливо додати файли до архіву:"
+
+#: ../src/main.c
+msgid "Can't allocate memory for the archive structure!"
+msgstr "Неможливо виділити пам'ять для структури архіву!"
+
+#: ../src/window.c
+msgid "Can't allocate memory for the archive structure:"
+msgstr "Неможливо виділити пам'ять для структури архіву:"
+
+#: ../src/window.c
+msgid "Can't convert the archive to self-extracting:"
+msgstr "Не вдалося створити архів, що само-розпакувальний:"
+
+#: ../src/new_dialog.c
+msgid "Can't create a new archive:"
+msgstr "Неможливо створити новий архів:"
+
+#: ../src/extract_dialog.c ../src/main.c
+msgid "Can't create directory!"
+msgstr "Не вдалося створити каталог!"
+
+#: ../src/archive.c
+msgid "Can't create temporary directory:"
+msgstr "Неможливо створити тимчасовий каталог:"
+
+#: ../src/extract_dialog.c ../src/main.c ../src/window.c
+msgid "Can't extract files from the archive:"
+msgstr "Неможливо розпакувати файли з архіву:"
+
+#: ../src/rpm.c
+msgid "Can't fseek in file:"
+msgstr "Не вдалося виконати fseek в файлі:"
+
+#: ../src/rpm.c
+msgid "Can't fseek to position 104:"
+msgstr "Не вдається виконати fseek на позиції 104:"
+
+#: ../src/extract_dialog.c
+msgid "Can't multi-extract archives:"
+msgstr "Неможливе виконати розпакування кількох архівів:"
+
+#: ../src/rpm.c
+#, c-format
+msgid "Can't open RPM file %s:"
+msgstr "Неможливо відкрити файл RPM %s:"
+
+#: ../src/window.c
+#, c-format
+msgid "Can't open file \"%s\":"
+msgstr "Неможливо відкрити файл \"%s\":"
+
+#: ../src/main.c
+msgid "Can't open the archive!"
+msgstr "Не вдається відкрити архів!"
+
+#: ../src/extract_dialog.c ../src/window.c
+msgid "Can't perform extraction!"
+msgstr "Неможливо розпакувати!"
+
+#: ../src/interface.c ../src/main.c ../src/window.c
+msgid "Can't perform this action:"
+msgstr "Неможливо виконати дію:"
+
+#: ../src/rpm.c
+msgid "Can't read data from file:"
+msgstr "Неможливо прочитати дані з файлу:"
+
+#: ../src/archive.c
+msgid "Can't run the archiver executable:"
+msgstr "Неможливо запустити виконуваний файл архіватора:"
+
+#: ../src/window.c
+msgid "Can't write the sfx module to the archive:"
+msgstr "Неможливо записати модуль sfx в архів:"
+
+#: ../src/interface.c
+msgid "Cancel current operation"
+msgstr "Скасувати поточну операцію"
+
+#: ../src/gzip_et_al.c
+msgid "Check Type"
+msgstr "Тип перевірки"
+
+#: ../src/arj.c ../src/rar.c
+msgid "Checksum"
+msgstr "Контрольна сума"
+
+#: ../src/pref_dialog.c
+msgid "Choose the application to use"
+msgstr "Виберіть додаток, який будете використовувати"
+
+#: ../src/new_dialog.c
+msgid "Choose the archive type to create"
+msgstr "Виберіть тип створюваного архіву"
+
+#: ../src/pref_dialog.c
+msgid "Choose the directory to use"
+msgstr "Вибрати каталог для використання"
+
+#: ../src/interface.c
+msgid "Close archive"
+msgstr "Закрити архів"
+
+#: ../src/interface.c
+msgid "Cmd-line outp_ut"
+msgstr "Вивід к_омандного рядка"
+
+#: ../src/window.c
+msgid "Command"
+msgstr "Команда"
+
+#: ../src/pref_dialog.c
+msgid ""
+"Command-line output is captured and can be reviewed, but this consumes "
+"additional memory"
+msgstr ""
+
+#: ../src/window.c
+msgid "Comment"
+msgstr "Коментар"
+
+#: ../src/interface.c
+msgid "Comment:"
+msgstr "Коментар:"
+
+#: ../src/window.c
+#, c-format
+msgid "Comment:\n"
+msgstr "Коментар:\n"
+
+#: ../src/7zip.c ../src/arj.c ../src/gzip_et_al.c ../src/rar.c ../src/zip.c
+msgid "Compressed"
+msgstr "Стиснутий"
+
+#: ../src/window.c
+#, c-format
+msgid "Compressed   size: "
+msgstr "Стиснутий  розмір : "
+
+#: ../src/interface.c
+msgid "Compressed size:"
+msgstr "Стиснутий розмір:"
+
+#: ../src/add_dialog.c
+msgid "Compression"
+msgstr "Стиснення"
+
+#: ../src/gzip_et_al.c
+msgid "Compression ratio"
+msgstr "Коефіцієнт стиснення"
+
+#: ../src/interface.c
+msgid "Compression ratio:"
+msgstr "Коефіцієнт стиснення:"
+
+#: ../src/pref_dialog.c
+msgid "Confirm deletion of files"
+msgstr "Підтверджувати вилучення файлів"
+
+#: ../src/window.c
+#, fuzzy
+#| msgid "Testing archive, please wait..."
+msgid "Converting archive, please wait..."
+msgstr "Архів перевіряється, будь ласка, зачекайте..."
+
+#: ../src/interface.c
+msgid "Copy"
+msgstr "Копіювати"
+
+#: ../src/new_dialog.c
+msgid "Cr_eate"
+msgstr "Ст_ворити"
+
+#: ../src/interface.c ../src/new_dialog.c
+msgid "Create a new archive"
+msgstr "Створити новий архів"
+
+#: ../src/add_dialog.c
+msgid "Create a solid archive"
+msgstr "Створити безперервний архів"
+
+#: ../xarchiver.desktop.in.h
+#, fuzzy
+#| msgid "Create a solid archive"
+msgid "Create, extract and modify archives"
+msgstr "Створити безперервний архів"
+
+#: ../src/interface.c
+msgid "Cut"
+msgstr "Вирізати"
+
+#: ../src/gzip_et_al.c
+msgid "Data Frames/Skippable Frames"
+msgstr "Фрейми даних/Кадри, що пропускаються"
+
+#: ../src/7zip.c ../src/ar.c ../src/arj.c ../src/cpio.c ../src/gzip_et_al.c
+#: ../src/lha.c ../src/rar.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
+#: ../src/unar.c ../src/zip.c ../src/zpaq.c
+msgid "Date"
+msgstr "Дата"
+
+#: ../src/pref_dialog.c
+msgid "Default custom command:"
+msgstr "Типова користувацька команда:"
+
+#: ../src/interface.c
+msgid "Delete"
+msgstr "Вилучити"
+
+#: ../src/add_dialog.c
+msgid "Delete files after adding"
+msgstr "Вилучити файли після архівування"
+
+#: ../src/window.c
+#, fuzzy
+#| msgid "Extracting files from archive, please wait..."
+msgid "Deleting files from archive, please wait..."
+msgstr "Розпаковування файлів, будь ласка, зачекайте..."
+
+#: ../src/interface.c
+msgid "Dese_lect all"
+msgstr "З_няти виділення"
+
+#: ../src/extract_dialog.c
+#, fuzzy
+#| msgid "destination"
+msgid "Destination"
+msgstr "ц"
+
+#: ../src/window.c
+msgid "Do you really want to cancel?"
+msgstr "Ви дійсно хочете скасувати?"
+
+#: ../src/new_dialog.c
+msgid "Do you want to overwrite it?"
+msgstr "Ви хочете його перезаписати?"
+
+#: ../src/window.c
+msgid "Doing so will probably corrupt your archive!"
+msgstr "Це, ймовірно, зіпсує ваш архів!"
+
+#: ../src/interface.c
+msgid "Edit"
+msgstr ""
+
+#: ../src/interface.c
+msgid "Encrypted:"
+msgstr "Зашифрований:"
+
+#: ../src/add_dialog.c
+msgid "Encryption"
+msgstr "Шифрування"
+
+#: ../src/extract_dialog.c
+msgid "Ensure a containing directory"
+msgstr "Забезпечте цільову директорію"
+
+#: ../src/extract_dialog.c
+msgid ""
+"Ensure that the contents of the extracted archive is always in a containing "
+"directory"
+msgstr ""
+"Переконайтесь, що вміст розпакованого архіву завжди знаходиться у цільовому "
+"каталозі"
+
+#: ../src/interface.c
+msgid "Enter passwo_rd"
+msgstr "Введіть па_роль"
+
+#: ../src/pref_dialog.c
+msgid ""
+"Even if other, perhaps more powerful programs are installed to handle zip "
+"archives, the traditional \"unzip\" and \"zip\" will still be used"
+msgstr ""
+
+#: ../src/interface.c
+msgid "Extract"
+msgstr "Розпакувати"
+
+#: ../src/main.c
+msgid ""
+"Extract archive by asking the extraction\n"
+"                                     directory and quit"
+msgstr ""
+"Розпакувати архів, запитуючи\n"
+"                                     теки для розпакування і вийти"
+
+#: ../src/main.c
+msgid ""
+"Extract archive to a containing directory\n"
+"                                     and quit"
+msgstr ""
+"Розпакувати архів у каталог, де він знаходиться\n"
+"                                     і вийти"
+
+#: ../src/main.c
+msgid ""
+"Extract archive to the destination\n"
+"                                     directory and quit"
+msgstr ""
+"Розпакувати архів до каталогу\n"
+"                                     призначення і вийти"
+
+#: ../src/extract_dialog.c ../src/interface.c
+msgid "Extract files"
+msgstr "Розпакувати файли"
+
+#: ../src/main.c
+msgid ""
+"Extract multiple archives by asking the\n"
+"                                     extraction directory and quit"
+msgstr ""
+"Розпакувати декілька архівів, запитуючи\n"
+"                                     теки для розпакування і вийти"
+
+#: ../src/extract_dialog.c
+msgid ""
+"Extract only those files that already exist on disk and that are newer than "
+"the disk copies"
+msgstr ""
+"Розпакувати тільки ті файли, які існують на диску і які новіші ніж їх копії "
+"на диску"
+
+#: ../src/extract_dialog.c
+#, fuzzy
+#| msgid "Extract to dir \"Archive Name\""
+msgid "Extract to directories with archive names"
+msgstr "Розпакувати в каталог з назвою архіву"
+
+#: ../src/extract_dialog.c
+msgid "Extract to:"
+msgstr "Розпакувати в:"
+
+#: ../src/extract_dialog.c
+#, fuzzy
+#| msgid "Extract files with full path"
+msgid "Extract with full path"
+msgstr "Розпакувати файли з повним шляхом"
+
+#: ../src/interface.c
+#, c-format
+msgid "Extracting \"%s\"..."
+msgstr ""
+
+#: ../src/window.c
+msgid "Extracting files from archive, please wait..."
+msgstr "Розпаковування файлів, будь ласка, зачекайте..."
+
+#: ../src/interface.c
+msgid "Extracting from archive:"
+msgstr "Розпакування архіву:"
+
+#: ../src/window.c
+msgid "Failed to launch the application!"
+msgstr "Не вдалося запустити застосунок!"
+
+#: ../src/add_dialog.c ../src/extract_dialog.c
+msgid "File Paths"
+msgstr "Шляхи до файлу"
+
+#: ../src/window.c
+msgid "Filename"
+msgstr "Ім'я файлу"
+
+#: ../src/extract_dialog.c
+msgid "Files"
+msgstr "Файли"
+
+#: ../src/zpaq.c
+msgid "Files with absolute pathnames cannot be deleted!"
+msgstr ""
+
+#: ../src/extract_dialog.c
+msgid "Files:"
+msgstr "Файли:"
+
+#: ../src/window.c
+#, c-format
+msgid "Files:%*s%s"
+msgstr "Файли:%*s%s"
+
+#: ../src/interface.c
+msgid "Forward"
+msgstr "Вперед"
+
+#: ../src/add_dialog.c ../src/extract_dialog.c
+#, fuzzy
+#| msgid "Freshen existing files"
+msgid "Freshen existing files only"
+msgstr "Оновити наявні файли"
+
+#: ../src/window.c
+msgid "From File"
+msgstr "Із файлу"
+
+#: ../src/cpio.c ../src/rpm.c
+msgid "Group"
+msgstr "Група"
+
+#: ../src/pref_dialog.c
+msgid "Icons size (requires restart)"
+msgstr "Розмір значків (потребує перезапуску)"
+
+#: ../src/pref_dialog.c
+msgid "If checked the archive comment is shown after the archive is loaded"
+msgstr ""
+"Якщо встановлено прапорець, коментар архіву буде відображатися після "
+"завантаження архіву"
+
+#: ../src/pref_dialog.c
+msgid ""
+"If you install \"xdg-open\" from the \"xdg-utils\" package, each file will "
+"be opened with its default application."
+msgstr ""
+
+#: ../src/add_dialog.c
+msgid ""
+"In a solid archive the files are grouped together resulting in a better "
+"compression ratio"
+msgstr ""
+"В безперервному архіві файли завжди групуються разом, що призводить до "
+"кращого стиснення"
+
+#: ../src/add_dialog.c
+msgid "Include subdirectories"
+msgstr "Додати підкаталоги"
+
+#: ../src/interface.c
+msgid "Location:"
+msgstr "Розташування:"
+
+#: ../src/main.c
+#, c-format
+msgid "Maintained by "
+msgstr "Підтримується "
+
+#: ../src/interface.c
+msgid "Make SF_X"
+msgstr "Створити SF_Х"
+
+#: ../src/gzip_et_al.c ../src/rar.c ../src/unar.c ../src/zip.c
+msgid "Method"
+msgstr "Спосіб"
+
+#: ../src/interface.c
+msgid "Modified on:"
+msgstr "Змінено:"
+
+#: ../src/extract_dialog.c
+msgid "Multi-Extract"
+msgstr "Розпакувати декілька архівів"
+
+#: ../src/interface.c
+msgid "Name:"
+msgstr "Імʼя:"
+
+#: ../src/interface.c
+msgid "New"
+msgstr "Новий"
+
+#: ../src/window.c
+msgid "No"
+msgstr "Ні"
+
+#: ../src/add_dialog.c
+#, fuzzy
+#| msgid "Compression"
+msgid "No compression"
+msgstr "Стиснення"
+
+#: ../src/main.c
+msgid "Nullsoft Installer"
+msgstr "Інсталятор Nullsoft"
+
+#: ../src/interface.c
+msgid "Number of files:"
+msgstr "Кількість файлів:"
+
+#: ../src/window.c
+#, c-format
+msgid "Number of files: "
+msgstr "Кількість файлів: "
+
+#: ../src/zip.c
+msgid "OS"
+msgstr "ОС"
+
+#: ../src/gzip_et_al.c ../src/lha.c ../src/rar.c
+msgid "Occupancy"
+msgstr "Зайнятість"
+
+#: ../src/new_dialog.c ../src/window.c
+msgid "Only archives"
+msgstr "Тільки архіви"
+
+#: ../src/interface.c
+msgid "Open"
+msgstr "Відкрити"
+
+#: ../src/open-with-dlg.c
+#, c-format
+msgid "Open <i>%s</i> with:"
+msgstr "Відкрити <i>%s</i> з:"
+
+#: ../src/interface.c ../src/open-with-dlg.c
+msgid "Open With"
+msgstr "Відкрити з"
+
+#: ../src/window.c
+msgid "Open a text file"
+msgstr "Відкрити текстовий файл"
+
+#: ../src/interface.c ../src/window.c
+msgid "Open an archive"
+msgstr "Відкрити архів"
+
+#: ../src/pref_dialog.c
+msgid "Open archive files with:"
+msgstr "Відкривати файли архіву за допомогою:"
+
+#: ../src/pref_dialog.c
+msgid "Open image files with:"
+msgstr "Відкривати файли зображень за допомогою:"
+
+#: ../src/pref_dialog.c
+msgid "Open text files with:"
+msgstr "Відкривати текстові файли за допомогою:"
+
+#: ../src/open-with-dlg.c
+msgid "Open the selected files with"
+msgstr "Відкривати вибрані файли за допомогою"
+
+#: ../src/window.c
+msgid "Opening archive, please wait..."
+msgstr "Відкривається архів, будь ласка, зачекайте..."
+
+#: ../src/interface.c
+#, fuzzy
+#| msgid "Open an archive"
+msgid "Opening archive:"
+msgstr "Відкрити архів"
+
+#: ../src/window.c
+msgid "Operation aborted!"
+msgstr "Дію перервано!"
+
+#: ../src/add_dialog.c ../src/extract_dialog.c
+msgid "Options"
+msgstr "Параметри"
+
+#: ../src/7zip.c ../src/ar.c ../src/arj.c ../src/cpio.c ../src/gzip_et_al.c
+#: ../src/lha.c ../src/rar.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
+#: ../src/unar.c ../src/zip.c ../src/zpaq.c
+msgid "Original Size"
+msgstr "Початковий розмір"
+
+#: ../src/extract_dialog.c
+msgid "Overwrite existing files"
+msgstr "Перезаписати наявні файли"
+
+#: ../src/cpio.c ../src/rpm.c
+msgid "Owner"
+msgstr "Власник"
+
+#: ../src/squashfs.c ../src/tar.c
+msgid "Owner/Group"
+msgstr "Власник/Група"
+
+#: ../src/add_dialog.c ../src/extract_dialog.c
+msgid "Password:"
+msgstr "Пароль:"
+
+#: ../src/interface.c
+msgid "Paste"
+msgstr "Вставити"
+
+#: ../src/extract_dialog.c
+msgid "Path"
+msgstr "Шлях"
+
+#: ../src/interface.c
+msgid "Path:"
+msgstr "Шлях:"
+
+#: ../src/interface.c
+msgid "Pattern:"
+msgstr "Шаблон:"
+
+#: ../src/ar.c ../src/arj.c ../src/cpio.c ../src/lha.c ../src/rpm.c
+#: ../src/squashfs.c ../src/tar.c ../src/zip.c ../src/zpaq.c
+msgid "Permissions"
+msgstr "Дозволи"
+
+#: ../src/window.c
+msgid "Please check the 'Store archiver output' option to see it."
+msgstr ""
+"Будь ласка, ввімкніть параметр 'Зберігати вивід архіватора', щоб побачити "
+"його."
+
+#: ../src/add_dialog.c ../src/interface.c
+msgid "Please enter it!"
+msgstr "Будь ласка, введіть його!"
+
+#: ../src/extract_dialog.c
+msgid "Please enter the extraction path."
+msgstr "Введіть шлях для розпакування."
+
+#: ../src/extract_dialog.c
+msgid "Please enter the password."
+msgstr "Введіть пароль."
+
+#: ../src/extract_dialog.c
+msgid "Please fill the \"Extract to\" field!"
+msgstr "Будь ласка заповніть поле \"Розпакувати в\"!"
+
+#: ../src/window.c
+msgid "Please go to Preferences->Advanced and set it."
+msgstr "Перейдіть у Параметри->Додаткові і ввімкніть це."
+
+#: ../src/main.c
+#, c-format
+msgid "Please report bugs to <%s>."
+msgstr "Будь ласка, повідомляйте про помилки сюди <%s>."
+
+#: ../src/window.c
+msgid "Please select the 7zCon.sfx module"
+msgstr "Виберіть модуль 7zCon.sfx"
+
+#: ../src/extract_dialog.c
+msgid "Please select the archives you want to extract"
+msgstr "Будь ласка виберіть архіви для розпакування"
+
+#: ../src/extract_dialog.c
+msgid "Please select the destination directory"
+msgstr "Виберіть каталог призначення"
+
+#: ../src/window.c
+#, fuzzy
+#| msgid "Please enter it!"
+msgid "Please wait..."
+msgstr "Будь ласка, введіть його!"
+
+#: ../src/cpio.c ../src/lha.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
+#: ../src/unar.c
+msgid "Points to"
+msgstr "Вказує на"
+
+#: ../src/pref_dialog.c
+msgid "Prefer unzip for zip files (requires restart)"
+msgstr ""
+"Віддавати перевагу unzip для розпакування zip-файлів (потребує перезапуску)"
+
+#: ../src/pref_dialog.c
+msgid "Preferences"
+msgstr "Налаштування"
+
+#: ../src/pref_dialog.c
+msgid "Preferred archive format"
+msgstr "Типовий формат архіву"
+
+#: ../src/pref_dialog.c
+msgid "Preferred extraction directory:"
+msgstr "Типовий каталог для розпакування:"
+
+#: ../src/pref_dialog.c
+msgid "Preferred temp directory:"
+msgstr "Типова тека для тимчасових файлів:"
+
+#: ../src/window.c
+msgid "Print the archive content as HTML"
+msgstr "Вивести інформацію про вміст архіву у форматі HTML"
+
+#: ../src/window.c
+msgid "Print the archive content as text"
+msgstr "Вивести інформацію про вміст архіву у текстовому форматі"
+
+#: ../src/arj.c ../src/gzip_et_al.c
+msgid "Ratio"
+msgstr "Коефіцієнт"
+
+#: ../src/interface.c
+msgid "Re_name"
+msgstr "Перей_менувати"
+
+#: ../src/window.c
+msgid "Reloading archive, please wait..."
+msgstr "Перезавантаження архіву, будь ласка, зачекайте..."
+
+#: ../src/interface.c
+msgid "Rename"
+msgstr "Перейменувати"
+
+#: ../src/interface.c
+msgid "Replace"
+msgstr ""
+
+#: ../src/interface.c
+msgid "Root"
+msgstr "Root"
+
+#: ../src/window.c
+msgid "Save the archive as"
+msgstr "Зберегти архів як"
+
+#: ../src/window.c
+msgid "Save the self-extracting archive as"
+msgstr "Зберегти само-розпаковуваний архів як"
+
+#: ../src/pref_dialog.c
+msgid "Save window geometry"
+msgstr "Зберігати розміри вікна"
+
+#: ../src/gzip_et_al.c ../src/unar.c ../src/zip.c
+msgid "Saving"
+msgstr "Збереження"
+
+#: ../src/main.c ../src/window.c
+msgid "Select \"New\" to create or \"Open\" to open an archive"
+msgstr ""
+"Виберіть \"Створити\" для створення або \"Відкрити\" щоб відкрити архів"
+
+#: ../src/interface.c
+msgid "Select _all"
+msgstr "В_ибрати все"
+
+#: ../src/interface.c
+msgid "Select _by pattern"
+msgstr "Вибрати _за шаблоном"
+
+#: ../src/open-with-dlg.c
+msgid "Select an application"
+msgstr "Вибрати застосунок"
+
+#: ../src/interface.c
+msgid "Select by Pattern"
+msgstr "Вибрати за шаблоном"
+
+#: ../src/extract_dialog.c
+msgid "Selected files"
+msgstr "Вибрані файли"
+
+#: ../src/add_dialog.c
+msgid "Selection"
+msgstr "Вибране"
+
+#: ../src/pref_dialog.c
+msgid "Show archive comment"
+msgstr "Показувати коментар до архіву"
+
+#: ../src/pref_dialog.c
+msgid "Show archive location bar"
+msgstr "Показати рядок розташування архіву"
+
+#: ../src/pref_dialog.c
+msgid "Show archive tree sidebar"
+msgstr "Показувати бічну панель з деревом архіву"
+
+#: ../src/window.c
+msgid "Show command"
+msgstr "Показати команду"
+
+#: ../src/main.c
+msgid ""
+"Show found command-line programs to be\n"
+"                                     used and exit"
+msgstr ""
+"Показати знайдені програми для командного рядка, які будуть\n"
+"                                     використовуватися та вийти"
+
+#: ../src/pref_dialog.c
+msgid "Show toolbar"
+msgstr "Показати панель інструментів"
+
+#: ../src/main.c
+msgid "Show version and exit\n"
+msgstr "Показати версію та вийти\n"
+
+#: ../src/extract_dialog.c
+msgid "Size"
+msgstr "Розмір"
+
+#: ../src/extract_dialog.c
+msgid "Some errors occurred:"
+msgstr "Виникли деякі помилки:"
+
+#: ../src/extract_dialog.c ../src/interface.c ../src/window.c
+msgid "Sorry, I could not perform the operation!"
+msgstr "Вибачте, не вдалося виконати операцію!"
+
+#: ../src/extract_dialog.c ../src/main.c ../src/window.c
+msgid "Sorry, this archive format is not supported:"
+msgstr "На жаль, цей формат архіву не підтримується:"
+
+#: ../src/pref_dialog.c
+msgid "Sort archive by filename"
+msgstr "Сортувати вміст архіву за назвою"
+
+#: ../src/interface.c
+msgid "Stop"
+msgstr "Зупинити"
+
+#: ../src/pref_dialog.c
+msgid "Store archiver output"
+msgstr "Зберігати вихід архіватора"
+
+#: ../src/gzip_et_al.c
+msgid "Streams/Blocks/Padding"
+msgstr "Потоки/Блоки/Проміжки"
+
+#: ../src/window.c
+msgid "Test result:"
+msgstr "Результати тесту:"
+
+#: ../src/window.c
+msgid "Testing archive, please wait..."
+msgstr "Архів перевіряється, будь ласка, зачекайте..."
+
+#: ../src/new_dialog.c
+#, c-format
+msgid "The archive \"%s\" already exists!"
+msgstr "Архів \"%s\" вже існує!"
+
+#: ../src/window.c
+msgid "The archive is okay."
+msgstr "Архів в порядку."
+
+#: ../src/extract_dialog.c
+#, fuzzy
+#| msgid ""
+#| "The archive's directory structure is recreated in the extraction directory"
+msgid ""
+"The archive's complete directory structure is recreated in the extraction "
+"directory"
+msgstr ""
+"Відтворити структуру тек архіву в каталозі, у який його буде розпаковано"
+
+#: ../src/extract_dialog.c
+#, fuzzy
+#| msgid ""
+#| "The archive's directory structure is recreated in the extraction directory"
+msgid ""
+"The archive's directory structure is not recreated; all files are placed in "
+"the extraction directory"
+msgstr ""
+"Відтворити структуру тек архіву в каталозі, у який його буде розпаковано"
+
+#: ../src/extract_dialog.c
+#, fuzzy
+#| msgid ""
+#| "The archive's directory structure is recreated in the extraction directory"
+msgid ""
+"The archive's directory structure is recreated in the extraction directory, "
+"but with the parent directories of the selected files removed"
+msgstr ""
+"Відтворити структуру тек архіву в каталозі, у який його буде розпаковано"
+
+#: ../src/add_dialog.c ../src/main.c
+#, fuzzy
+#| msgid "The archiver doesn't support this feature!"
+msgid ""
+"The archiver doesn't support compression of directories or multiple files!"
+msgstr "Архіватор не підтримує таку можливість!"
+
+#: ../src/extract_dialog.c
+msgid "The archiver doesn't support this feature!"
+msgstr "Архіватор не підтримує таку можливість!"
+
+#: ../src/gzip_et_al.c
+msgid "The archiver lacks necessary support for password protected decryption!"
+msgstr ""
+"Архіватору бракує необхідної підтримки для захищеної паролем розшифровки!"
+
+#: ../src/pref_dialog.c
+msgid "The filename column is sorted after loading the archive"
+msgstr "Сортувати стовпець з назвами файлів після завантаження архіву"
+
+#: ../src/pref_dialog.c
+msgid ""
+"The incremental search is also performed within filenames rather than just "
+"at the beginning of them"
+msgstr ""
+
+#: ../src/extract_dialog.c ../src/main.c ../src/window.c
+#, fuzzy, c-format
+#| msgid "The proper archiver is not installed!"
+msgid "The proper archiver for \"%s\" is not installed!"
+msgstr "Відповідний архіватор не встановлено!"
+
+#: ../src/extract_dialog.c
+msgid "This archive is encrypted!"
+msgstr "Цей архів зашифрований!"
+
+#: ../src/interface.c
+msgid "This is Xarchiver's LED status. When it's flashing Xarchiver is busy."
+msgstr "Цей значок стану миготить, коли Xarchiver зайнятий."
+
+#: ../src/pref_dialog.c
+#, fuzzy
+#| msgid ""
+#| "This option includes the subdirectories when you add files with drag and "
+#| "drop"
+msgid ""
+"This option includes the subdirectories when you add files from the "
+"clipboard or with drag-and-drop"
+msgstr "Ця опція включає підкаталоги, коли ви додаєте файли, перетягуючи їх"
+
+#: ../src/extract_dialog.c
+msgid ""
+"This option performs the same function as the freshen one, extracting files "
+"that are newer than those with the same name on disk, and in addition it "
+"extracts those files that do not already exist on disk"
+msgstr ""
+"При цій операції будуть розпаковані лише ті файли, що існують на диску або "
+"більш нові, ніж існуючі, а також файли, відсутні на диску"
+
+#: ../src/add_dialog.c
+msgid ""
+"This option will add any new files and update any files which are already in "
+"the archive but older there"
+msgstr ""
+"Цей параметр додасть та оновить будь-які файли, які вже є в архіві, але були "
+"змінені"
+
+#: ../src/add_dialog.c
+msgid ""
+"This option will only add files which are already in the archive but older "
+"there; unlike the update option it will not add any new files"
+msgstr ""
+"Цей параметр додасть лише файли, які вже є в архіві, але були змінені "
+"пізніше; на відміну від опції оновлення, це не додасть нових файлів"
+
+#: ../src/7zip.c ../src/ar.c ../src/arj.c ../src/cpio.c ../src/gzip_et_al.c
+#: ../src/lha.c ../src/rar.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
+#: ../src/unar.c ../src/zip.c ../src/zpaq.c
+msgid "Time"
+msgstr "Час"
+
+#: ../src/interface.c
+msgid "Total Progress:"
+msgstr "Загальний прогрес:"
+
+#: ../src/extract_dialog.c
+msgid "Touch files"
+msgstr "Створити файли"
+
+#: ../src/interface.c
+msgid "Type:"
+msgstr "Тип:"
+
+#: ../src/ar.c ../src/lha.c
+msgid "UID/GID"
+msgstr "UID/GID"
+
+#: ../src/interface.c
+msgid "Uncompressed size:"
+msgstr "Нестиснений розмір:"
+
+#: ../src/window.c
+#, c-format
+msgid "Uncompressed size: "
+msgstr "Нестиснений розмір: "
+
+#: ../src/rpm.c
+msgid "Unknown compression type!"
+msgstr "Невідомий тип стиснення!"
+
+#: ../src/interface.c
+msgid "Uns_ort"
+msgstr "Скасувати сортування"
+
+#: ../src/7zip.c
+msgid "Unsupported binary format!"
+msgstr "Непідтримуваний двійковий формат!"
+
+#: ../src/interface.c
+msgid "Up"
+msgstr "Вгору"
+
+#: ../src/extract_dialog.c
+msgid "Update existing files"
+msgstr "Оновити наявні файли"
+
+#: ../src/add_dialog.c
+#, fuzzy
+#| msgid "Update existing files"
+msgid "Update existing files and add new ones"
+msgstr "Оновити наявні файли"
+
+#: ../src/open-with-dlg.c
+msgid "Use a custom command:"
+msgstr "Використовувати користувацьку команду:"
+
+#: ../src/gzip_et_al.c ../src/rar.c ../src/zip.c
+msgid "Version"
+msgstr "Версія"
+
+#: ../src/interface.c
+msgid "View"
+msgstr "Переглянути"
+
+#: ../src/pref_dialog.c
+msgid "Web browser to use:"
+msgstr "Типовий Вебпереглядач:"
+
+#: ../src/extract_dialog.c
+msgid ""
+"When this option is used, the modification times of the files will be the "
+"times of extraction instead of the times recorded in the archive"
+msgstr ""
+"При використанні цієї опції часом модифікації файлів буде час розпакування "
+"замість часу, записаного в архіві"
+
+#: ../src/zpaq.c
+msgid "Will not handle files with wildcard characters!"
+msgstr ""
+
+#: ../src/pref_dialog.c
+msgid "Window"
+msgstr "Вікно"
+
+#: ../src/add_dialog.c ../src/extract_dialog.c
+#, fuzzy
+#| msgid "Store full paths"
+msgid "With full path"
+msgstr "Зберігати повні шляхи"
+
+#: ../src/extract_dialog.c
+msgid "Without any path"
+msgstr ""
+
+#: ../src/add_dialog.c ../src/extract_dialog.c
+msgid "Without parent path"
+msgstr ""
+
+#: ../src/window.c
+msgid "Yes"
+msgstr "Так"
+
+#: ../src/window.c
+msgid "You are about to delete entries from the archive."
+msgstr "Ви збираєтеся вилучити записи з архіву."
+
+#: ../src/window.c
+msgid ""
+"You can drop either archives to open or files to add. It is not possible to "
+"do both at the same time."
+msgstr ""
+
+#: ../src/interface.c ../src/window.c
+msgid "You can't add content to this archive type!"
+msgstr "Ви не можете додати вміст до цього типу архіву!"
+
+#: ../src/window.c
+msgid "You didn't set which browser to use!"
+msgstr "Ви не вибрали типовий вебпереглядач використовувати!"
+
+#: ../src/window.c
+msgid "You didn't set which program to use for opening this file!"
+msgstr "Ви не вибрали, яку програму використовувати для відкриття цього файлу!"
+
+#: ../src/extract_dialog.c ../src/window.c
+#, c-format
+msgid ""
+"You don't have the right permissions to extract the files to the directory "
+"\"%s\"."
+msgstr "Ви не маєте дозволу, щоб розпаковувати файли вибраний каталог \"%s\"."
+
+#: ../src/extract_dialog.c
+msgid "You haven't added any of them!"
+msgstr "Ви жодного з них не додали!"
+
+#: ../src/add_dialog.c ../src/main.c
+msgid "You haven't selected any files to add!"
+msgstr "Ви не вибрали жодного файлу для додавання в архів!"
+
+#: ../src/main.c
+msgid "You missed the archive name!"
+msgstr "Ви забули дати імʼя архіву!"
+
+#: ../src/add_dialog.c ../src/extract_dialog.c ../src/interface.c
+msgid "You missed the password!"
+msgstr "Ви не вказали пароль!"
+
+#: ../src/extract_dialog.c
+msgid "You missed where to extract the files!"
+msgstr "Ви не вказали, куди розпакувати файли!"
+
+#: ../src/main.c
+msgid "[ARCHIVE]"
+msgstr "[АРХІВ]"
+
+#: ../src/add_dialog.c
+msgid "_Add"
+msgstr "_Додати"
+
+#: ../src/interface.c
+msgid "_Archive"
+msgstr "_Архів"
+
+#: ../src/interface.c
+msgid "_Contents"
+msgstr "Зміст"
+
+#: ../src/extract_dialog.c ../src/interface.c
+msgid "_Extract"
+msgstr "_Розпакувати"
+
+#: ../src/interface.c
+msgid "_HTML file"
+msgstr "_HTML-файл"
+
+#: ../src/interface.c
+msgid "_Help"
+msgstr "_Довідка"
+
+#: ../src/interface.c
+msgid "_List as"
+msgstr "_Вивести як"
+
+#: ../src/interface.c
+msgid "_Multi-Extract"
+msgstr "_Розпакувати декілька архівів"
+
+#: ../src/interface.c
+msgid "_Password:"
+msgstr "_Пароль:"
+
+#: ../src/interface.c
+msgid "_Preferences"
+msgstr "_Параметри"
+
+#: ../src/interface.c
+msgid "_Properties"
+msgstr "_Властивості"
+
+#: ../src/interface.c
+msgid "_Select"
+msgstr "_Вибрати"
+
+#: ../src/interface.c
+msgid "_Test"
+msgstr "_Тест"
+
+#: ../src/interface.c
+msgid "_Text file"
+msgstr "Те_кстовий файл"
+
+#: ../src/window.c
+msgid "and"
+msgstr "і"
+
+#: ../xarchiver.desktop.in.h
+msgid "archive;compress;decompress;extract;pack;uncompress;unpack;"
+msgstr ""
+
+#: ../src/add_dialog.c
+msgid "best"
+msgstr ""
+
+#: ../src/pref_dialog.c
+msgid "choose..."
+msgstr "вибрати..."
+
+#: ../src/main.c
+msgid "destination"
+msgstr "ц"
+
+#: ../src/interface.c
+msgid "example: *.txt; ac*"
+msgstr "наприклад: *.txt; ac*"
+
+#: ../src/main.c
+msgid "file1 ... fileN"
+msgstr "файл1 ... файлN"
+
+#: ../src/pref_dialog.c
+msgid "large"
+msgstr "великий"
+
+#: ../src/add_dialog.c
+msgid "least"
+msgstr ""
+
+#: ../src/pref_dialog.c
+msgid "medium"
+msgstr "середній"
+
+#: ../src/window.c
+msgid "selected"
+msgstr "вибраний"
+
+#: ../src/pref_dialog.c
+msgid "small"
+msgstr "малий"
+
+#: ../src/pref_dialog.c
+msgid "small/medium"
+msgstr "малий / середній"
+
+#: ../src/window.c
+msgid "translator-credits"
+msgstr ""
+"Дмитро Нікітін <luckas_fb@mail.ru>\n"
+"Юрій Яновський <lytvyn349@ukr.net>"
+
+#: ../src/pref_dialog.c
+msgid "very large"
+msgstr "дуже великий"
+
+#: ../src/main.c
+#, c-format
+msgid ""
+"xarchiver: %s\n"
+"Try xarchiver --help to see a full list of available command-line options.\n"
+msgstr ""
+"xarchiver: %s\n"
+"Виконайте «xarchiver --help», щоб переглянути повний список доступних "
+"параметрів.\n"
+
+#: ../src/window.c
+msgid "|Size\n"
+msgstr "|Розмір\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "<span color='red' style='italic'>Please install xdg-utils package so "
+#~ "that\n"
+#~ "Xarchiver can recognize more file types.</span>"
+#~ msgstr ""
+#~ "\n"
+#~ "<span color='red' style='italic'>Встановіть пакет xdg-utils, щоб\n"
+#~ "Xarchiver міг працювати з більшою кількістю типів файлів.</span>"
+
+#~ msgid "A GTK+ only archive manager"
+#~ msgstr "Програма для управління архівами, що використовує GTK+"
+
+#~ msgid "This option consumes more memory with large archives"
+#~ msgstr "Ця опція споживає більше пам'яті з великими архівами"
+
+#~ msgid "0 = no compression, 3 is default, 5 = best compression but slowest"
+#~ msgstr "0 = без стиснення, 3 типово, 5 = найкраще стиснення, але повільно"
+
+#~ msgid "0 = no compression, 5 is default, 9 = best compression but slowest"
+#~ msgstr "0 = без стиснення, 5 типово, 9 = найкраще стиснення, але повільно"
+
+#~ msgid "0 = no compression, 6 is default, 9 = best compression but slowest"
+#~ msgstr "0 = без стиснення, 6 типово, 9 = найкраще стиснення, але повільно"
+
+#~ msgid "5 = default compression, 7 = max compression"
+#~ msgstr "5 = типове стиснення, 7 = максимальне стиснення"
+
+#~ msgid "Archive Name"
+#~ msgstr "Ім'я архіву"
+
+#, c-format
+#~ msgid "Can't open file %s:"
+#~ msgstr "Неможливо відкрити файл %s:"
+
+#~ msgid "Destination dirs"
+#~ msgstr "Теки призначення"
+
+#~ msgid "Do not store paths"
+#~ msgstr "Не зберігати шляхи"
+
+#~ msgid "Extract pathnames"
+#~ msgstr "Розпакувати зі шляхами"
+
+#~ msgid "Freshen and replace"
+#~ msgstr "Оновити і замінити"
+
+#~ msgid "Options "
+#~ msgstr "Параметри "
+
+#~ msgid "Options:"
+#~ msgstr "Параметри:"
+
+#~ msgid ""
+#~ "This option extracts archives in directories named with the archive names"
+#~ msgstr "Ця опція розпаковує архіви в теки з назвами архівів"
+
+#~ msgid "Update and add"
+#~ msgstr "Оновити та додати"
+
+#~ msgid "Date and Time"
+#~ msgstr "Дата і час"
+
+#, fuzzy
+#~| msgid "large"
+#~ msgid "larger"
+#~ msgstr "великий"
+
+#~ msgid "Can't perform another extraction:"
+#~ msgstr "Неможливо здійснити інше розпакування:"
+
+#~ msgid "Please wait until the completion of the current one!"
+#~ msgstr "Зачекайте до завершення поточної дії!"
+
+#~ msgid "%d file and %d dir %s (%s)"
+#~ msgid_plural "%d files and %d dirs %s (%s)"
+#~ msgstr[0] "%d файл і %d тека %s (%s)"
+#~ msgstr[1] "%d файлів і %d тек %s (%s)"
+#~ msgstr[2] "%d файлів і %d тек %s (%s)"
+
+#~ msgid "Attr"
+#~ msgstr "Атрибути"
+
+#~ msgid "CRC"
+#~ msgstr "CRC"
+
+#~ msgid "Hard Link"
+#~ msgstr "Жорстке посилання"
+
+#~ msgid "Permission"
+#~ msgstr "Доступ"
+
+#, fuzzy
+#~| msgid "Please install xdg-utils package."
+#~ msgid "Please install xdg-utils."
+#~ msgstr "Будь ласка встановіть пакет xdg-utils."
+
+#~ msgid "This file type is not supported!"
+#~ msgstr "Цей тип файлів не підтримується!"
+
+#~ msgid "Timestamp"
+#~ msgstr "Штамп часу"
+
+#~ msgid "Decompress file"
+#~ msgstr "Розпакувати файл"
+
+#~ msgid "Multi-extract archives"
+#~ msgstr "Мульти-розпакування архівів"
+
+#~ msgid "You can't add content to rpm packages!"
+#~ msgstr "Ви не можете додати об'єкти до пакетів RPM!"
+
+#~ msgid "You have to install arj package!"
+#~ msgstr "Вам потрібно встановити пакет arj архіватора!"
+
+#~ msgid "You have to install rar package!"
+#~ msgstr "Вам потрібно встановити пакет rar архіватора!"
+
+#~ msgid "[archive name]"
+#~ msgstr "[архів назва]"
+
+#~ msgid "archive"
+#~ msgstr "архів"
+
+#~ msgid "filenames"
+#~ msgstr "назви файлів"
+
+#~ msgid "|Compressed\n"
+#~ msgstr "|Стиснутий\n"
+
+#~ msgid "<th>Compressed:</th>"
+#~ msgstr "<th>Стиснутий:</th>"
+
+#~ msgid "Add the archive extension to the filename"
+#~ msgstr "Додати розширення архіву до назви файлу"
+
+#~ msgid "_Donate"
+#~ msgstr "Пожертва"
+
+#~ msgid "Xarchiver"
+#~ msgstr "Xarchiver"
+
+#~ msgid "_Thanks to"
+#~ msgstr "П_одяки для"

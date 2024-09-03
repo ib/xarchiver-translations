@@ -1,0 +1,1663 @@
+# Hungarian translation of xarchiver
+# SZERVÁC Attila <sas@321.hu>, 2006.
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2009, 2010.
+# Copyright 2009. Free Software Foundation, Inc.
+# This file is distributed under the same license as the xarchiver package.
+msgid ""
+msgstr ""
+"Project-Id-Version: xarchiver\n"
+"Report-Msgid-Bugs-To: https://github.com/ib/xarchiver/issues\n"
+"POT-Creation-Date: 2024-02-28 14:06+0100\n"
+"PO-Revision-Date: 2017-01-23 23:58+0100\n"
+"Last-Translator: Páder Rezső <rezso@rezso.net>\n"
+"Language-Team: Hungarian\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../src/window.c
+#, c-format
+msgid ""
+"\n"
+"Name: "
+msgstr ""
+"\n"
+"Név: "
+
+#: ../src/new_dialog.c
+#, c-format
+msgid "\"%s\" is already open!"
+msgstr "„%s” már meg van nyitva"
+
+#: ../src/window.c
+#, c-format
+msgid "%d dir %s (%s)"
+msgid_plural "%d dirs %s (%s)"
+msgstr[0] "%d könyvtár %s (%s)"
+msgstr[1] "%d könyvtár %s (%s)"
+
+#: ../src/window.c
+#, fuzzy, c-format
+#| msgid "Add files"
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "Fájlok hozzáadása"
+msgstr[1] "Fájlok hozzáadása"
+
+#: ../src/window.c
+#, c-format
+msgid "%d file %s (%s)"
+msgid_plural "%d files %s (%s)"
+msgstr[0] "%d fájl %s (%s)"
+msgstr[1] "%d fájl %s (%s)"
+
+#: ../src/add_dialog.c
+#, fuzzy, c-format
+#| msgid "0 = no compression, 1 is default, 4 = fastest but least compression"
+msgid ""
+"%hu is least compression\n"
+"%hu is default compression\n"
+"%hu is best compression"
+msgstr ""
+"0 = nincs tömörítés, 1 az alapértelmezés, 4 = leggyorsabb, de leggyengébb "
+"tömörítés"
+
+#: ../src/pref_dialog.c
+msgid "/tmp"
+msgstr "/tmp"
+
+#: ../src/interface.c
+msgid "<span weight='bold' size='larger'>Enter password for:</span>"
+msgstr "<span weight='bold' size='larger'>Adja meg a jelszót:</span>"
+
+#: ../src/interface.c
+msgid "<span weight='bold' size='larger'>Password required for:</span>"
+msgstr "<span weight='bold' size='larger'>Jelszó szükséges ehhez:</span>"
+
+#: ../src/window.c
+#, c-format
+msgid "<th>Files:</th>"
+msgstr "<th>Fájlok:</th>"
+
+#: ../src/window.c
+#, c-format
+msgid "<th>Size:</th>"
+msgstr "<th>Méret:</th>"
+
+#: ../src/window.c
+msgid "A GTK+ only lightweight archive manager"
+msgstr "Könnyűsúlyú GTK+ archívumkezelő"
+
+#: ../src/interface.c
+msgid "A_ction"
+msgstr "_Művelet"
+
+#: ../src/interface.c
+msgid "A_dd"
+msgstr "Hozzá_adás"
+
+#: ../src/add_dialog.c
+msgid "Actions"
+msgstr "Műveletek"
+
+#: ../src/interface.c
+msgid "Add"
+msgstr "Hozzá_adás"
+
+#: ../src/add_dialog.c ../src/interface.c
+msgid "Add files"
+msgstr "Fájlok hozzáadása"
+
+#: ../src/main.c
+#, fuzzy
+#| msgid "Add the given files by asking the name of the archive and quits."
+msgid ""
+"Add the given files by asking the name of\n"
+"                                     the archive and quit"
+msgstr ""
+"A megadott fájlok hozzáadása az archívum nevének bekérésével és kilépés"
+
+#: ../src/main.c
+#, fuzzy
+#| msgid "Add files to archive by asking their filenames and quits."
+msgid ""
+"Add to archive by asking which files and\n"
+"                                     quit"
+msgstr "Fájlok hozzáadása az archívumhoz a fájlnevek bekérésével és kilépés"
+
+#: ../src/window.c
+msgid "Adding files to archive, please wait..."
+msgstr "Fájlok archívumhoz adása, kis türelmet…"
+
+#: ../src/interface.c
+msgid "Adding to archive:"
+msgstr "Hozzáadás archívumhoz:"
+
+#: ../src/pref_dialog.c
+msgid "Advanced"
+msgstr "Speciális"
+
+#: ../src/pref_dialog.c
+#, fuzzy
+#| msgid "Icons size (requires restart)"
+msgid "Advanced incremental search (requires restart)"
+msgstr "Ikonok mérete (újraindítást igényel)"
+
+#: ../src/extract_dialog.c ../src/new_dialog.c ../src/window.c
+msgid "All files"
+msgstr "Minden fájl"
+
+#: ../src/pref_dialog.c
+#, fuzzy
+#| msgid "Allow subdirs with drag and drop"
+msgid "Allow subdirs with clipboard and drag-and-drop"
+msgstr "Alkönyvtárak engedélyezése fogd és vidd használatakor"
+
+#: ../src/window.c
+msgid "An error occurred while accessing the archive:"
+msgstr "Hiba történt az archívum elérésekor:"
+
+#: ../src/add_dialog.c ../src/main.c ../src/window.c
+msgid "An error occurred!"
+msgstr "Hiba történt!"
+
+#: ../src/extract_dialog.c ../src/pref_dialog.c
+msgid "Archive"
+msgstr "Archiválás"
+
+#: ../src/interface.c
+msgid "Archive Properties"
+msgstr "Archívum tulajdonságai"
+
+#: ../src/interface.c
+msgid "Archive _comment"
+msgstr "Archívum _megjegyzése"
+
+#: ../src/window.c
+#, fuzzy, c-format
+#| msgid "Archive contents:\n"
+msgid "Archive content:\n"
+msgstr "Archívum tartalma:\n"
+
+#: ../src/window.c
+msgid "Archive format is not recognized!"
+msgstr "Az archívumformátum nem ismerhető fel!"
+
+#: ../xarchiver.desktop.in.h
+msgid "Archive manager"
+msgstr "Archívumkezelő"
+
+#: ../src/interface.c
+msgid "Archive tree"
+msgstr "Archívumfa"
+
+#: ../src/pref_dialog.c
+msgid ""
+"Archive tree nodes already expand when the node name is selected by mouse "
+"click or keyboard shortcut."
+msgstr ""
+
+#: ../src/new_dialog.c
+msgid "Archive type:"
+msgstr "Archívumtípus:"
+
+#: ../src/interface.c
+#, fuzzy
+#| msgid "Can't run the archiver executable:"
+msgid "Archiver executable:"
+msgstr "Az archiváló végrehajtható fájlja nem futtatható:"
+
+#: ../src/window.c
+msgid "Archiver output"
+msgstr "Archiváló kimenete"
+
+#: ../src/window.c
+msgid "Are you sure you want to do this?"
+msgstr "Biztos, hogy ezt akarja tenni?"
+
+#: ../src/7zip.c ../src/arj.c ../src/rar.c
+msgid "Attributes"
+msgstr "Attribútumok"
+
+#: ../src/pref_dialog.c
+msgid "Automatically expand archive tree nodes on selection"
+msgstr ""
+
+#: ../src/interface.c
+msgid "Back"
+msgstr "Vissza"
+
+#: ../src/open-with-dlg.c
+msgid "Browse"
+msgstr "Tallózás"
+
+#: ../src/add_dialog.c ../src/main.c
+msgid "Can't add files to the archive:"
+msgstr "A fájlok nem adhatók az archívumhoz:"
+
+#: ../src/main.c
+msgid "Can't allocate memory for the archive structure!"
+msgstr "Nem foglalható memória az archívumstruktúra számára"
+
+#: ../src/window.c
+msgid "Can't allocate memory for the archive structure:"
+msgstr "Nem foglalható memória az archívumstruktúra számára:"
+
+#: ../src/window.c
+msgid "Can't convert the archive to self-extracting:"
+msgstr "Az archívum nem alakítható önkibontóvá:"
+
+#: ../src/new_dialog.c
+msgid "Can't create a new archive:"
+msgstr "Nem hozható létre új archívum:"
+
+#: ../src/extract_dialog.c ../src/main.c
+#, fuzzy
+#| msgid "Can't create temporary directory:"
+msgid "Can't create directory!"
+msgstr "Nem hozható létre átmeneti könyvtár:"
+
+#: ../src/archive.c
+msgid "Can't create temporary directory:"
+msgstr "Nem hozható létre átmeneti könyvtár:"
+
+#: ../src/extract_dialog.c ../src/main.c ../src/window.c
+msgid "Can't extract files from the archive:"
+msgstr "Nem bonthatók ki fájlok az archívumból:"
+
+#: ../src/rpm.c
+msgid "Can't fseek in file:"
+msgstr "Nem lehet pozicionálni a fájlban:"
+
+#: ../src/rpm.c
+msgid "Can't fseek to position 104:"
+msgstr "Nem lehet a 104-es pozícióra állni:"
+
+#: ../src/extract_dialog.c
+msgid "Can't multi-extract archives:"
+msgstr "A több archívumos kibontás meghiúsult:"
+
+#: ../src/rpm.c
+#, c-format
+msgid "Can't open RPM file %s:"
+msgstr "Az RPM fájl (%s) nem nyitható meg:"
+
+#: ../src/window.c
+#, c-format
+msgid "Can't open file \"%s\":"
+msgstr "Nem nyitható meg a fájl („%s”):"
+
+#: ../src/main.c
+#, fuzzy
+#| msgid "Can't add files to the archive:"
+msgid "Can't open the archive!"
+msgstr "A fájlok nem adhatók az archívumhoz:"
+
+#: ../src/extract_dialog.c ../src/window.c
+msgid "Can't perform extraction!"
+msgstr "A kibontás nem hajtható végre"
+
+#: ../src/interface.c ../src/main.c ../src/window.c
+msgid "Can't perform this action:"
+msgstr "A művelet nem hajtható végre:"
+
+#: ../src/rpm.c
+msgid "Can't read data from file:"
+msgstr "Nem lehet adatokat olvasni a fájlból:"
+
+#: ../src/archive.c
+msgid "Can't run the archiver executable:"
+msgstr "Az archiváló végrehajtható fájlja nem futtatható:"
+
+#: ../src/window.c
+msgid "Can't write the sfx module to the archive:"
+msgstr "Az sfx modul nem írható az archívumba:"
+
+#: ../src/interface.c
+msgid "Cancel current operation"
+msgstr "Aktuális művelet megszakítása"
+
+#: ../src/gzip_et_al.c
+msgid "Check Type"
+msgstr ""
+
+#: ../src/arj.c ../src/rar.c
+msgid "Checksum"
+msgstr ""
+
+#: ../src/pref_dialog.c
+msgid "Choose the application to use"
+msgstr "Válassza ki a használandó alkalmazást"
+
+#: ../src/new_dialog.c
+msgid "Choose the archive type to create"
+msgstr "Válassza ki a létrehozandó archívumtípust"
+
+#: ../src/pref_dialog.c
+msgid "Choose the directory to use"
+msgstr "Válassza ki a használandó könyvtárat"
+
+#: ../src/interface.c
+msgid "Close archive"
+msgstr "Archívum bezárása"
+
+#: ../src/interface.c
+msgid "Cmd-line outp_ut"
+msgstr "_Parancssori kimenet"
+
+#: ../src/window.c
+#, fuzzy
+#| msgid "Comment"
+msgid "Command"
+msgstr "Megjegyzés"
+
+#: ../src/pref_dialog.c
+msgid ""
+"Command-line output is captured and can be reviewed, but this consumes "
+"additional memory"
+msgstr ""
+
+#: ../src/window.c
+msgid "Comment"
+msgstr "Megjegyzés"
+
+#: ../src/interface.c
+msgid "Comment:"
+msgstr "Megjegyzés:"
+
+#: ../src/window.c
+#, c-format
+msgid "Comment:\n"
+msgstr "Megjegyzés:\n"
+
+#: ../src/7zip.c ../src/arj.c ../src/gzip_et_al.c ../src/rar.c ../src/zip.c
+msgid "Compressed"
+msgstr "Tömörített"
+
+#: ../src/window.c
+#, c-format
+msgid "Compressed   size: "
+msgstr "Tömörített méret: "
+
+#: ../src/interface.c
+msgid "Compressed size:"
+msgstr "Tömörített méret:"
+
+#: ../src/add_dialog.c
+msgid "Compression"
+msgstr "Tömörítés"
+
+#: ../src/gzip_et_al.c
+msgid "Compression ratio"
+msgstr "Tömörítés szintje"
+
+#: ../src/interface.c
+msgid "Compression ratio:"
+msgstr "Tömörítés szintje:"
+
+#: ../src/pref_dialog.c
+msgid "Confirm deletion of files"
+msgstr "Fájlok törlésének megerősítése"
+
+#: ../src/window.c
+#, fuzzy
+#| msgid "Testing archive, please wait..."
+msgid "Converting archive, please wait..."
+msgstr "Archívum tesztelése, kis türelmet…"
+
+#: ../src/interface.c
+msgid "Copy"
+msgstr "Másolás"
+
+#: ../src/new_dialog.c
+msgid "Cr_eate"
+msgstr "_Létrehozás"
+
+#: ../src/interface.c ../src/new_dialog.c
+msgid "Create a new archive"
+msgstr "Új archívum létrehozása"
+
+#: ../src/add_dialog.c
+msgid "Create a solid archive"
+msgstr "Tömör archívum létrehozása"
+
+#: ../xarchiver.desktop.in.h
+#, fuzzy
+#| msgid "Create a solid archive"
+msgid "Create, extract and modify archives"
+msgstr "Tömör archívum létrehozása"
+
+#: ../src/interface.c
+msgid "Cut"
+msgstr "Kivágás"
+
+#: ../src/gzip_et_al.c
+msgid "Data Frames/Skippable Frames"
+msgstr ""
+
+#: ../src/7zip.c ../src/ar.c ../src/arj.c ../src/cpio.c ../src/gzip_et_al.c
+#: ../src/lha.c ../src/rar.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
+#: ../src/unar.c ../src/zip.c ../src/zpaq.c
+msgid "Date"
+msgstr "Dátum"
+
+#: ../src/pref_dialog.c
+#, fuzzy
+#| msgid "Use a custom command:"
+msgid "Default custom command:"
+msgstr "Egyéni parancs használata:"
+
+#: ../src/interface.c
+msgid "Delete"
+msgstr "Törlés"
+
+#: ../src/add_dialog.c
+msgid "Delete files after adding"
+msgstr "Fájlok törlése hozzáadás után"
+
+#: ../src/window.c
+#, fuzzy
+#| msgid "Extracting files from archive, please wait..."
+msgid "Deleting files from archive, please wait..."
+msgstr "Fájlok kibontása az archívumból, kis türelmet…"
+
+#: ../src/interface.c
+msgid "Dese_lect all"
+msgstr "Kijelölés tö_rlése"
+
+#: ../src/extract_dialog.c
+#, fuzzy
+#| msgid "destination archive"
+msgid "Destination"
+msgstr "célarchívum"
+
+#: ../src/window.c
+msgid "Do you really want to cancel?"
+msgstr "Valóban meg akarja szakítani?"
+
+#: ../src/new_dialog.c
+msgid "Do you want to overwrite it?"
+msgstr "Felülírja?"
+
+#: ../src/window.c
+msgid "Doing so will probably corrupt your archive!"
+msgstr "Emiatt valószínűleg meg fog sérülni az archívum"
+
+#: ../src/interface.c
+msgid "Edit"
+msgstr ""
+
+#: ../src/interface.c
+msgid "Encrypted:"
+msgstr "Titkosítva:"
+
+#: ../src/add_dialog.c
+msgid "Encryption"
+msgstr "Titkosítás"
+
+#: ../src/extract_dialog.c
+#, fuzzy
+#| msgid "Preferred extract directory:"
+msgid "Ensure a containing directory"
+msgstr "Előnyben részesített kibontási könyvtár:"
+
+#: ../src/extract_dialog.c
+msgid ""
+"Ensure that the contents of the extracted archive is always in a containing "
+"directory"
+msgstr ""
+
+#: ../src/interface.c
+msgid "Enter passwo_rd"
+msgstr "_Jelszó megadása"
+
+#: ../src/pref_dialog.c
+msgid ""
+"Even if other, perhaps more powerful programs are installed to handle zip "
+"archives, the traditional \"unzip\" and \"zip\" will still be used"
+msgstr ""
+
+#: ../src/interface.c
+msgid "Extract"
+msgstr "Kibontás"
+
+#: ../src/main.c
+#, fuzzy
+#| msgid "Extract archive by asking the extraction directory and quits."
+msgid ""
+"Extract archive by asking the extraction\n"
+"                                     directory and quit"
+msgstr "Az archívum kibontása a célkönyvtár bekérésével és kilépés."
+
+#: ../src/main.c
+#, fuzzy
+#| msgid "Extract archive to the destination directory and quits."
+msgid ""
+"Extract archive to a containing directory\n"
+"                                     and quit"
+msgstr "Az archívum kibontása a célkönyvtárba és kilépés."
+
+#: ../src/main.c
+#, fuzzy
+#| msgid "Extract archive to the destination directory and quits."
+msgid ""
+"Extract archive to the destination\n"
+"                                     directory and quit"
+msgstr "Az archívum kibontása a célkönyvtárba és kilépés."
+
+#: ../src/extract_dialog.c ../src/interface.c
+msgid "Extract files"
+msgstr "Fájlok kibontása"
+
+#: ../src/main.c
+#, fuzzy
+#| msgid "Extract archive by asking the extraction directory and quits."
+msgid ""
+"Extract multiple archives by asking the\n"
+"                                     extraction directory and quit"
+msgstr "Az archívum kibontása a célkönyvtár bekérésével és kilépés."
+
+#: ../src/extract_dialog.c
+msgid ""
+"Extract only those files that already exist on disk and that are newer than "
+"the disk copies"
+msgstr ""
+"Csak azon fájlok kibontása, amelyek már léteznek a lemezen és frissebbek a "
+"lemezen lévő másolatoktól"
+
+#: ../src/extract_dialog.c
+#, fuzzy
+#| msgid "Extract to dir \"Archive Name\""
+msgid "Extract to directories with archive names"
+msgstr "Kibontás az „archívum neve” könyvtárba"
+
+#: ../src/extract_dialog.c
+msgid "Extract to:"
+msgstr "Kibontás ide:"
+
+#: ../src/extract_dialog.c
+#, fuzzy
+#| msgid "Extract files with full path"
+msgid "Extract with full path"
+msgstr "Fájlok kibontása teljes útvonallal"
+
+#: ../src/interface.c
+#, c-format
+msgid "Extracting \"%s\"..."
+msgstr ""
+
+#: ../src/window.c
+msgid "Extracting files from archive, please wait..."
+msgstr "Fájlok kibontása az archívumból, kis türelmet…"
+
+#: ../src/interface.c
+msgid "Extracting from archive:"
+msgstr "Kibontás archívumból:"
+
+#: ../src/window.c
+msgid "Failed to launch the application!"
+msgstr "Az alkalmazás indítása meghiúsult"
+
+#: ../src/add_dialog.c ../src/extract_dialog.c
+msgid "File Paths"
+msgstr "Fájlútvonalak"
+
+#: ../src/window.c
+msgid "Filename"
+msgstr "Fájlnév"
+
+#: ../src/extract_dialog.c
+msgid "Files"
+msgstr "Fájlok"
+
+#: ../src/zpaq.c
+msgid "Files with absolute pathnames cannot be deleted!"
+msgstr ""
+
+#: ../src/extract_dialog.c
+msgid "Files:"
+msgstr "Fájlok:"
+
+#: ../src/window.c
+#, c-format
+msgid "Files:%*s%s"
+msgstr "Fájlok: %*s%s"
+
+#: ../src/interface.c
+msgid "Forward"
+msgstr "Előre"
+
+#: ../src/add_dialog.c ../src/extract_dialog.c
+#, fuzzy
+#| msgid "Freshen existing files"
+msgid "Freshen existing files only"
+msgstr "Meglévő fájlok felfrissítése"
+
+#: ../src/window.c
+msgid "From File"
+msgstr "Fájlból"
+
+#: ../src/cpio.c ../src/rpm.c
+msgid "Group"
+msgstr "Csoport"
+
+#: ../src/pref_dialog.c
+msgid "Icons size (requires restart)"
+msgstr "Ikonok mérete (újraindítást igényel)"
+
+#: ../src/pref_dialog.c
+msgid "If checked the archive comment is shown after the archive is loaded"
+msgstr "Az archívum megjegyzésének betöltése az archívum betöltése után"
+
+#: ../src/pref_dialog.c
+msgid ""
+"If you install \"xdg-open\" from the \"xdg-utils\" package, each file will "
+"be opened with its default application."
+msgstr ""
+
+#: ../src/add_dialog.c
+#, fuzzy
+#| msgid ""
+#| "In a solid archive the files are grouped together featuring a better "
+#| "compression ratio"
+msgid ""
+"In a solid archive the files are grouped together resulting in a better "
+"compression ratio"
+msgstr ""
+"Tömör archívumban a fájlok a jobb tömörítési arány érdekében csoportosítva "
+"vannak"
+
+#: ../src/add_dialog.c
+msgid "Include subdirectories"
+msgstr "Alkönyvtárak felvétele"
+
+#: ../src/interface.c
+msgid "Location:"
+msgstr "Hely:"
+
+#: ../src/main.c
+#, c-format
+msgid "Maintained by "
+msgstr "Jelenleg karbantartja "
+
+#: ../src/interface.c
+msgid "Make SF_X"
+msgstr "SF_X készítése"
+
+#: ../src/gzip_et_al.c ../src/rar.c ../src/unar.c ../src/zip.c
+msgid "Method"
+msgstr "Metódus"
+
+#: ../src/interface.c
+msgid "Modified on:"
+msgstr "Módosítva:"
+
+#: ../src/extract_dialog.c
+msgid "Multi-Extract"
+msgstr "Több kibontása"
+
+#: ../src/interface.c
+msgid "Name:"
+msgstr "Név:"
+
+#: ../src/interface.c
+msgid "New"
+msgstr "Új"
+
+#: ../src/window.c
+msgid "No"
+msgstr "Nem"
+
+#: ../src/add_dialog.c
+#, fuzzy
+#| msgid "Compression"
+msgid "No compression"
+msgstr "Tömörítés"
+
+#: ../src/main.c
+msgid "Nullsoft Installer"
+msgstr ""
+
+#: ../src/interface.c
+msgid "Number of files:"
+msgstr "Fájlok száma:"
+
+#: ../src/window.c
+#, c-format
+msgid "Number of files: "
+msgstr "Fájlok száma: "
+
+#: ../src/zip.c
+msgid "OS"
+msgstr "OS"
+
+#: ../src/gzip_et_al.c ../src/lha.c ../src/rar.c
+msgid "Occupancy"
+msgstr ""
+
+#: ../src/new_dialog.c ../src/window.c
+msgid "Only archives"
+msgstr "Csak archívumok"
+
+#: ../src/interface.c
+msgid "Open"
+msgstr "Megnyitás"
+
+#: ../src/open-with-dlg.c
+#, c-format
+msgid "Open <i>%s</i> with:"
+msgstr "<i>%s</i> megnyitása ezzel:"
+
+#: ../src/interface.c ../src/open-with-dlg.c
+msgid "Open With"
+msgstr "Megnyitás ezzel:"
+
+#: ../src/window.c
+msgid "Open a text file"
+msgstr "Szövegfájl megnyitása"
+
+#: ../src/interface.c ../src/window.c
+msgid "Open an archive"
+msgstr "Archívum megnyitása"
+
+#: ../src/pref_dialog.c
+#, fuzzy
+#| msgid "Open image files with:"
+msgid "Open archive files with:"
+msgstr "Képfájlok megnyitása ezzel:"
+
+#: ../src/pref_dialog.c
+msgid "Open image files with:"
+msgstr "Képfájlok megnyitása ezzel:"
+
+#: ../src/pref_dialog.c
+msgid "Open text files with:"
+msgstr "Szövegfájlok megnyitása ezzel:"
+
+#: ../src/open-with-dlg.c
+msgid "Open the selected files with"
+msgstr "A kijelölt fájlok megnyitása ezzel"
+
+#: ../src/window.c
+msgid "Opening archive, please wait..."
+msgstr "Archívum megnyitása, kis türelmet…"
+
+#: ../src/interface.c
+#, fuzzy
+#| msgid "Open an archive"
+msgid "Opening archive:"
+msgstr "Archívum megnyitása"
+
+#: ../src/window.c
+msgid "Operation aborted!"
+msgstr "Művelet megszakítva!"
+
+#: ../src/add_dialog.c ../src/extract_dialog.c
+msgid "Options"
+msgstr "Beállítások"
+
+#: ../src/7zip.c ../src/ar.c ../src/arj.c ../src/cpio.c ../src/gzip_et_al.c
+#: ../src/lha.c ../src/rar.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
+#: ../src/unar.c ../src/zip.c ../src/zpaq.c
+#, fuzzy
+#| msgid "Original"
+msgid "Original Size"
+msgstr "Eredeti"
+
+#: ../src/extract_dialog.c
+msgid "Overwrite existing files"
+msgstr "Meglévő fájlok felülírása"
+
+#: ../src/cpio.c ../src/rpm.c
+msgid "Owner"
+msgstr "Tulajdonos"
+
+#: ../src/squashfs.c ../src/tar.c
+msgid "Owner/Group"
+msgstr "Tulajdonos/csoport"
+
+#: ../src/add_dialog.c ../src/extract_dialog.c
+msgid "Password:"
+msgstr "Jelszó:"
+
+#: ../src/interface.c
+msgid "Paste"
+msgstr "Beillesztés"
+
+#: ../src/extract_dialog.c
+msgid "Path"
+msgstr "Útvonal"
+
+#: ../src/interface.c
+msgid "Path:"
+msgstr "Útvonal:"
+
+#: ../src/interface.c
+msgid "Pattern:"
+msgstr "Minta:"
+
+#: ../src/ar.c ../src/arj.c ../src/cpio.c ../src/lha.c ../src/rpm.c
+#: ../src/squashfs.c ../src/tar.c ../src/zip.c ../src/zpaq.c
+msgid "Permissions"
+msgstr "Jogosultságok"
+
+#: ../src/window.c
+msgid "Please check the 'Store archiver output' option to see it."
+msgstr ""
+"Ellenőrizze az „Archiváló kimenetének tárolása” beállítást a "
+"megjelenítéséhez."
+
+#: ../src/add_dialog.c ../src/interface.c
+msgid "Please enter it!"
+msgstr "Adja meg újra!"
+
+#: ../src/extract_dialog.c
+msgid "Please enter the extraction path."
+msgstr "Adja meg a kibontási helyet"
+
+#: ../src/extract_dialog.c
+msgid "Please enter the password."
+msgstr "Adja meg a jelszót"
+
+#: ../src/extract_dialog.c
+msgid "Please fill the \"Extract to\" field!"
+msgstr "Töltse ki a „Kibontás ide” mezőt"
+
+#: ../src/window.c
+msgid "Please go to Preferences->Advanced and set it."
+msgstr "A Beállítások → Speciális alatt állítsa be."
+
+#: ../src/main.c
+#, c-format
+msgid "Please report bugs to <%s>."
+msgstr "A hibákat ide jelentse: <%s>."
+
+#: ../src/window.c
+msgid "Please select the 7zCon.sfx module"
+msgstr "Válassza ki a 7zCon.sfx modult"
+
+#: ../src/extract_dialog.c
+msgid "Please select the archives you want to extract"
+msgstr "Válassza ki a kibontani kívánt archívumokat"
+
+#: ../src/extract_dialog.c
+msgid "Please select the destination directory"
+msgstr "Válassza ki a célkönyvtárat"
+
+#: ../src/window.c
+#, fuzzy
+#| msgid "Please enter it!"
+msgid "Please wait..."
+msgstr "Adja meg újra!"
+
+#: ../src/cpio.c ../src/lha.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
+#: ../src/unar.c
+msgid "Points to"
+msgstr "Erre mutat:"
+
+#: ../src/pref_dialog.c
+#, fuzzy
+#| msgid "Icons size (requires restart)"
+msgid "Prefer unzip for zip files (requires restart)"
+msgstr "Ikonok mérete (újraindítást igényel)"
+
+#: ../src/pref_dialog.c
+msgid "Preferences"
+msgstr "Beállítások"
+
+#: ../src/pref_dialog.c
+msgid "Preferred archive format"
+msgstr "Előnyben részesített archívumformátum"
+
+#: ../src/pref_dialog.c
+#, fuzzy
+#| msgid "Preferred extract directory:"
+msgid "Preferred extraction directory:"
+msgstr "Előnyben részesített kibontási könyvtár:"
+
+#: ../src/pref_dialog.c
+msgid "Preferred temp directory:"
+msgstr "Előnyben részesített átmeneti könyvtár:"
+
+#: ../src/window.c
+msgid "Print the archive content as HTML"
+msgstr "Az archívum tartalmának kiírása HTML-ként"
+
+#: ../src/window.c
+msgid "Print the archive content as text"
+msgstr "Az archívum tartalmának kiírása szövegként"
+
+#: ../src/arj.c ../src/gzip_et_al.c
+msgid "Ratio"
+msgstr "Arány"
+
+#: ../src/interface.c
+msgid "Re_name"
+msgstr "Át_nevezés"
+
+#: ../src/window.c
+#, fuzzy
+#| msgid "Opening archive, please wait..."
+msgid "Reloading archive, please wait..."
+msgstr "Archívum megnyitása, kis türelmet…"
+
+#: ../src/interface.c
+msgid "Rename"
+msgstr "Átnevezés"
+
+#: ../src/interface.c
+msgid "Replace"
+msgstr ""
+
+#: ../src/interface.c
+msgid "Root"
+msgstr "Saját mappa"
+
+#: ../src/window.c
+msgid "Save the archive as"
+msgstr "Az archívum mentése másként"
+
+#: ../src/window.c
+msgid "Save the self-extracting archive as"
+msgstr "Az önkibontó archívum mentése másként"
+
+#: ../src/pref_dialog.c
+msgid "Save window geometry"
+msgstr "Ablakgeometria mentése"
+
+#: ../src/gzip_et_al.c ../src/unar.c ../src/zip.c
+msgid "Saving"
+msgstr ""
+
+#: ../src/main.c ../src/window.c
+msgid "Select \"New\" to create or \"Open\" to open an archive"
+msgstr "Válassza az „Új” vagy a „Megnyitás” menüpontot archívum megnyitásához"
+
+#: ../src/interface.c
+msgid "Select _all"
+msgstr "Összes ki_jelölése"
+
+#: ../src/interface.c
+msgid "Select _by pattern"
+msgstr "Kijelölés mi_nta alapján"
+
+#: ../src/open-with-dlg.c
+msgid "Select an application"
+msgstr "Válasszon alkalmazást"
+
+#: ../src/interface.c
+msgid "Select by Pattern"
+msgstr "Kijelölés minta alapján"
+
+#: ../src/extract_dialog.c
+msgid "Selected files"
+msgstr "Kijelölt fájlok"
+
+#: ../src/add_dialog.c
+msgid "Selection"
+msgstr "Kijelölés"
+
+#: ../src/pref_dialog.c
+msgid "Show archive comment"
+msgstr "Archívum megjegyzésének megjelenítése"
+
+#: ../src/pref_dialog.c
+msgid "Show archive location bar"
+msgstr "Archívum hely sávjának megjelenítése"
+
+#: ../src/pref_dialog.c
+msgid "Show archive tree sidebar"
+msgstr "Archívum fa oldalsávjának megjelenítése"
+
+#: ../src/window.c
+#, fuzzy
+#| msgid "Show archive comment"
+msgid "Show command"
+msgstr "Archívum megjegyzésének megjelenítése"
+
+#: ../src/main.c
+#, fuzzy
+#| msgid "Add the given files by asking the name of the archive and quits."
+msgid ""
+"Show found command-line programs to be\n"
+"                                     used and exit"
+msgstr ""
+"A megadott fájlok hozzáadása az archívum nevének bekérésével és kilépés"
+
+#: ../src/pref_dialog.c
+msgid "Show toolbar"
+msgstr "Eszköztár megjelenítése"
+
+#: ../src/main.c
+#, fuzzy
+#| msgid "Show version and exit"
+msgid "Show version and exit\n"
+msgstr "Verziószám kiírása és kilépés"
+
+#: ../src/extract_dialog.c
+msgid "Size"
+msgstr "Méret"
+
+#: ../src/extract_dialog.c
+msgid "Some errors occurred:"
+msgstr "Hibák történtek:"
+
+#: ../src/extract_dialog.c ../src/interface.c ../src/window.c
+msgid "Sorry, I could not perform the operation!"
+msgstr "A művelet végrehajtása meghiúsult"
+
+#: ../src/extract_dialog.c ../src/main.c ../src/window.c
+msgid "Sorry, this archive format is not supported:"
+msgstr "Ez az archívumformátum nem támogatott:"
+
+#: ../src/pref_dialog.c
+msgid "Sort archive by filename"
+msgstr "Archívum rendezése fájlnév szerint"
+
+#: ../src/interface.c
+msgid "Stop"
+msgstr "Stop"
+
+#: ../src/pref_dialog.c
+msgid "Store archiver output"
+msgstr "Archiváló kimenetének tárolása"
+
+#: ../src/gzip_et_al.c
+msgid "Streams/Blocks/Padding"
+msgstr ""
+
+#: ../src/window.c
+msgid "Test result:"
+msgstr ""
+
+#: ../src/window.c
+msgid "Testing archive, please wait..."
+msgstr "Archívum tesztelése, kis türelmet…"
+
+#: ../src/new_dialog.c
+#, c-format
+msgid "The archive \"%s\" already exists!"
+msgstr "Az archívum („%s”) már létezik"
+
+#: ../src/window.c
+#, fuzzy
+#| msgid "This archive is encrypted!"
+msgid "The archive is okay."
+msgstr "Ez az archívum titkosított"
+
+#: ../src/extract_dialog.c
+#, fuzzy
+#| msgid ""
+#| "The archive's directory structure is recreated in the extraction directory"
+msgid ""
+"The archive's complete directory structure is recreated in the extraction "
+"directory"
+msgstr "Az archívum könyvtárszerkezetének előállítása a kibontási könyvtárban"
+
+#: ../src/extract_dialog.c
+#, fuzzy
+#| msgid ""
+#| "The archive's directory structure is recreated in the extraction directory"
+msgid ""
+"The archive's directory structure is not recreated; all files are placed in "
+"the extraction directory"
+msgstr "Az archívum könyvtárszerkezetének előállítása a kibontási könyvtárban"
+
+#: ../src/extract_dialog.c
+#, fuzzy
+#| msgid ""
+#| "The archive's directory structure is recreated in the extraction directory"
+msgid ""
+"The archive's directory structure is recreated in the extraction directory, "
+"but with the parent directories of the selected files removed"
+msgstr "Az archívum könyvtárszerkezetének előállítása a kibontási könyvtárban"
+
+#: ../src/add_dialog.c ../src/main.c
+#, fuzzy
+#| msgid "The archiver doesn't support this feature!"
+msgid ""
+"The archiver doesn't support compression of directories or multiple files!"
+msgstr "Az archiváló nem támogatja ezt a szolgáltatást"
+
+#: ../src/extract_dialog.c
+msgid "The archiver doesn't support this feature!"
+msgstr "Az archiváló nem támogatja ezt a szolgáltatást"
+
+#: ../src/gzip_et_al.c
+msgid "The archiver lacks necessary support for password protected decryption!"
+msgstr ""
+
+#: ../src/pref_dialog.c
+msgid "The filename column is sorted after loading the archive"
+msgstr "A fájlnév oszlop rendezése az archívum betöltése után"
+
+#: ../src/pref_dialog.c
+msgid ""
+"The incremental search is also performed within filenames rather than just "
+"at the beginning of them"
+msgstr ""
+
+#: ../src/extract_dialog.c ../src/main.c ../src/window.c
+#, fuzzy, c-format
+#| msgid "The proper archiver is not installed!"
+msgid "The proper archiver for \"%s\" is not installed!"
+msgstr "Nincs telepítve a megfelelő archiváló"
+
+#: ../src/extract_dialog.c
+msgid "This archive is encrypted!"
+msgstr "Ez az archívum titkosított"
+
+#: ../src/interface.c
+#, fuzzy
+#| msgid "This is Xarchiver led status. When it's flashing Xarchiver is busy"
+msgid "This is Xarchiver's LED status. When it's flashing Xarchiver is busy."
+msgstr "Ez az Xarchiver állapotjelzője. Ha villog, az Xarchiver elfoglalt"
+
+#: ../src/pref_dialog.c
+#, fuzzy
+#| msgid ""
+#| "This option includes the subdirectories when you add files with drag and "
+#| "drop"
+msgid ""
+"This option includes the subdirectories when you add files from the "
+"clipboard or with drag-and-drop"
+msgstr ""
+"Felveszi az alkönyvtárakat fájlok hozzáadásakor fogd és vidd módszerrel"
+
+#: ../src/extract_dialog.c
+msgid ""
+"This option performs the same function as the freshen one, extracting files "
+"that are newer than those with the same name on disk, and in addition it "
+"extracts those files that do not already exist on disk"
+msgstr ""
+"Ez a felfrissítéshez hasonlóan felülírja a meglévő fájlokat azok újabb "
+"változatával, ezen kívül a lemezen még nem létező fájlokat is kibontja"
+
+#: ../src/add_dialog.c
+#, fuzzy
+#| msgid ""
+#| "This option will add any new files and update any files which have been "
+#| "modified since the archive was last created/modified"
+msgid ""
+"This option will add any new files and update any files which are already in "
+"the archive but older there"
+msgstr ""
+"Új fájlok hozzáadása és az archívum létrehozása/utolsó módosítása óta "
+"módosított fájlok frissítése"
+
+#: ../src/add_dialog.c
+#, fuzzy
+#| msgid ""
+#| "This option affects the archive only if it has been modified more "
+#| "recently than the version already in the archive; unlike the update "
+#| "option it will not add files that are not already in the archive"
+msgid ""
+"This option will only add files which are already in the archive but older "
+"there; unlike the update option it will not add any new files"
+msgstr ""
+"Ez csak akkor frissíti az archívumot, ha a fájlokat az archívumban lévő "
+"változatnál később frissítették, a frissítéssel szemben az archívumban meg "
+"nem található fájlokat nem adja hozzá."
+
+#: ../src/7zip.c ../src/ar.c ../src/arj.c ../src/cpio.c ../src/gzip_et_al.c
+#: ../src/lha.c ../src/rar.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
+#: ../src/unar.c ../src/zip.c ../src/zpaq.c
+msgid "Time"
+msgstr "Idő"
+
+#: ../src/interface.c
+msgid "Total Progress:"
+msgstr "Teljes folyamat:"
+
+#: ../src/extract_dialog.c
+msgid "Touch files"
+msgstr "Fájlok időbélyegének frissítése"
+
+#: ../src/interface.c
+msgid "Type:"
+msgstr "Típus:"
+
+#: ../src/ar.c ../src/lha.c
+msgid "UID/GID"
+msgstr "UID/GID"
+
+#: ../src/interface.c
+msgid "Uncompressed size:"
+msgstr "Tömörítetlen méret:"
+
+#: ../src/window.c
+#, c-format
+msgid "Uncompressed size: "
+msgstr "Tömörítetlen méret: "
+
+#: ../src/rpm.c
+msgid "Unknown compression type!"
+msgstr ""
+
+#: ../src/interface.c
+msgid "Uns_ort"
+msgstr ""
+
+#: ../src/7zip.c
+msgid "Unsupported binary format!"
+msgstr ""
+
+#: ../src/interface.c
+msgid "Up"
+msgstr "Fel"
+
+#: ../src/extract_dialog.c
+msgid "Update existing files"
+msgstr "Meglévő fájlok frissítése"
+
+#: ../src/add_dialog.c
+#, fuzzy
+#| msgid "Update existing files"
+msgid "Update existing files and add new ones"
+msgstr "Meglévő fájlok frissítése"
+
+#: ../src/open-with-dlg.c
+msgid "Use a custom command:"
+msgstr "Egyéni parancs használata:"
+
+#: ../src/gzip_et_al.c ../src/rar.c ../src/zip.c
+msgid "Version"
+msgstr "Verzió"
+
+#: ../src/interface.c
+msgid "View"
+msgstr "Nézet"
+
+#: ../src/pref_dialog.c
+msgid "Web browser to use:"
+msgstr "Használandó webböngésző:"
+
+#: ../src/extract_dialog.c
+#, fuzzy
+#| msgid ""
+#| "When this option is used,tar leaves the data modification times of the "
+#| "files it extracts as the times when the files were extracted,instead of "
+#| "setting it to the times recorded in the archive"
+msgid ""
+"When this option is used, the modification times of the files will be the "
+"times of extraction instead of the times recorded in the archive"
+msgstr ""
+"A tar a kibontott fájlok adatmódosítási dátumát a fájlok kibontásának "
+"idejére állítja az archívumban rögzített idők megtartása helyett"
+
+#: ../src/zpaq.c
+msgid "Will not handle files with wildcard characters!"
+msgstr ""
+
+#: ../src/pref_dialog.c
+msgid "Window"
+msgstr "Ablak"
+
+#: ../src/add_dialog.c ../src/extract_dialog.c
+#, fuzzy
+#| msgid "Store full paths"
+msgid "With full path"
+msgstr "Teljes útvonalak tárolása"
+
+#: ../src/extract_dialog.c
+msgid "Without any path"
+msgstr ""
+
+#: ../src/add_dialog.c ../src/extract_dialog.c
+msgid "Without parent path"
+msgstr ""
+
+#: ../src/window.c
+msgid "Yes"
+msgstr "Igen"
+
+#: ../src/window.c
+msgid "You are about to delete entries from the archive."
+msgstr "Bejegyzések törlésére készül az archívumból."
+
+#: ../src/window.c
+msgid ""
+"You can drop either archives to open or files to add. It is not possible to "
+"do both at the same time."
+msgstr ""
+
+#: ../src/interface.c ../src/window.c
+#, fuzzy
+#| msgid "You can't add content to deb packages!"
+msgid "You can't add content to this archive type!"
+msgstr "Nem adhat tartalmat deb csomagokhoz"
+
+#: ../src/window.c
+msgid "You didn't set which browser to use!"
+msgstr "Nem adta meg a használandó böngészőt"
+
+#: ../src/window.c
+msgid "You didn't set which program to use for opening this file!"
+msgstr "Nem adta meg a fájl megnyitására használandó programot"
+
+#: ../src/extract_dialog.c ../src/window.c
+#, c-format
+msgid ""
+"You don't have the right permissions to extract the files to the directory "
+"\"%s\"."
+msgstr ""
+"Nincsenek megfelelő jogosultságai a fájlok kibontására a könyvtárba („%s”)."
+
+#: ../src/extract_dialog.c
+msgid "You haven't added any of them!"
+msgstr "Nem vett fel egyet sem"
+
+#: ../src/add_dialog.c ../src/main.c
+msgid "You haven't selected any files to add!"
+msgstr "Nem választott ki hozzáadandó fájlokat!"
+
+#: ../src/main.c
+msgid "You missed the archive name!"
+msgstr "Elrontotta az archívumnevet"
+
+#: ../src/add_dialog.c ../src/extract_dialog.c ../src/interface.c
+msgid "You missed the password!"
+msgstr "Elrontotta a jelszót!"
+
+#: ../src/extract_dialog.c
+msgid "You missed where to extract the files!"
+msgstr "Nem adta meg a fájlok kibontásának helyét"
+
+#: ../src/main.c
+msgid "[ARCHIVE]"
+msgstr ""
+
+#: ../src/add_dialog.c
+msgid "_Add"
+msgstr "Hozzá_adás"
+
+#: ../src/interface.c
+msgid "_Archive"
+msgstr "_Archívum"
+
+#: ../src/interface.c
+msgid "_Contents"
+msgstr "_Tartalom"
+
+#: ../src/extract_dialog.c ../src/interface.c
+msgid "_Extract"
+msgstr "_Kibontás"
+
+#: ../src/interface.c
+msgid "_HTML file"
+msgstr "_HTML fájl"
+
+#: ../src/interface.c
+msgid "_Help"
+msgstr "_Súgó"
+
+#: ../src/interface.c
+msgid "_List as"
+msgstr "_Listázás, mint"
+
+#: ../src/interface.c
+msgid "_Multi-Extract"
+msgstr "_Több kibontása"
+
+#: ../src/interface.c
+msgid "_Password:"
+msgstr "_Jelszó:"
+
+#: ../src/interface.c
+msgid "_Preferences"
+msgstr "_Beállítások"
+
+#: ../src/interface.c
+msgid "_Properties"
+msgstr "T_ulajdonságok"
+
+#: ../src/interface.c
+msgid "_Select"
+msgstr "_Kijelölés"
+
+#: ../src/interface.c
+msgid "_Test"
+msgstr "_Teszt"
+
+#: ../src/interface.c
+msgid "_Text file"
+msgstr "S_zövegfájl"
+
+#: ../src/window.c
+msgid "and"
+msgstr ""
+
+#: ../xarchiver.desktop.in.h
+msgid "archive;compress;decompress;extract;pack;uncompress;unpack;"
+msgstr ""
+
+#: ../src/add_dialog.c
+msgid "best"
+msgstr ""
+
+#: ../src/pref_dialog.c
+msgid "choose..."
+msgstr "Válasszon…"
+
+#: ../src/main.c
+#, fuzzy
+#| msgid "destination archive"
+msgid "destination"
+msgstr "célarchívum"
+
+#: ../src/interface.c
+msgid "example: *.txt; ac*"
+msgstr "például: *.txt; ac*"
+
+#: ../src/main.c
+#, fuzzy
+#| msgid "file1 file2 file3 ... fileN"
+msgid "file1 ... fileN"
+msgstr "1.fájl, 2.fájl, 3.fájl. … N.fájl"
+
+#: ../src/pref_dialog.c
+msgid "large"
+msgstr "Nagy"
+
+#: ../src/add_dialog.c
+msgid "least"
+msgstr ""
+
+#: ../src/pref_dialog.c
+msgid "medium"
+msgstr ""
+
+#: ../src/window.c
+msgid "selected"
+msgstr "kijelölve"
+
+#: ../src/pref_dialog.c
+msgid "small"
+msgstr "Kicsi"
+
+#: ../src/pref_dialog.c
+msgid "small/medium"
+msgstr ""
+
+#: ../src/window.c
+msgid "translator-credits"
+msgstr ""
+"Kelemen Gábor <kelemeng@gnome.hu>\n"
+"Páder Rezső <rezso@rezso.net>"
+
+#: ../src/pref_dialog.c
+#, fuzzy
+#| msgid "large"
+msgid "very large"
+msgstr "Nagy"
+
+#: ../src/main.c
+#, c-format
+msgid ""
+"xarchiver: %s\n"
+"Try xarchiver --help to see a full list of available command-line options.\n"
+msgstr ""
+"xarchiver: %s\n"
+"Adja ki az xarchiver --help parancsot az elérhető parancssori kapcsolók "
+"listájáért.\n"
+
+#: ../src/window.c
+msgid "|Size\n"
+msgstr "|Méret\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "<span color='red' style='italic'>Please install xdg-utils package so "
+#~ "that\n"
+#~ "Xarchiver can recognize more file types.</span>"
+#~ msgstr ""
+#~ "\n"
+#~ "<span color='red' style='italic'>Telepítse az xdg-utils csomagot, hogy az "
+#~ "Xarchiver\n"
+#~ "további fájltípusokat is felismerhessen.</span>"
+
+#~ msgid "A GTK+ only archive manager"
+#~ msgstr "GTK+ archívumkezelő"
+
+#, fuzzy
+#~| msgid "This option takes more memory with large archives"
+#~ msgid "This option consumes more memory with large archives"
+#~ msgstr "Ez nagy archívumok esetén több memóriát foglal"
+
+#~ msgid "0 = no compression, 3 is default, 5 = best compression but slowest"
+#~ msgstr ""
+#~ "0 = nincs tömörítés, 3 az alapértelmezés, 5 = legjobb tömörítés, de a "
+#~ "leglassabb is"
+
+#~ msgid "0 = no compression, 5 is default, 9 = best compression but slowest"
+#~ msgstr ""
+#~ "0 = nincs tömörítés, 5 az alapértelmezés, 9 = legjobb tömörítés, de a "
+#~ "leglassabb is"
+
+#~ msgid "0 = no compression, 6 is default, 9 = best compression but slowest"
+#~ msgstr ""
+#~ "0 = nincs tömörítés, 6 az alapértelmezés, 9 = legjobb tömörítés, de a "
+#~ "leglassabb is"
+
+#~ msgid "5 = default compression, 7 = max compression"
+#~ msgstr "5 az alapértelmezés, 7 = legjobb tömörítés"
+
+#~ msgid "Archive Name"
+#~ msgstr "Archívum neve"
+
+#, c-format
+#~ msgid "Can't open file %s:"
+#~ msgstr "Nem nyitható meg a fájl (%s):"
+
+#~ msgid "Destination dirs"
+#~ msgstr "Célkönyvtárak"
+
+#~ msgid "Do not store paths"
+#~ msgstr "Ne tárolja az útvonalakat"
+
+#~ msgid "Extract pathnames"
+#~ msgstr "Útvonalnevek kibontása"
+
+#~ msgid "Freshen and replace"
+#~ msgstr "Felfrissítés és csere"
+
+#~ msgid "Options "
+#~ msgstr "Beállítások "
+
+#~ msgid "Options:"
+#~ msgstr "Beállítások:"
+
+#~ msgid ""
+#~ "This option extracts archives in directories named with the archive names"
+#~ msgstr "Az archívumok kibontása az archívum nevét viselő könyvtárakba"
+
+#~ msgid "Update and add"
+#~ msgstr "Frissítés és hozzáadás"
+
+#, fuzzy
+#~| msgid "Date modified"
+#~ msgid "Date and Time"
+#~ msgstr "Módosítás dátuma"
+
+#, fuzzy
+#~| msgid "large"
+#~ msgid "larger"
+#~ msgstr "Nagy"
+
+#~ msgid "Can't perform another extraction:"
+#~ msgstr "Nem hajtható végre másik kibontás:"
+
+#~ msgid "Please wait until the completion of the current one!"
+#~ msgstr "Várjon, amíg az aktuális befejeződik"
+
+#~ msgid "%d file and %d dir %s (%s)"
+#~ msgid_plural "%d files and %d dirs %s (%s)"
+#~ msgstr[0] "%d fájl és %d könyvtár %s (%s)"
+#~ msgstr[1] "%d fájl és %d könyvtár %s (%s)"
+
+#~ msgid "Attr"
+#~ msgstr "Attr"
+
+#~ msgid "CRC"
+#~ msgstr "CRC"
+
+#~ msgid "Hard Link"
+#~ msgstr "Hard link"
+
+#~ msgid "Permission"
+#~ msgstr "Jogosultság"
+
+#, fuzzy
+#~| msgid "Please install xdg-utils package."
+#~ msgid "Please install xdg-utils."
+#~ msgstr "Telepítse az xdg-utils csomagot"
+
+#~ msgid "This file type is not supported!"
+#~ msgstr "Ez a fájltípus nem támogatott"
+
+#~ msgid "Timestamp"
+#~ msgstr "időbélyeg"
+
+#~ msgid "Decompress file"
+#~ msgstr "Fájl kibontása"
+
+#~ msgid "Multi-extract archives"
+#~ msgstr "Több archívum kibontása"
+
+#~ msgid "You can't add content to rpm packages!"
+#~ msgstr "Nem adhat tartalmat rpm csomagokhoz"
+
+#~ msgid "You have to install arj package!"
+#~ msgstr "Telepítenie kell a arj csomagot"
+
+#~ msgid "You have to install rar package!"
+#~ msgstr "Telepítenie kell a rar csomagot"
+
+#~ msgid "[archive name]"
+#~ msgstr "[archívumnév]"
+
+#~ msgid "archive"
+#~ msgstr "archívum"
+
+#~ msgid "filenames"
+#~ msgstr "fájlnevek"
+
+#~ msgid "|Compressed\n"
+#~ msgstr " Tömörítve\n"
+
+#~ msgid "<th>Compressed:</th>"
+#~ msgstr "<th>Tömörítve:</th>"
+
+#~ msgid "Home"
+#~ msgstr "Home"
+
+#~ msgid "Add the archive extension to the filename"
+#~ msgstr "Az archívum kiterjesztésének hozzáadása a fájlnévhez"
+
+#~ msgid "_Donate"
+#~ msgstr "_Támogatás"
+
+#~ msgid "Xarchiver"
+#~ msgstr "Xarchiver"

@@ -1,0 +1,1684 @@
+# Greek translations for xarchiver package.
+# Copyright (C) 2005-2006 Giuseppe Torelli.
+# This file is distributed under the same license as the xarchiver package.
+# Stavros Giannouris <stavrosg@serverhive.com>, 2006, 2008.
+# Stathis Kamperis <ekamperi@auth.gr>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xarchiver git\n"
+"Report-Msgid-Bugs-To: https://github.com/ib/xarchiver/issues\n"
+"POT-Creation-Date: 2024-02-28 14:06+0100\n"
+"PO-Revision-Date: 2009-09-08 20:07+0200\n"
+"Last-Translator: Evaggelos Balaskas <ebalaskas@ebalaskas.gr>\n"
+"Language-Team: Greek <nls@tux.hellug.gr>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-Country: GREECE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../src/window.c
+#, c-format
+msgid ""
+"\n"
+"Name: "
+msgstr ""
+"\n"
+"Όνομα: "
+
+#: ../src/new_dialog.c
+#, c-format
+msgid "\"%s\" is already open!"
+msgstr "Το \"%s\" είναι ήδη ανοιχτό"
+
+#: ../src/window.c
+#, c-format
+msgid "%d dir %s (%s)"
+msgid_plural "%d dirs %s (%s)"
+msgstr[0] "%d κατάλογος %s (%s)"
+msgstr[1] "%d κατάλογοι %s (%s)"
+
+#: ../src/window.c
+#, fuzzy, c-format
+#| msgid "Add files"
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "Προσθήκη αρχείων"
+msgstr[1] "Προσθήκη αρχείων"
+
+#: ../src/window.c
+#, c-format
+msgid "%d file %s (%s)"
+msgid_plural "%d files %s (%s)"
+msgstr[0] "%d αρχείο %s (%s)"
+msgstr[1] "%d αρχεία %s (%s)"
+
+#: ../src/add_dialog.c
+#, fuzzy, c-format
+#| msgid "0 = no compression, 1 is default, 4 = fastest but least compression"
+msgid ""
+"%hu is least compression\n"
+"%hu is default compression\n"
+"%hu is best compression"
+msgstr ""
+"0 = χωρίς συμπίεση, προεπιλεγμένο το 1, 4 = η πιο γρήγορη, αλλά και μικρότερη"
+
+#: ../src/pref_dialog.c
+msgid "/tmp"
+msgstr "/tmp"
+
+#: ../src/interface.c
+msgid "<span weight='bold' size='larger'>Enter password for:</span>"
+msgstr "<span weight='bold' size='larger'>Εισάγετε κωδικό για:</span>"
+
+#: ../src/interface.c
+msgid "<span weight='bold' size='larger'>Password required for:</span>"
+msgstr "<span weight='bold' size='larger'>Απαιτείται κωδικός για:</span>"
+
+#: ../src/window.c
+#, c-format
+msgid "<th>Files:</th>"
+msgstr "<th>Αρχεία:</th>"
+
+#: ../src/window.c
+#, c-format
+msgid "<th>Size:</th>"
+msgstr "<th>Μέγεθος:</th>"
+
+#: ../src/window.c
+msgid "A GTK+ only lightweight archive manager"
+msgstr "Ένας ελαφρύς GTK+ διαχειριστής συμπιεσμένων αρχείων"
+
+#: ../src/interface.c
+msgid "A_ction"
+msgstr "_Ενέργεια"
+
+#: ../src/interface.c
+msgid "A_dd"
+msgstr "Π_ροσθήκη"
+
+#: ../src/add_dialog.c
+msgid "Actions"
+msgstr "_Ενέργειες"
+
+#: ../src/interface.c
+#, fuzzy
+msgid "Add"
+msgstr "_Προσθήκη"
+
+#: ../src/add_dialog.c ../src/interface.c
+msgid "Add files"
+msgstr "Προσθήκη αρχείων"
+
+#: ../src/main.c
+#, fuzzy
+#| msgid "Add the given files by asking the name of the archive and quits."
+msgid ""
+"Add the given files by asking the name of\n"
+"                                     the archive and quit"
+msgstr "Προσθήκη των αρχείων σε συμπιεσμένο αρχείο."
+
+#: ../src/main.c
+#, fuzzy
+#| msgid "Add files to archive by asking their filenames and quits."
+msgid ""
+"Add to archive by asking which files and\n"
+"                                     quit"
+msgstr "Προσθήκη αρχείων στο συμπιεσμένο αρχείο."
+
+#: ../src/window.c
+msgid "Adding files to archive, please wait..."
+msgstr "Προσθήκη αρχείων στο συμπιεσμένο αρχείο..."
+
+#: ../src/interface.c
+msgid "Adding to archive:"
+msgstr "Προσθήκη αρχείων στο συμπιεσμένο αρχείο:"
+
+#: ../src/pref_dialog.c
+msgid "Advanced"
+msgstr "Για προχωρημένους"
+
+#: ../src/pref_dialog.c
+#, fuzzy
+#| msgid "Icons size (requires restart)"
+msgid "Advanced incremental search (requires restart)"
+msgstr "Μέγεθος εικονιδίων (απαιτεί επανεκκίνηση)"
+
+#: ../src/extract_dialog.c ../src/new_dialog.c ../src/window.c
+msgid "All files"
+msgstr "Όλα τα αρχεία"
+
+#: ../src/pref_dialog.c
+#, fuzzy
+#| msgid "Allow subdirs with drag and drop"
+msgid "Allow subdirs with clipboard and drag-and-drop"
+msgstr "Να προστίθενται οι υποκατάλογοι με τη μεταφορά και απόθεση"
+
+#: ../src/window.c
+msgid "An error occurred while accessing the archive:"
+msgstr "Παρουσιάστηκε ένα σφάλμα κατά την πρόσβαση στο συμπιεσμένο αρχείο:"
+
+#: ../src/add_dialog.c ../src/main.c ../src/window.c
+msgid "An error occurred!"
+msgstr "Παρουσιάστηκε ένα σφάλμα!"
+
+#: ../src/extract_dialog.c ../src/pref_dialog.c
+msgid "Archive"
+msgstr "συμπιεσμένο αρχείο"
+
+#: ../src/interface.c
+msgid "Archive Properties"
+msgstr "Ιδιότητες συμπιεσμένου αρχείου"
+
+#: ../src/interface.c
+msgid "Archive _comment"
+msgstr "_Σχόλια συμπιεσμένου αρχείου"
+
+#: ../src/window.c
+#, fuzzy, c-format
+#| msgid "Archive contents:\n"
+msgid "Archive content:\n"
+msgstr "Περιεχόμενα αρχείου:\n"
+
+#: ../src/window.c
+msgid "Archive format is not recognized!"
+msgstr "Αυτό το αρχείο δεν είναι σε μορφή που υποστηρίζεται!"
+
+#: ../xarchiver.desktop.in.h
+msgid "Archive manager"
+msgstr "Διαχειριστής συμπιεσμένων αρχείων"
+
+#: ../src/interface.c
+msgid "Archive tree"
+msgstr "Δέντρο συμπιεσμένου αρχείου"
+
+#: ../src/pref_dialog.c
+msgid ""
+"Archive tree nodes already expand when the node name is selected by mouse "
+"click or keyboard shortcut."
+msgstr ""
+
+#: ../src/new_dialog.c
+msgid "Archive type:"
+msgstr "Τύπος συμπιεσμένου αρχείου:"
+
+#: ../src/interface.c
+#, fuzzy
+#| msgid "Can't run the archiver executable:"
+msgid "Archiver executable:"
+msgstr "Δεν ήταν δυνατή η εκτέλεση του προγράμματος:"
+
+#: ../src/window.c
+msgid "Archiver output"
+msgstr "Έξοδος προγράμματος"
+
+#: ../src/window.c
+msgid "Are you sure you want to do this?"
+msgstr "Θέλετε σίγουρα να προχωρήσετε;"
+
+#: ../src/7zip.c ../src/arj.c ../src/rar.c
+msgid "Attributes"
+msgstr "Ιδιότητες"
+
+#: ../src/pref_dialog.c
+msgid "Automatically expand archive tree nodes on selection"
+msgstr ""
+
+#: ../src/interface.c
+msgid "Back"
+msgstr "Πίσω"
+
+#: ../src/open-with-dlg.c
+msgid "Browse"
+msgstr "Περιήγηση"
+
+#: ../src/add_dialog.c ../src/main.c
+msgid "Can't add files to the archive:"
+msgstr "Δεν είναι δυνατή η προσθήκη αρχείων στο συμπιεσμένο αρχείο:"
+
+#: ../src/main.c
+msgid "Can't allocate memory for the archive structure!"
+msgstr ""
+"Δεν είναι δυνατή η εκχώρηση μνήμης για τη δομή του συμπιεσμένου αρχείου!"
+
+#: ../src/window.c
+msgid "Can't allocate memory for the archive structure:"
+msgstr ""
+"Δεν είναι δυνατή η εκχώρηση μνήμης για τη δομή του συμπιεσμένου αρχείου:"
+
+#: ../src/window.c
+msgid "Can't convert the archive to self-extracting:"
+msgstr "Δεν ήταν δυνατή η μετατροπή του αρχείου σε αυτόματα αποσυμπιεζόμενο:"
+
+#: ../src/new_dialog.c
+msgid "Can't create a new archive:"
+msgstr "Δεν είναι δυνατή η δημιουργία νέου συμπιεσμένου αρχείου:"
+
+#: ../src/extract_dialog.c ../src/main.c
+#, fuzzy
+#| msgid "Can't create temporary directory:"
+msgid "Can't create directory!"
+msgstr "Δεν ήταν δυνατή η δημιουργία προσωρινού καταλόγου:"
+
+#: ../src/archive.c
+msgid "Can't create temporary directory:"
+msgstr "Δεν ήταν δυνατή η δημιουργία προσωρινού καταλόγου:"
+
+#: ../src/extract_dialog.c ../src/main.c ../src/window.c
+msgid "Can't extract files from the archive:"
+msgstr "Δεν είναι δυνατή η εξαγωγή αρχείων από το συμπιεσμένο αρχείο:"
+
+#: ../src/rpm.c
+msgid "Can't fseek in file:"
+msgstr "Δεν μπορεί να μεταβεί μέσα στο αρχείο:"
+
+#: ../src/rpm.c
+msgid "Can't fseek to position 104:"
+msgstr "Δεν μπορεί να μεταβεί στο αρχείο στην θέση 104:"
+
+#: ../src/extract_dialog.c
+msgid "Can't multi-extract archives:"
+msgstr "Δεν είναι δυνατή η πολλαπλή αποσυμπίεση:"
+
+#: ../src/rpm.c
+#, c-format
+msgid "Can't open RPM file %s:"
+msgstr "Δεν ήταν δυνατό το άνοιγμα του αρχείου RPM %s:"
+
+#: ../src/window.c
+#, c-format
+msgid "Can't open file \"%s\":"
+msgstr "Δεν ήταν δυνατό το άνοιγμα του αρχείου \"%s\":"
+
+#: ../src/main.c
+#, fuzzy
+#| msgid "Can't add files to the archive:"
+msgid "Can't open the archive!"
+msgstr "Δεν είναι δυνατή η προσθήκη αρχείων στο συμπιεσμένο αρχείο:"
+
+#: ../src/extract_dialog.c ../src/window.c
+msgid "Can't perform extraction!"
+msgstr "Δεν είναι δυνατή η αποσυμπίεση!"
+
+#: ../src/interface.c ../src/main.c ../src/window.c
+msgid "Can't perform this action:"
+msgstr "Δεν είναι δυνατή η εκτέλεση αυτής της ενέργειας:"
+
+#: ../src/rpm.c
+msgid "Can't read data from file:"
+msgstr "Δεν είναι δυνατή η ανάγνωση από το αρχείο:"
+
+#: ../src/archive.c
+msgid "Can't run the archiver executable:"
+msgstr "Δεν ήταν δυνατή η εκτέλεση του προγράμματος:"
+
+#: ../src/window.c
+msgid "Can't write the sfx module to the archive:"
+msgstr "Δεν είναι δυνατή η προσθήκη του πρόσθετου sfx στο συμπιεσμένο αρχείο:"
+
+#: ../src/interface.c
+msgid "Cancel current operation"
+msgstr "Ακύρωση τρέχουσας λειτουργίας"
+
+#: ../src/gzip_et_al.c
+msgid "Check Type"
+msgstr ""
+
+#: ../src/arj.c ../src/rar.c
+msgid "Checksum"
+msgstr ""
+
+#: ../src/pref_dialog.c
+msgid "Choose the application to use"
+msgstr "Επιλέξτε την εφαρμογή που θα χρησιμοποιήσετε"
+
+#: ../src/new_dialog.c
+msgid "Choose the archive type to create"
+msgstr "Επιλέξτε τον τύπο του αρχείου που θα δημιουργήσετε"
+
+#: ../src/pref_dialog.c
+msgid "Choose the directory to use"
+msgstr "Επιλέξτε έναν κατάλογο για χρήση"
+
+#: ../src/interface.c
+msgid "Close archive"
+msgstr "Κλείσιμο αρχείου"
+
+#: ../src/interface.c
+msgid "Cmd-line outp_ut"
+msgstr "Αποτέλεσμα γρα_μμής εντολών"
+
+#: ../src/window.c
+#, fuzzy
+#| msgid "Comment"
+msgid "Command"
+msgstr "Σχόλιο"
+
+#: ../src/pref_dialog.c
+msgid ""
+"Command-line output is captured and can be reviewed, but this consumes "
+"additional memory"
+msgstr ""
+
+#: ../src/window.c
+msgid "Comment"
+msgstr "Σχόλιο"
+
+#: ../src/interface.c
+msgid "Comment:"
+msgstr "Σχόλιο:"
+
+#: ../src/window.c
+#, c-format
+msgid "Comment:\n"
+msgstr "Σχόλιο:\n"
+
+#: ../src/7zip.c ../src/arj.c ../src/gzip_et_al.c ../src/rar.c ../src/zip.c
+msgid "Compressed"
+msgstr "Συμπιεσμένο"
+
+#: ../src/window.c
+#, c-format
+msgid "Compressed   size: "
+msgstr "Μέγεθος συμπιεσμένου: "
+
+#: ../src/interface.c
+msgid "Compressed size:"
+msgstr "Συμπιεσμένο μέγεθος:"
+
+#: ../src/add_dialog.c
+msgid "Compression"
+msgstr "Επίπεδο συμπίεσης"
+
+#: ../src/gzip_et_al.c
+msgid "Compression ratio"
+msgstr "Λόγος συμπίεσης"
+
+#: ../src/interface.c
+msgid "Compression ratio:"
+msgstr "Λόγος συμπίεσης:"
+
+#: ../src/pref_dialog.c
+msgid "Confirm deletion of files"
+msgstr "Επιβεβαίωση διαγραφής αρχείων"
+
+#: ../src/window.c
+#, fuzzy
+#| msgid "Testing archive, please wait..."
+msgid "Converting archive, please wait..."
+msgstr "Έλεγχος αρχείου, παρακαλώ περιμένετε..."
+
+#: ../src/interface.c
+msgid "Copy"
+msgstr "Αντιγραφή"
+
+#: ../src/new_dialog.c
+msgid "Cr_eate"
+msgstr "_Δημιουργία"
+
+#: ../src/interface.c ../src/new_dialog.c
+msgid "Create a new archive"
+msgstr "Δημιουργία νέου συμπιεσμένου αρχείου"
+
+#: ../src/add_dialog.c
+msgid "Create a solid archive"
+msgstr "Δημιουργία συμπαγούς αρχείου"
+
+#: ../xarchiver.desktop.in.h
+#, fuzzy
+#| msgid "Create a solid archive"
+msgid "Create, extract and modify archives"
+msgstr "Δημιουργία συμπαγούς αρχείου"
+
+#: ../src/interface.c
+msgid "Cut"
+msgstr "Αποκοπή"
+
+#: ../src/gzip_et_al.c
+msgid "Data Frames/Skippable Frames"
+msgstr ""
+
+#: ../src/7zip.c ../src/ar.c ../src/arj.c ../src/cpio.c ../src/gzip_et_al.c
+#: ../src/lha.c ../src/rar.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
+#: ../src/unar.c ../src/zip.c ../src/zpaq.c
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: ../src/pref_dialog.c
+#, fuzzy
+#| msgid "Use a custom command:"
+msgid "Default custom command:"
+msgstr "Χρήση προσαρμοσμένης εντολής:"
+
+#: ../src/interface.c
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: ../src/add_dialog.c
+msgid "Delete files after adding"
+msgstr "Διαγραφή αρχείων μετά την προσθήκη"
+
+#: ../src/window.c
+#, fuzzy
+#| msgid "Extracting files from archive, please wait..."
+msgid "Deleting files from archive, please wait..."
+msgstr "Εξαγωγή αρχείων από το συμπιεσμένο αρχείο..."
+
+#: ../src/interface.c
+msgid "Dese_lect all"
+msgstr "Αποεπι_λογή όλων"
+
+#: ../src/extract_dialog.c
+#, fuzzy
+#| msgid "destination archive"
+msgid "Destination"
+msgstr "αρχείο προορισμού"
+
+#: ../src/window.c
+msgid "Do you really want to cancel?"
+msgstr "Θέλετε σίγουρα να ακυρώσετε;"
+
+#: ../src/new_dialog.c
+msgid "Do you want to overwrite it?"
+msgstr "Θέλετε να το αντικαταστήσετε;"
+
+#: ../src/window.c
+msgid "Doing so will probably corrupt your archive!"
+msgstr "Αν προχωρήσετε, είναι πιθανό να καταστρέψετε το αρχείο!"
+
+#: ../src/interface.c
+msgid "Edit"
+msgstr ""
+
+#: ../src/interface.c
+msgid "Encrypted:"
+msgstr "Κρυπτογράφηση:"
+
+#: ../src/add_dialog.c
+msgid "Encryption"
+msgstr "Κρυπτογράφηση"
+
+#: ../src/extract_dialog.c
+#, fuzzy
+#| msgid "Preferred extract directory:"
+msgid "Ensure a containing directory"
+msgstr "Προτιμώμενος κατάλογος εξαγωγής:"
+
+#: ../src/extract_dialog.c
+msgid ""
+"Ensure that the contents of the extracted archive is always in a containing "
+"directory"
+msgstr ""
+
+#: ../src/interface.c
+msgid "Enter passwo_rd"
+msgstr "Εισάγετε κωδικό π_ρόσβασης"
+
+#: ../src/pref_dialog.c
+msgid ""
+"Even if other, perhaps more powerful programs are installed to handle zip "
+"archives, the traditional \"unzip\" and \"zip\" will still be used"
+msgstr ""
+
+#: ../src/interface.c
+msgid "Extract"
+msgstr "Αποσυμπίεση"
+
+#: ../src/main.c
+#, fuzzy
+#| msgid "Extract archive by asking the extraction directory and quits."
+msgid ""
+"Extract archive by asking the extraction\n"
+"                                     directory and quit"
+msgstr ""
+"Εξαγωγή του συμπιεσμένου αρχείου με ερώτηση για τον κατάλογο προορισμού."
+
+#: ../src/main.c
+#, fuzzy
+#| msgid "Extract archive to the destination directory and quits."
+msgid ""
+"Extract archive to a containing directory\n"
+"                                     and quit"
+msgstr ""
+"Εξαγωγή του συμπιεσμένου αρχείου με ερώτηση για τον κατάλογο προορισμού."
+
+#: ../src/main.c
+#, fuzzy
+#| msgid "Extract archive to the destination directory and quits."
+msgid ""
+"Extract archive to the destination\n"
+"                                     directory and quit"
+msgstr ""
+"Εξαγωγή του συμπιεσμένου αρχείου με ερώτηση για τον κατάλογο προορισμού."
+
+#: ../src/extract_dialog.c ../src/interface.c
+msgid "Extract files"
+msgstr "Αποσυμπίεση αρχείων"
+
+#: ../src/main.c
+#, fuzzy
+#| msgid "Extract archive by asking the extraction directory and quits."
+msgid ""
+"Extract multiple archives by asking the\n"
+"                                     extraction directory and quit"
+msgstr ""
+"Εξαγωγή του συμπιεσμένου αρχείου με ερώτηση για τον κατάλογο προορισμού."
+
+#: ../src/extract_dialog.c
+msgid ""
+"Extract only those files that already exist on disk and that are newer than "
+"the disk copies"
+msgstr ""
+"Αποσυμπίεση μόνο των αρχείων που ήδη υπάρχουν στο δίσκο και είναι νεότερα "
+"από τα υπάρχοντα."
+
+#: ../src/extract_dialog.c
+#, fuzzy
+#| msgid "Extract to dir \"Archive Name\""
+msgid "Extract to directories with archive names"
+msgstr "Αποσυμπίεση στον κατάλογο \"Όνομα συμπιεσμένου\""
+
+#: ../src/extract_dialog.c
+msgid "Extract to:"
+msgstr "Αποσυμπίεση σε:"
+
+#: ../src/extract_dialog.c
+#, fuzzy
+#| msgid "Extract files with full path"
+msgid "Extract with full path"
+msgstr "Αποσυμπίεση με διατήρηση της δομής των καταλόγων"
+
+#: ../src/interface.c
+#, c-format
+msgid "Extracting \"%s\"..."
+msgstr ""
+
+#: ../src/window.c
+msgid "Extracting files from archive, please wait..."
+msgstr "Εξαγωγή αρχείων από το συμπιεσμένο αρχείο..."
+
+#: ../src/interface.c
+msgid "Extracting from archive:"
+msgstr "Αποσυμπίεση:"
+
+#: ../src/window.c
+msgid "Failed to launch the application!"
+msgstr "Απέτυχε η εκκίνηση της εφαρμογής."
+
+#: ../src/add_dialog.c ../src/extract_dialog.c
+msgid "File Paths"
+msgstr "Διαδρομές αρχείων"
+
+#: ../src/window.c
+msgid "Filename"
+msgstr "Όνομα αρχείου"
+
+#: ../src/extract_dialog.c
+msgid "Files"
+msgstr "Αρχεία"
+
+#: ../src/zpaq.c
+msgid "Files with absolute pathnames cannot be deleted!"
+msgstr ""
+
+#: ../src/extract_dialog.c
+msgid "Files:"
+msgstr "Αρχεία:"
+
+#: ../src/window.c
+#, c-format
+msgid "Files:%*s%s"
+msgstr "Αρχεία:%*s%s"
+
+#: ../src/interface.c
+msgid "Forward"
+msgstr "Εμπρός"
+
+#: ../src/add_dialog.c ../src/extract_dialog.c
+#, fuzzy
+#| msgid "Freshen existing files"
+msgid "Freshen existing files only"
+msgstr "Ενημέρωση υπαρχόντων αρχείων"
+
+#: ../src/window.c
+msgid "From File"
+msgstr "Απο αρχείο"
+
+#: ../src/cpio.c ../src/rpm.c
+msgid "Group"
+msgstr "Ομάδα"
+
+#: ../src/pref_dialog.c
+msgid "Icons size (requires restart)"
+msgstr "Μέγεθος εικονιδίων (απαιτεί επανεκκίνηση)"
+
+#: ../src/pref_dialog.c
+msgid "If checked the archive comment is shown after the archive is loaded"
+msgstr ""
+"Αν επιλεγεί, το σχόλιο του συμπιεσμένου αρχείου θα εμφανίζεται μετά το "
+"φόρτωμα"
+
+#: ../src/pref_dialog.c
+msgid ""
+"If you install \"xdg-open\" from the \"xdg-utils\" package, each file will "
+"be opened with its default application."
+msgstr ""
+
+#: ../src/add_dialog.c
+#, fuzzy
+#| msgid ""
+#| "In a solid archive the files are grouped together featuring a better "
+#| "compression ratio"
+msgid ""
+"In a solid archive the files are grouped together resulting in a better "
+"compression ratio"
+msgstr ""
+"Σε ένα συμπαγές συμπιεσμένο αρχείο, τα αρχεία ομαδοποιούνται για καλύτερη "
+"συμπίεση."
+
+#: ../src/add_dialog.c
+msgid "Include subdirectories"
+msgstr "Περίληψη υποκαταλόγων"
+
+#: ../src/interface.c
+msgid "Location:"
+msgstr "Τοποθεσία:"
+
+#: ../src/main.c
+#, c-format
+msgid "Maintained by "
+msgstr ""
+
+#: ../src/interface.c
+msgid "Make SF_X"
+msgstr "Μετατροπή σε SF_X"
+
+#: ../src/gzip_et_al.c ../src/rar.c ../src/unar.c ../src/zip.c
+msgid "Method"
+msgstr "Μέθοδος"
+
+#: ../src/interface.c
+msgid "Modified on:"
+msgstr "Τροποποιήθηκε:"
+
+#: ../src/extract_dialog.c
+msgid "Multi-Extract"
+msgstr "Πολλαπλή αποσυμπίεση"
+
+#: ../src/interface.c
+msgid "Name:"
+msgstr "Όνομα:"
+
+#: ../src/interface.c
+msgid "New"
+msgstr ""
+
+#: ../src/window.c
+msgid "No"
+msgstr "Όχι"
+
+#: ../src/add_dialog.c
+#, fuzzy
+#| msgid "Compression"
+msgid "No compression"
+msgstr "Επίπεδο συμπίεσης"
+
+#: ../src/main.c
+msgid "Nullsoft Installer"
+msgstr ""
+
+#: ../src/interface.c
+msgid "Number of files:"
+msgstr "Αριθμός αρχείων:"
+
+#: ../src/window.c
+#, c-format
+msgid "Number of files: "
+msgstr "Αριθμός αρχείων: "
+
+#: ../src/zip.c
+msgid "OS"
+msgstr "ΛΣ"
+
+#: ../src/gzip_et_al.c ../src/lha.c ../src/rar.c
+msgid "Occupancy"
+msgstr ""
+
+#: ../src/new_dialog.c ../src/window.c
+msgid "Only archives"
+msgstr "Μόνο συμπιεσμένα αρχεία"
+
+#: ../src/interface.c
+#, fuzzy
+msgid "Open"
+msgstr "Άνοιγμα με"
+
+#: ../src/open-with-dlg.c
+#, c-format
+msgid "Open <i>%s</i> with:"
+msgstr "Άνοιγμα <i>%s</i> με:"
+
+#: ../src/interface.c ../src/open-with-dlg.c
+msgid "Open With"
+msgstr "Άνοιγμα με"
+
+#: ../src/window.c
+msgid "Open a text file"
+msgstr "Άνοιγμα ενός αρχείου κειμένου"
+
+#: ../src/interface.c ../src/window.c
+msgid "Open an archive"
+msgstr "Άνοιγμα συμπιεσμένου αρχείου"
+
+#: ../src/pref_dialog.c
+#, fuzzy
+#| msgid "Open image files with:"
+msgid "Open archive files with:"
+msgstr "Άνοιγμα εικόνων με:"
+
+#: ../src/pref_dialog.c
+msgid "Open image files with:"
+msgstr "Άνοιγμα εικόνων με:"
+
+#: ../src/pref_dialog.c
+msgid "Open text files with:"
+msgstr "Άνοιγμα αρχείων κειμένου με:"
+
+#: ../src/open-with-dlg.c
+msgid "Open the selected files with"
+msgstr "Άνοιγμα των επιλεγμένων αρχείων με"
+
+#: ../src/window.c
+msgid "Opening archive, please wait..."
+msgstr "Άνοιγμα αρχείου, παρακαλώ περιμένετε..."
+
+#: ../src/interface.c
+#, fuzzy
+#| msgid "Open an archive"
+msgid "Opening archive:"
+msgstr "Άνοιγμα συμπιεσμένου αρχείου"
+
+#: ../src/window.c
+msgid "Operation aborted!"
+msgstr "Η εργασία ακυρώθηκε!"
+
+#: ../src/add_dialog.c ../src/extract_dialog.c
+msgid "Options"
+msgstr "Επιλογές"
+
+#: ../src/7zip.c ../src/ar.c ../src/arj.c ../src/cpio.c ../src/gzip_et_al.c
+#: ../src/lha.c ../src/rar.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
+#: ../src/unar.c ../src/zip.c ../src/zpaq.c
+#, fuzzy
+#| msgid "Original"
+msgid "Original Size"
+msgstr "Αρχικό"
+
+#: ../src/extract_dialog.c
+msgid "Overwrite existing files"
+msgstr "Αντικατάσταση υπαρχόντων αρχείων"
+
+#: ../src/cpio.c ../src/rpm.c
+msgid "Owner"
+msgstr "Ιδιοκτήτης"
+
+#: ../src/squashfs.c ../src/tar.c
+msgid "Owner/Group"
+msgstr "Ιδιοκτήτης / Ομάδα"
+
+#: ../src/add_dialog.c ../src/extract_dialog.c
+msgid "Password:"
+msgstr "Κωδικός πρόσβασης:"
+
+#: ../src/interface.c
+msgid "Paste"
+msgstr "Επικόλληση"
+
+#: ../src/extract_dialog.c
+msgid "Path"
+msgstr "Διαδρομή"
+
+#: ../src/interface.c
+msgid "Path:"
+msgstr "Διαδρομή:"
+
+#: ../src/interface.c
+msgid "Pattern:"
+msgstr "Μοτίβο:"
+
+#: ../src/ar.c ../src/arj.c ../src/cpio.c ../src/lha.c ../src/rpm.c
+#: ../src/squashfs.c ../src/tar.c ../src/zip.c ../src/zpaq.c
+msgid "Permissions"
+msgstr "Δικαιώματα"
+
+#: ../src/window.c
+msgid "Please check the 'Store archiver output' option to see it."
+msgstr "Παρακαλώ επιλέξτε το 'Αποθήκευση εξόδου προγράμματος' για να το δείτε."
+
+#: ../src/add_dialog.c ../src/interface.c
+msgid "Please enter it!"
+msgstr "Παρακαλώ εισάγετε τον!"
+
+#: ../src/extract_dialog.c
+msgid "Please enter the extraction path."
+msgstr "Παρακαλώ εισάγετε τη διαδρομή αποσυμπίεσης."
+
+#: ../src/extract_dialog.c
+msgid "Please enter the password."
+msgstr "Παρακαλώ εισάγετε τον κωδικό πρόσβασης."
+
+#: ../src/extract_dialog.c
+msgid "Please fill the \"Extract to\" field!"
+msgstr "Παρακαλώ συμπληρώστε το πεδίο \"Αποσυμπίεση σε\""
+
+#: ../src/window.c
+msgid "Please go to Preferences->Advanced and set it."
+msgstr "Πηγαίνετε στο Προτιμήσεις->Για προχωρημένους και ρυθμίστε το."
+
+#: ../src/main.c
+#, c-format
+msgid "Please report bugs to <%s>."
+msgstr "Παρακαλώ να αναφέρετε τα σφάλματα στο <%s>."
+
+#: ../src/window.c
+msgid "Please select the 7zCon.sfx module"
+msgstr "Παρακαλώ επιλέξτε το πρόσθετο 7zCon.sfx"
+
+#: ../src/extract_dialog.c
+msgid "Please select the archives you want to extract"
+msgstr "Παρακαλώ επιλέξτε τα αρχεία που θέλετε να αποσυμπιέσετε"
+
+#: ../src/extract_dialog.c
+msgid "Please select the destination directory"
+msgstr "Παρακαλώ επιλέξτε κατάλογο προορισμού"
+
+#: ../src/window.c
+#, fuzzy
+#| msgid "Please enter it!"
+msgid "Please wait..."
+msgstr "Παρακαλώ εισάγετε τον!"
+
+#: ../src/cpio.c ../src/lha.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
+#: ../src/unar.c
+msgid "Points to"
+msgstr "Δείχνει προς"
+
+#: ../src/pref_dialog.c
+#, fuzzy
+#| msgid "Icons size (requires restart)"
+msgid "Prefer unzip for zip files (requires restart)"
+msgstr "Μέγεθος εικονιδίων (απαιτεί επανεκκίνηση)"
+
+#: ../src/pref_dialog.c
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
+#: ../src/pref_dialog.c
+msgid "Preferred archive format"
+msgstr "Προεπιλεγμένη μορφή συμπίεσης"
+
+#: ../src/pref_dialog.c
+#, fuzzy
+#| msgid "Preferred extract directory:"
+msgid "Preferred extraction directory:"
+msgstr "Προτιμώμενος κατάλογος εξαγωγής:"
+
+#: ../src/pref_dialog.c
+msgid "Preferred temp directory:"
+msgstr "Προτιμώμενος προσωρινός κατάλογος:"
+
+#: ../src/window.c
+msgid "Print the archive content as HTML"
+msgstr "Εκτύπωση των περιεχομένων του αρχείου ως HTML"
+
+#: ../src/window.c
+msgid "Print the archive content as text"
+msgstr "Εκτύπωση των περιεχομένων του αρχείου ως κείμενο"
+
+#: ../src/arj.c ../src/gzip_et_al.c
+msgid "Ratio"
+msgstr "Αναλογία"
+
+#: ../src/interface.c
+msgid "Re_name"
+msgstr "Μετο_νομασία"
+
+#: ../src/window.c
+#, fuzzy
+#| msgid "Opening archive, please wait..."
+msgid "Reloading archive, please wait..."
+msgstr "Άνοιγμα αρχείου, παρακαλώ περιμένετε..."
+
+#: ../src/interface.c
+msgid "Rename"
+msgstr "Μετονομασία"
+
+#: ../src/interface.c
+msgid "Replace"
+msgstr ""
+
+#: ../src/interface.c
+msgid "Root"
+msgstr "Ρίζα"
+
+#: ../src/window.c
+msgid "Save the archive as"
+msgstr "Αποθήκευση του συμπιεσμένου αρχείου ως"
+
+#: ../src/window.c
+msgid "Save the self-extracting archive as"
+msgstr "Αποθήκευση του αυτο-αποσυμπιεζόμενου αρχείου ως"
+
+#: ../src/pref_dialog.c
+msgid "Save window geometry"
+msgstr "Αποθήκευση διαστάσεων παραθύρου"
+
+#: ../src/gzip_et_al.c ../src/unar.c ../src/zip.c
+msgid "Saving"
+msgstr ""
+
+#: ../src/main.c ../src/window.c
+msgid "Select \"New\" to create or \"Open\" to open an archive"
+msgstr ""
+"Επιλέξτε \"Νέο\" για να δημιουργήσετε ή \"Άνοιγμα\" για να ανοίξετε ένα "
+"συμπιεσμένο αρχείο"
+
+#: ../src/interface.c
+msgid "Select _all"
+msgstr "Επιλ_ογή όλων"
+
+#: ../src/interface.c
+msgid "Select _by pattern"
+msgstr "Επιλογή _βάσει μοτίβου"
+
+#: ../src/open-with-dlg.c
+msgid "Select an application"
+msgstr "Επιλογή εφαρμογής"
+
+#: ../src/interface.c
+msgid "Select by Pattern"
+msgstr "Επιλογή βάση μοτίβου"
+
+#: ../src/extract_dialog.c
+msgid "Selected files"
+msgstr "Επιλεγμένα αρχεία"
+
+#: ../src/add_dialog.c
+msgid "Selection"
+msgstr "Επιλογή"
+
+#: ../src/pref_dialog.c
+msgid "Show archive comment"
+msgstr "Εμφάνιση σχολίου συμπιεσμένου αρχείου"
+
+#: ../src/pref_dialog.c
+msgid "Show archive location bar"
+msgstr "Εμφάνιση μπάρας τοποθεσίας"
+
+#: ../src/pref_dialog.c
+msgid "Show archive tree sidebar"
+msgstr "Εμφάνιση πλαϊνού δέντρου"
+
+#: ../src/window.c
+#, fuzzy
+#| msgid "Show archive comment"
+msgid "Show command"
+msgstr "Εμφάνιση σχολίου συμπιεσμένου αρχείου"
+
+#: ../src/main.c
+#, fuzzy
+#| msgid "Add the given files by asking the name of the archive and quits."
+msgid ""
+"Show found command-line programs to be\n"
+"                                     used and exit"
+msgstr "Προσθήκη των αρχείων σε συμπιεσμένο αρχείο."
+
+#: ../src/pref_dialog.c
+msgid "Show toolbar"
+msgstr ""
+
+#: ../src/main.c
+#, fuzzy
+#| msgid "Show version and exit"
+msgid "Show version and exit\n"
+msgstr "Εμφάνιση πληροφοριών έκδοσης και τερματισμός"
+
+#: ../src/extract_dialog.c
+msgid "Size"
+msgstr "Μέγεθος"
+
+#: ../src/extract_dialog.c
+msgid "Some errors occurred:"
+msgstr "Παρουσιάστηκαν σφάλματα:"
+
+#: ../src/extract_dialog.c ../src/interface.c ../src/window.c
+msgid "Sorry, I could not perform the operation!"
+msgstr "Συγνώμη, δεν ήταν δυνατή η εκτέλεση της λειτουργίας!"
+
+#: ../src/extract_dialog.c ../src/main.c ../src/window.c
+msgid "Sorry, this archive format is not supported:"
+msgstr "Αυτή η μορφή συμπίεσης δεν υποστηρίζεται:"
+
+#: ../src/pref_dialog.c
+msgid "Sort archive by filename"
+msgstr "Ταξινόμηση με βάση το όνομα αρχείου"
+
+#: ../src/interface.c
+msgid "Stop"
+msgstr ""
+
+#: ../src/pref_dialog.c
+msgid "Store archiver output"
+msgstr "Αποθήκευση εξόδου προγράμματος"
+
+#: ../src/gzip_et_al.c
+msgid "Streams/Blocks/Padding"
+msgstr ""
+
+#: ../src/window.c
+msgid "Test result:"
+msgstr ""
+
+#: ../src/window.c
+msgid "Testing archive, please wait..."
+msgstr "Έλεγχος αρχείου, παρακαλώ περιμένετε..."
+
+#: ../src/new_dialog.c
+#, c-format
+msgid "The archive \"%s\" already exists!"
+msgstr "Το συμπιεσμένο αρχείο \"%s\" υπάρχει ήδη!"
+
+#: ../src/window.c
+#, fuzzy
+#| msgid "This archive is encrypted!"
+msgid "The archive is okay."
+msgstr "Αυτό το συμπιεσμένο αρχείο είναι κρυπτογραφημένο!"
+
+#: ../src/extract_dialog.c
+#, fuzzy
+#| msgid ""
+#| "The archive's directory structure is recreated in the extraction directory"
+msgid ""
+"The archive's complete directory structure is recreated in the extraction "
+"directory"
+msgstr ""
+"Η δομή των καταλόγων του συμπιεσμένου αρχείου διατηρείται κατά την "
+"αποσυμπίεση."
+
+#: ../src/extract_dialog.c
+#, fuzzy
+#| msgid ""
+#| "The archive's directory structure is recreated in the extraction directory"
+msgid ""
+"The archive's directory structure is not recreated; all files are placed in "
+"the extraction directory"
+msgstr ""
+"Η δομή των καταλόγων του συμπιεσμένου αρχείου διατηρείται κατά την "
+"αποσυμπίεση."
+
+#: ../src/extract_dialog.c
+#, fuzzy
+#| msgid ""
+#| "The archive's directory structure is recreated in the extraction directory"
+msgid ""
+"The archive's directory structure is recreated in the extraction directory, "
+"but with the parent directories of the selected files removed"
+msgstr ""
+"Η δομή των καταλόγων του συμπιεσμένου αρχείου διατηρείται κατά την "
+"αποσυμπίεση."
+
+#: ../src/add_dialog.c ../src/main.c
+#, fuzzy
+#| msgid "The archiver doesn't support this feature!"
+msgid ""
+"The archiver doesn't support compression of directories or multiple files!"
+msgstr "Το πρόγραμμα συμπίεσης δεν υποστηρίζει αυτή τη λειτουργία!"
+
+#: ../src/extract_dialog.c
+msgid "The archiver doesn't support this feature!"
+msgstr "Το πρόγραμμα συμπίεσης δεν υποστηρίζει αυτή τη λειτουργία!"
+
+#: ../src/gzip_et_al.c
+msgid "The archiver lacks necessary support for password protected decryption!"
+msgstr ""
+
+#: ../src/pref_dialog.c
+msgid "The filename column is sorted after loading the archive"
+msgstr ""
+"Η λίστα ταξινομείται βάση ονομάτων αρχείου μετά το άνοιγμα του συμπιεσμένου "
+"αρχείου"
+
+#: ../src/pref_dialog.c
+msgid ""
+"The incremental search is also performed within filenames rather than just "
+"at the beginning of them"
+msgstr ""
+
+#: ../src/extract_dialog.c ../src/main.c ../src/window.c
+#, fuzzy, c-format
+#| msgid "the proper archiver is not installed!"
+msgid "The proper archiver for \"%s\" is not installed!"
+msgstr "Δεν είναι εγκατεστημένο το απαιτούμενο πρόγραμμα συμπίεσης!"
+
+#: ../src/extract_dialog.c
+msgid "This archive is encrypted!"
+msgstr "Αυτό το συμπιεσμένο αρχείο είναι κρυπτογραφημένο!"
+
+#: ../src/interface.c
+#, fuzzy
+#| msgid "This is Xarchiver led status. When it's flashing Xarchiver is busy"
+msgid "This is Xarchiver's LED status. When it's flashing Xarchiver is busy."
+msgstr ""
+"Εικονίδιο κατάστασης του Xarchiver. Όταν αναβοσβήνει, το Xarchiver είναι "
+"απασχολημένο"
+
+#: ../src/pref_dialog.c
+#, fuzzy
+#| msgid ""
+#| "This option includes the subdirectories when you add files with drag and "
+#| "drop"
+msgid ""
+"This option includes the subdirectories when you add files from the "
+"clipboard or with drag-and-drop"
+msgstr ""
+"Με αυτή την επιλογή περιλαμβάνονται οι υποκατάλογοι κατά την προσθήκη "
+"αρχείων με μεταφορά και απόθεση"
+
+#: ../src/extract_dialog.c
+msgid ""
+"This option performs the same function as the freshen one, extracting files "
+"that are newer than those with the same name on disk, and in addition it "
+"extracts those files that do not already exist on disk"
+msgstr ""
+"Αυτή η λειτουργία ενεργεί όπως η ανανέωση, αποσυμπιέζοντας τα αρχεία που "
+"είναι νεότερα από αυτά στο δίσκο, αλλά και αυτά που δεν υπάρχουν ήδη στο "
+"δίσκο."
+
+#: ../src/add_dialog.c
+#, fuzzy
+#| msgid ""
+#| "This option will add any new files and update any files which have been "
+#| "modified since the archive was last created/modified"
+msgid ""
+"This option will add any new files and update any files which are already in "
+"the archive but older there"
+msgstr ""
+"Αυτή η επιλογή θα προσθέσει τα νέα αρχεία και θα ενημερώσει τα αρχεία που "
+"έχουν τροποποιηθεί από την τελευταία φορά που δημιουργήθηκε ή τροποποιήθηκε "
+"το συμπιεσμένο αρχείο."
+
+#: ../src/add_dialog.c
+#, fuzzy
+#| msgid ""
+#| "This option affects the archive only if it has been modified more "
+#| "recently than the version already in the archive; unlike the update "
+#| "option it will not add files that are not already in the archive"
+msgid ""
+"This option will only add files which are already in the archive but older "
+"there; unlike the update option it will not add any new files"
+msgstr ""
+"Αυτή η επιλογή επηρεάζει το συμπιεσμένο αρχείο μόνο όταν τα αρχεία έχουν "
+"τροποποιηθεί πιο πρόσφατα από αυτά που βρίσκονται ήδη μέσα, και δεν θα "
+"προσθέσει αρχεία που δεν υπάρχουν ήδη."
+
+#: ../src/7zip.c ../src/ar.c ../src/arj.c ../src/cpio.c ../src/gzip_et_al.c
+#: ../src/lha.c ../src/rar.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
+#: ../src/unar.c ../src/zip.c ../src/zpaq.c
+msgid "Time"
+msgstr "Ώρα"
+
+#: ../src/interface.c
+msgid "Total Progress:"
+msgstr "Συνολική πρόοδος:"
+
+#: ../src/extract_dialog.c
+msgid "Touch files"
+msgstr "Ενημέρωση χρονοσήμανσης αρχείων"
+
+#: ../src/interface.c
+msgid "Type:"
+msgstr "Τύπος:"
+
+#: ../src/ar.c ../src/lha.c
+msgid "UID/GID"
+msgstr "UID/GID"
+
+#: ../src/interface.c
+msgid "Uncompressed size:"
+msgstr "Αποσυμπιεσμένο μέγεθος:"
+
+#: ../src/window.c
+#, c-format
+msgid "Uncompressed size: "
+msgstr "Αποσυμπιεσμένο μέγεθος: "
+
+#: ../src/rpm.c
+msgid "Unknown compression type!"
+msgstr ""
+
+#: ../src/interface.c
+msgid "Uns_ort"
+msgstr ""
+
+#: ../src/7zip.c
+msgid "Unsupported binary format!"
+msgstr ""
+
+#: ../src/interface.c
+msgid "Up"
+msgstr "Πάνω"
+
+#: ../src/extract_dialog.c
+msgid "Update existing files"
+msgstr "Ενημέρωση υπαρχόντων αρχείων"
+
+#: ../src/add_dialog.c
+#, fuzzy
+#| msgid "Update existing files"
+msgid "Update existing files and add new ones"
+msgstr "Ενημέρωση υπαρχόντων αρχείων"
+
+#: ../src/open-with-dlg.c
+msgid "Use a custom command:"
+msgstr "Χρήση προσαρμοσμένης εντολής:"
+
+#: ../src/gzip_et_al.c ../src/rar.c ../src/zip.c
+msgid "Version"
+msgstr "Έκδοση"
+
+#: ../src/interface.c
+msgid "View"
+msgstr "Προβολή"
+
+#: ../src/pref_dialog.c
+msgid "Web browser to use:"
+msgstr "Περιηγητής ιστού:"
+
+#: ../src/extract_dialog.c
+#, fuzzy
+#| msgid ""
+#| "When this option is used,tar leaves the data modification times of the "
+#| "files it extracts as the times when the files were extracted,instead of "
+#| "setting it to the times recorded in the archive"
+msgid ""
+"When this option is used, the modification times of the files will be the "
+"times of extraction instead of the times recorded in the archive"
+msgstr ""
+"Με αυτή την επιλογή, ως ώρα τροποποίησης ορίζεται η ώρα που έγινε η "
+"αποσυμπίεση, αντί για την ώρα που είχε αποθηκευτεί στο συμπιεσμένο αρχείο."
+
+#: ../src/zpaq.c
+msgid "Will not handle files with wildcard characters!"
+msgstr ""
+
+#: ../src/pref_dialog.c
+msgid "Window"
+msgstr "Παράθυρο"
+
+#: ../src/add_dialog.c ../src/extract_dialog.c
+#, fuzzy
+#| msgid "Store full paths"
+msgid "With full path"
+msgstr "Αποθήκευση πλήρους διαδρομής"
+
+#: ../src/extract_dialog.c
+msgid "Without any path"
+msgstr ""
+
+#: ../src/add_dialog.c ../src/extract_dialog.c
+msgid "Without parent path"
+msgstr ""
+
+#: ../src/window.c
+msgid "Yes"
+msgstr "Ναι"
+
+#: ../src/window.c
+msgid "You are about to delete entries from the archive."
+msgstr "Είστε έτοιμοι να διαγράψετε αρχεία από το συμπιεσμένο αρχείο."
+
+#: ../src/window.c
+msgid ""
+"You can drop either archives to open or files to add. It is not possible to "
+"do both at the same time."
+msgstr ""
+
+#: ../src/interface.c ../src/window.c
+#, fuzzy
+#| msgid "You can't add content to deb packages!"
+msgid "You can't add content to this archive type!"
+msgstr "Δε μπορείτε να προσθέσετε περιεχόμενο στα πακέτα deb!"
+
+#: ../src/window.c
+msgid "You didn't set which browser to use!"
+msgstr "Δεν έχετε ρυθμίσει τον περιηγητή που θέλετε να χρησιμοποιείτε."
+
+#: ../src/window.c
+msgid "You didn't set which program to use for opening this file!"
+msgstr "Δεν έχετε ορίσει με πιο πρόγραμμα θα ανοίγει αυτό το αρχείο"
+
+#: ../src/extract_dialog.c ../src/window.c
+#, c-format
+msgid ""
+"You don't have the right permissions to extract the files to the directory "
+"\"%s\"."
+msgstr ""
+"Δεν έχετε τα απαραίτητα δικαιώματα για να αποσυμπιέσετε αρχεία στον κατάλογο "
+"\"%s\"."
+
+#: ../src/extract_dialog.c
+msgid "You haven't added any of them!"
+msgstr "Δεν έχετε προσθέσει τίποτα"
+
+#: ../src/add_dialog.c ../src/main.c
+msgid "You haven't selected any files to add!"
+msgstr "Δεν έχετε επιλέξει αρχεία για προσθήκη!"
+
+#: ../src/main.c
+msgid "You missed the archive name!"
+msgstr "Δεν εισάγατε το όνομα του συμπιεσμένου αρχείου!"
+
+#: ../src/add_dialog.c ../src/extract_dialog.c ../src/interface.c
+msgid "You missed the password!"
+msgstr "Δεν έχετε εισάγει κωδικό πρόσβασης!"
+
+#: ../src/extract_dialog.c
+msgid "You missed where to extract the files!"
+msgstr "Δεν εισάγατε τη διαδρομή προορισμού!"
+
+#: ../src/main.c
+msgid "[ARCHIVE]"
+msgstr ""
+
+#: ../src/add_dialog.c
+msgid "_Add"
+msgstr "_Προσθήκη"
+
+#: ../src/interface.c
+msgid "_Archive"
+msgstr "συμπιεσμένο _αρχείο"
+
+#: ../src/interface.c
+msgid "_Contents"
+msgstr "_Περιεχόμενα"
+
+#: ../src/extract_dialog.c ../src/interface.c
+msgid "_Extract"
+msgstr "_Αποσυμπίεση"
+
+#: ../src/interface.c
+msgid "_HTML file"
+msgstr "Αρχείο _HTML"
+
+#: ../src/interface.c
+msgid "_Help"
+msgstr "_Βοήθεια"
+
+#: ../src/interface.c
+msgid "_List as"
+msgstr "_Εμφάνιση ως"
+
+#: ../src/interface.c
+msgid "_Multi-Extract"
+msgstr "Πο_λλαπλή αποσυμπίεση"
+
+#: ../src/interface.c
+msgid "_Password:"
+msgstr "Κωδικός _πρόσβασης:"
+
+#: ../src/interface.c
+msgid "_Preferences"
+msgstr "_Προτιμήσεις"
+
+#: ../src/interface.c
+msgid "_Properties"
+msgstr "_Ιδιότητες"
+
+#: ../src/interface.c
+msgid "_Select"
+msgstr "_Επιλογή"
+
+#: ../src/interface.c
+msgid "_Test"
+msgstr "_Δοκιμή"
+
+#: ../src/interface.c
+msgid "_Text file"
+msgstr "Αρχείο _κειμένου"
+
+#: ../src/window.c
+msgid "and"
+msgstr ""
+
+#: ../xarchiver.desktop.in.h
+msgid "archive;compress;decompress;extract;pack;uncompress;unpack;"
+msgstr ""
+
+#: ../src/add_dialog.c
+msgid "best"
+msgstr ""
+
+#: ../src/pref_dialog.c
+msgid "choose..."
+msgstr "επιλογή..."
+
+#: ../src/main.c
+#, fuzzy
+#| msgid "destination archive"
+msgid "destination"
+msgstr "αρχείο προορισμού"
+
+#: ../src/interface.c
+msgid "example: *.txt; ac*"
+msgstr "παράδειγμα: *.txt; ac*"
+
+#: ../src/main.c
+#, fuzzy
+#| msgid "file1 file2 file3 ... fileN"
+msgid "file1 ... fileN"
+msgstr "αρχείο1 αρχείο2 αρχείο3 ... αρχείοΝ"
+
+#: ../src/pref_dialog.c
+msgid "large"
+msgstr "μεγάλο"
+
+#: ../src/add_dialog.c
+msgid "least"
+msgstr ""
+
+#: ../src/pref_dialog.c
+msgid "medium"
+msgstr ""
+
+#: ../src/window.c
+msgid "selected"
+msgstr "επιλεγμένων"
+
+#: ../src/pref_dialog.c
+msgid "small"
+msgstr "μικρό"
+
+#: ../src/pref_dialog.c
+msgid "small/medium"
+msgstr ""
+
+#: ../src/window.c
+msgid "translator-credits"
+msgstr ""
+"Evaggelos Balaskas <ebalaskas@ebalaskas.gr>\n"
+"Stavros Giannouris <stavrosg@hellug.gr>\n"
+"Stathis Kamperis <ekamperi@auth.gr>"
+
+#: ../src/pref_dialog.c
+#, fuzzy
+#| msgid "large"
+msgid "very large"
+msgstr "μεγάλο"
+
+#: ../src/main.c
+#, c-format
+msgid ""
+"xarchiver: %s\n"
+"Try xarchiver --help to see a full list of available command-line options.\n"
+msgstr ""
+"xarchiver: %s\n"
+"Εκτελέστε xarchiver --help για να δείτε τη λίστα με όλες τις υποστηριζόμενες "
+"επιλογές..\n"
+
+#: ../src/window.c
+msgid "|Size\n"
+msgstr "|Μέγεθος\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "<span color='red' style='italic'>Please install xdg-utils package so "
+#~ "that\n"
+#~ "Xarchiver can recognize more file types.</span>"
+#~ msgstr ""
+#~ "\n"
+#~ "<span color='red' style='italic'>Παρακαλώ εγκαταστήσετε το πακέτο xdg-"
+#~ "utils\n"
+#~ "ώστε το Xarchiver να μπορεί να αναγνωρίσει περισσότερα αρχεία.</span>"
+
+#~ msgid "A GTK+ only archive manager"
+#~ msgstr "Ένας διαχειριστής συμπιεσμένων αρχείων σε GTK+"
+
+#, fuzzy
+#~| msgid "This option takes more memory with large archives"
+#~ msgid "This option consumes more memory with large archives"
+#~ msgstr "Αυτή η επιλογή απαιτεί πολλή μνήμη για τα μεγάλα αρχεία"
+
+#~ msgid "0 = no compression, 3 is default, 5 = best compression but slowest"
+#~ msgstr ""
+#~ "0 = χωρίς συμπίεση, προεπιλεγμένο το 3, 5 = η καλύτερη, αλλά και πιο αργή"
+
+#~ msgid "0 = no compression, 5 is default, 9 = best compression but slowest"
+#~ msgstr ""
+#~ "0 = χωρίς συμπίεση, προεπιλεγμένο το 5, 9 = η καλύτερη, αλλά και πιο αργή"
+
+#~ msgid "0 = no compression, 6 is default, 9 = best compression but slowest"
+#~ msgstr ""
+#~ "0 = χωρίς συμπίεση, προεπιλεγμένο το 6, 9 = η καλύτερη, αλλά και πιο αργή"
+
+#~ msgid "5 = default compression, 7 = max compression"
+#~ msgstr "5 = προεπιλεγμένη συμπίεση, 7 = μέγιστη συμπίεση"
+
+#~ msgid "Archive Name"
+#~ msgstr "όνομα αρχείου"
+
+#, c-format
+#~ msgid "Can't open file %s:"
+#~ msgstr "Δεν ήταν δυνατό το άνοιγμα του αρχείου %s:"
+
+#~ msgid "Destination dirs"
+#~ msgstr "Κατάλογοι προορισμού"
+
+#~ msgid "Do not store paths"
+#~ msgstr "Να μην προστεθούν οι διαδρομές"
+
+#~ msgid "Extract pathnames"
+#~ msgstr "Εξαγωγή καταλόγων"
+
+#~ msgid "Freshen and replace"
+#~ msgstr "Ανανέωση και αντικατάσταση"
+
+#~ msgid "Options "
+#~ msgstr "Επιλογές "
+
+#~ msgid "Options:"
+#~ msgstr "Επιλογές:"
+
+#~ msgid ""
+#~ "This option extracts archives in directories named with the archive names"
+#~ msgstr ""
+#~ "Αυτή η επιλογή εξάγει τα αρχεία σε καταλόγους που ονομάζονται βάση αυτών"
+
+#~ msgid "Update and add"
+#~ msgstr "Ενημέρωση και προσθήκη"
+
+#, fuzzy
+#~| msgid "Date modified"
+#~ msgid "Date and Time"
+#~ msgstr "Ημερομηνία τροποποίησης"
+
+#, fuzzy
+#~| msgid "large"
+#~ msgid "larger"
+#~ msgstr "μεγάλο"
+
+#~ msgid "Can't perform another extraction:"
+#~ msgstr "Δεν είναι δυνατό να γίνει άλλη αποσυμπίεση:"
+
+#~ msgid "Please wait until the completion of the current one!"
+#~ msgstr "Παρακαλώ περιμένετε μέχρι να ολοκληρωθεί η τρέχουσα."
+
+#~ msgid "%d file and %d dir %s (%s)"
+#~ msgid_plural "%d files and %d dirs %s (%s)"
+#~ msgstr[0] "%d αρχείο και %d κατάλογος %s (%s)"
+#~ msgstr[1] "%d αρχεία και %d κατάλογοι %s (%s)"
+
+#~ msgid "Attr"
+#~ msgstr "Ιδιοτ"
+
+#~ msgid "CRC"
+#~ msgstr "CRC"
+
+#~ msgid "Hard Link"
+#~ msgstr "Σύνδεσμος"
+
+#~ msgid "Permission"
+#~ msgstr "Δικαιώματα"
+
+#, fuzzy
+#~| msgid "Please install xdg-utils package."
+#~ msgid "Please install xdg-utils."
+#~ msgstr "Παρακαλώ εγκαταστήστε το πακέτο xdg-utils."
+
+#~ msgid "This file type is not supported!"
+#~ msgstr "Αυτή η μορφή συμπίεσης δεν υποστηρίζεται:"
+
+#~ msgid "Timestamp"
+#~ msgstr "Χρονοσήμανση"
+
+#~ msgid "Decompress file"
+#~ msgstr "Αποσυμπίεση αρχείου"
+
+#~ msgid "Multi-extract archives"
+#~ msgstr "Αποσυμπίεση πολλών αρχείων"
+
+#~ msgid "You can't add content to rpm packages!"
+#~ msgstr "Δε μπορείτε να προσθέσετε περιεχόμενο στα πακέτα rpm!"
+
+#~ msgid "You have to install arj package!"
+#~ msgstr "Πρέπει να εγκαταστήσετε το arj."
+
+#~ msgid "You have to install rar package!"
+#~ msgstr "Πρέπει να εγκαταστήσετε το rar."
+
+#~ msgid "[archive name]"
+#~ msgstr "[όνομα αρχείου]"
+
+#~ msgid "archive"
+#~ msgstr "συμπιεσμένο αρχείο"
+
+#~ msgid "filenames"
+#~ msgstr "Ονόματα αρχείων"
+
+#~ msgid "|Compressed\n"
+#~ msgstr "|Συμπιεσμένο\n"
+
+#~ msgid "<th>Compressed:</th>"
+#~ msgstr "<th>Συμπιεσμένο:</th>"
+
+#~ msgid "Add the archive extension to the filename"
+#~ msgstr "Προσθήκη επέκτασης συμπιεσμένου αρχείου στο όνομα αρχείου"
+
+#~ msgid "_Donate"
+#~ msgstr "_Δωρεά"
+
+#~ msgid "Xarchiver"
+#~ msgstr "Xarchiver"
