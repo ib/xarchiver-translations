@@ -1147,7 +1147,7 @@ msgid ""
 "there; unlike the update option it will not add any new files."
 msgstr ""
 "Es werden nur Dateien aktualisiert, die bereits im Archiv vorhanden und dort "
-"älter sind.  Es werden dem Archiv keine neuen Dateien hinzugefügt."
+"älter sind. Es werden dem Archiv keine neuen Dateien hinzugefügt."
 
 #: ../src/7zip.c ../src/ar.c ../src/arj.c ../src/cpio.c ../src/gzip_et_al.c
 #: ../src/lha.c ../src/rar.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
