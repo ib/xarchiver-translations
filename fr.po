@@ -6,7 +6,7 @@
 # Gérald Barré <g.barre@free.fr>, 2006.
 # Douart Patrick <patrick.2@laposte.net>, 2009.
 # Jean Philippe Eimer <phil@jpmr.org>, 2019.
-# Jean Philippe EIMER <phil@jpmr.org>, 2024.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Xarchiver\n"
