@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the xarchiver package.
 # Moo, 2017.
 #
-# Moo <hazap@hotmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: xarchiver 0.5.4\n"
