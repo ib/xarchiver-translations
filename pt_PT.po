@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: xarchiver 0.5.0\n"
 "Report-Msgid-Bugs-To: https://github.com/ib/xarchiver/issues\n"
 "POT-Creation-Date: 2024-09-03 21:10+0200\n"
-"PO-Revision-Date: 2024-09-12 11:46+0000\n"
-"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
+"PO-Revision-Date: 2024-09-12 17:58+0000\n"
+"Last-Translator: Ingo Brückl <ib@oddnet.de>\n"
 "Language-Team: Portuguese (Portugal) <https://hosted.weblate.org/projects/"
 "xarchiver/translations/pt_PT/>\n"
 "Language: pt_PT\n"
@@ -511,6 +511,7 @@ msgid "Extract"
 msgstr "Extrair"
 
 #: ../src/main.c
+#, fuzzy
 msgid ""
 "Extract archive by asking the extraction\n"
 "                                     directory and quit"
@@ -519,6 +520,7 @@ msgstr ""
 "                                             extração e sair"
 
 #: ../src/main.c
+#, fuzzy
 msgid ""
 "Extract archive to a containing directory\n"
 "                                     and quit"
@@ -539,6 +541,7 @@ msgid "Extract files"
 msgstr "Extrair ficheiros"
 
 #: ../src/main.c
+#, fuzzy
 msgid ""
 "Extract multiple archives by asking the\n"
 "                                     extraction directory and quit"
