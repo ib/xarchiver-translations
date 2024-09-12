@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: xarchiver 0.5.0\n"
 "Report-Msgid-Bugs-To: https://github.com/ib/xarchiver/issues\n"
 "POT-Creation-Date: 2024-09-03 21:10+0200\n"
-"PO-Revision-Date: 2024-09-11 01:09+0000\n"
+"PO-Revision-Date: 2024-09-12 11:46+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese (Portugal) <https://hosted.weblate.org/projects/"
 "xarchiver/translations/pt_PT/>\n"
@@ -515,16 +515,16 @@ msgid ""
 "Extract archive by asking the extraction\n"
 "                                     directory and quit"
 msgstr ""
-"Extrair arquivo ao pedir o diretó-\n"
-"                                             rio de extração e sair"
+"Extrair arquivo ao pedir o diretório de -\n"
+"                                             extração e sair"
 
 #: ../src/main.c
 msgid ""
 "Extract archive to a containing directory\n"
 "                                     and quit"
 msgstr ""
-"Extrair arquivo para um diretório\n"
-"                                             de destino e sair"
+"Extrair arquivo para um diretório de \n"
+"                                             destino e sair"
 
 #: ../src/main.c
 msgid ""
@@ -585,7 +585,7 @@ msgstr "Falha ao lançar a aplicação!"
 
 #: ../src/add_dialog.c ../src/extract_dialog.c
 msgid "File Paths"
-msgstr "Localizações de ficheiros"
+msgstr "Caminhos dos ficheiros"
 
 #: ../src/window.c
 msgid "Filename"
@@ -795,7 +795,7 @@ msgstr "Colar"
 
 #: ../src/extract_dialog.c
 msgid "Path"
-msgstr "Localização"
+msgstr "Caminho"
 
 #: ../src/interface.c
 msgid "Path:"
@@ -820,7 +820,7 @@ msgstr "Introduza!"
 
 #: ../src/extract_dialog.c
 msgid "Please enter the extraction path."
-msgstr "Introduza a localização da extração."
+msgstr "Introduza o caminho da extração."
 
 #: ../src/extract_dialog.c
 msgid "Please enter the password."
@@ -1004,11 +1004,11 @@ msgstr "Ocorreram alguns erros:"
 
 #: ../src/extract_dialog.c ../src/interface.c ../src/window.c
 msgid "Sorry, I could not perform the operation!"
-msgstr "Desculpe, não foi possível realizar a operação!"
+msgstr "Não foi possível realizar a operação!"
 
 #: ../src/extract_dialog.c ../src/main.c ../src/window.c
 msgid "Sorry, this archive format is not supported:"
-msgstr "Desculpe, mas este formato de arquivo não é suportado:"
+msgstr "Este formato de arquivo não é suportado:"
 
 #: ../src/pref_dialog.c
 msgid "Sort archive by filename"
@@ -1266,7 +1266,7 @@ msgstr "Não pode adicionar conteúdo a este tipo de arquivo!"
 
 #: ../src/window.c
 msgid "You didn't set which browser to use!"
-msgstr "Não indicou o navegador a utilizar!"
+msgstr "Não indicou o navegador a usar!"
 
 #: ../src/window.c
 msgid "You didn't set which program to use for opening this file!"
@@ -1293,7 +1293,7 @@ msgstr "Esqueceu-se do nome do arquivo!"
 
 #: ../src/add_dialog.c ../src/extract_dialog.c ../src/interface.c
 msgid "You missed the password!"
-msgstr "Enganou-se na palavra-passe!"
+msgstr "Esqueceu-se da palavra-passe!"
 
 #: ../src/extract_dialog.c
 msgid "You missed where to extract the files!"
