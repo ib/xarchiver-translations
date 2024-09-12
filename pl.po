@@ -5,7 +5,7 @@
 # Piotr Maliński, 2008.
 # Ireneusz Gierlach <irek.gierlach@gmail.com>, 2011.
 # Piotr Sokół <psokol@jabster.pl>, 2011.
-# Matthaiks <kitynska@gmail.com>, 2024.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: xarchiver 0.5.4.18\n"
