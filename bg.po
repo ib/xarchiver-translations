@@ -2,7 +2,6 @@
 # Copyright (C) 2008 The xarchiver's copyright holder
 # This file is distributed under the same license as the xarchiver package.
 #
-# cybercop <cybercop_montana@abv.bg>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: xarchiver 0.5.4\n"
