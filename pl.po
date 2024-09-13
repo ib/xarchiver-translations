@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: xarchiver 0.5.4.18\n"
 "Report-Msgid-Bugs-To: https://github.com/ib/xarchiver/issues\n"
 "POT-Creation-Date: 2024-09-03 21:10+0200\n"
-"PO-Revision-Date: 2024-09-11 01:09+0000\n"
-"Last-Translator: Matthaiks <kitynska@gmail.com>\n"
+"PO-Revision-Date: 2024-09-13 16:43+0000\n"
+"Last-Translator: Ingo Brückl <ib@oddnet.de>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/xarchiver/"
 "translations/pl/>\n"
 "Language: pl\n"
@@ -1108,8 +1108,7 @@ msgstr "To archiwum jest zaszyfrowane!"
 
 #: ../src/interface.c
 msgid "This is Xarchiver's LED status. When it's flashing Xarchiver is busy."
-msgstr ""
-"To jest stan diody programu Xarchiver. Gdy miga, Xarchiver jest zajęty."
+msgstr "To jest stan diody programu Xarchiver. Gdy miga, Xarchiver jest zajęty."
 
 #: ../src/pref_dialog.c
 msgid ""
@@ -1367,8 +1366,8 @@ msgstr "oraz"
 #: ../xarchiver.desktop.in.h
 msgid "archive;compress;decompress;extract;pack;uncompress;unpack;"
 msgstr ""
-"archiwum;archiwizuj;kompresuj;dekompresuj;rozpakuj;spakuj;dekompresuj;"
-"wypakuj;"
+"archiwum;archiwizuj;kompresuj;dekompresuj;rozpakuj;spakuj;dekompresuj;wypakuj"
+";"
 
 #: ../src/add_dialog.c
 msgid "best"
