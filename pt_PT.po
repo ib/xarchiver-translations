@@ -3,7 +3,8 @@
 # This file is distributed under the same license as the xarchiver package.
 # Automatically generated, 2006.
 # Nuno Miguel <nunis@netcabo.pt>, 2007, 2008, 2009.
-# Hugo Carvalho <hugokarvalho@hotmail.com>, 2021, 2022, 2024.
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2021, 2022.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: xarchiver 0.5.0\n"
