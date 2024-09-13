@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: xarchiver 0.5.0\n"
 "Report-Msgid-Bugs-To: https://github.com/ib/xarchiver/issues\n"
 "POT-Creation-Date: 2024-09-03 21:10+0200\n"
-"PO-Revision-Date: 2024-09-13 16:44+0000\n"
-"Last-Translator: Ingo Brückl <ib@oddnet.de>\n"
+"PO-Revision-Date: 2024-09-13 14:00+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese (Portugal) <https://hosted.weblate.org/projects/"
 "xarchiver/translations/pt_PT/>\n"
 "Language: pt_PT\n"
@@ -78,7 +78,8 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "<span weight='bold' size='larger'>Password required for:</span>"
-msgstr "<span weight='bold' size='larger'>Palavra-passe necessária para:</span>"
+msgstr ""
+"<span weight='bold' size='larger'>Palavra-passe necessária para:</span>"
 
 #: ../src/window.c
 #, c-format
@@ -1365,7 +1366,8 @@ msgstr "e"
 
 #: ../xarchiver.desktop.in.h
 msgid "archive;compress;decompress;extract;pack;uncompress;unpack;"
-msgstr "arquivo;arquivar;comprimir;descomprimir;extrair;compactar;descompactar;"
+msgstr ""
+"arquivo;arquivar;comprimir;descomprimir;extrair;compactar;descompactar;"
 
 #: ../src/add_dialog.c
 msgid "best"
