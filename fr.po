@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Xarchiver\n"
 "Report-Msgid-Bugs-To: https://github.com/ib/xarchiver/issues\n"
 "POT-Creation-Date: 2024-09-03 21:10+0200\n"
-"PO-Revision-Date: 2024-09-18 10:23+0000\n"
+"PO-Revision-Date: 2024-09-23 09:11+0000\n"
 "Last-Translator: Ingo Brückl <ib@oddnet.de>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/xarchiver/"
 "translations/fr/>\n"
@@ -30,7 +30,7 @@ msgid ""
 "Name: "
 msgstr ""
 "\n"
-"Nom : "
+"Nom : "
 
 #: ../src/new_dialog.c
 #, c-format
@@ -799,7 +799,7 @@ msgstr "Chemin"
 
 #: ../src/interface.c
 msgid "Path:"
-msgstr "Chemin :"
+msgstr "Chemin :"
 
 #: ../src/interface.c
 msgid "Pattern:"
