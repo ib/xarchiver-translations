@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://github.com/ib/xarchiver/issues\n"
-"POT-Creation-Date: 2024-09-03 21:10+0200\n"
+"POT-Creation-Date: 2024-09-26 11:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -686,7 +686,7 @@ msgstr ""
 msgid "Open <i>%s</i> with:"
 msgstr ""
 
-#: ../src/interface.c ../src/open-with-dlg.c
+#: ../src/interface.c
 msgid "Open With"
 msgstr ""
 
@@ -702,6 +702,10 @@ msgstr ""
 msgid "Open archive files with:"
 msgstr ""
 
+#: ../src/open-with-dlg.c
+msgid "Open file"
+msgstr ""
+
 #: ../src/pref_dialog.c
 msgid "Open image files with:"
 msgstr ""
@@ -711,7 +715,7 @@ msgid "Open text files with:"
 msgstr ""
 
 #: ../src/open-with-dlg.c
-msgid "Open the selected files with"
+msgid "Open the selected files"
 msgstr ""
 
 #: ../src/window.c
