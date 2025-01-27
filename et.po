@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://github.com/ib/xarchiver/issues\n"
 "POT-Creation-Date: 2024-09-26 11:30+0200\n"
-"PO-Revision-Date: 2024-10-04 18:15+0000\n"
+"PO-Revision-Date: 2025-01-27 14:39+0000\n"
 "Last-Translator: Priit Jõerüüt <hwlate@joeruut.com>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/xarchiver/"
 "translations/et/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #: ../src/window.c
 #, c-format
@@ -93,23 +93,23 @@ msgstr "Vaid GTK+ teekidel põhinev lihtne pakkimisrakendus"
 
 #: ../src/interface.c
 msgid "A_ction"
-msgstr ""
+msgstr "Te_gevus"
 
 #: ../src/interface.c
 msgid "A_dd"
-msgstr ""
+msgstr "_Lisa"
 
 #: ../src/add_dialog.c
 msgid "Actions"
-msgstr ""
+msgstr "Tegevused"
 
 #: ../src/interface.c
 msgid "Add"
-msgstr ""
+msgstr "Lisa"
 
 #: ../src/add_dialog.c ../src/interface.c
 msgid "Add files"
-msgstr ""
+msgstr "Lisa faile"
 
 #: ../src/main.c
 msgid ""
@@ -149,110 +149,112 @@ msgstr ""
 
 #: ../src/window.c
 msgid "An error occurred while accessing the archive:"
-msgstr ""
+msgstr "Arhiivi lugemisel tekkis viga:"
 
 #: ../src/add_dialog.c ../src/main.c ../src/window.c
 msgid "An error occurred!"
-msgstr ""
+msgstr "Tekkis viga!"
 
 #: ../src/extract_dialog.c ../src/pref_dialog.c
 msgid "Archive"
-msgstr ""
+msgstr "Arhiiv"
 
 #: ../src/interface.c
 msgid "Archive Properties"
-msgstr ""
+msgstr "Arhiivi omadused"
 
 #: ../src/interface.c
 msgid "Archive _comment"
-msgstr ""
+msgstr "Arhiivi _kommentaar"
 
 #: ../src/window.c
 #, c-format
 msgid "Archive content:\n"
-msgstr ""
+msgstr "Arhiivi sisu:\n"
 
 #: ../src/window.c
 msgid "Archive format is not recognized!"
-msgstr ""
+msgstr "Arhiivi vormingut ei õnnestu ära tunda!"
 
 #: ../xarchiver.desktop.in.h
 msgid "Archive manager"
-msgstr ""
+msgstr "Arhiivihaldur"
 
 #: ../src/interface.c
 msgid "Archive tree"
-msgstr ""
+msgstr "Arhiivipuu"
 
 #: ../src/pref_dialog.c
 msgid ""
 "Archive tree nodes already expand when the node name is selected by mouse "
 "click or keyboard shortcut."
 msgstr ""
+"Arhiivipuu harud avatakse automaatselt, kui valid sõlme hiirega või "
+"klaviatuurilt."
 
 #: ../src/new_dialog.c
 msgid "Archive type:"
-msgstr ""
+msgstr "Arhiivi tüüp:"
 
 #: ../src/interface.c
 msgid "Archiver executable:"
-msgstr ""
+msgstr "Arhiivirakenduse käsufail:"
 
 #: ../src/window.c
 msgid "Archiver output"
-msgstr ""
+msgstr "Arhiivirakenduse väljund"
 
 #: ../src/window.c
 msgid "Are you sure you want to do this?"
-msgstr ""
+msgstr "Kas sa oled kindel, et soovid seda teha?"
 
 #: ../src/7zip.c ../src/arj.c ../src/rar.c
 msgid "Attributes"
-msgstr ""
+msgstr "Omadused"
 
 #: ../src/pref_dialog.c
 msgid "Automatically expand archive tree nodes on selection"
-msgstr ""
+msgstr "Arhiivipuu sõlme valimisel ava haru automaatselt"
 
 #: ../src/interface.c
 msgid "Back"
-msgstr ""
+msgstr "Tagasi"
 
 #: ../src/open-with-dlg.c
 msgid "Browse"
-msgstr ""
+msgstr "Sirvi"
 
 #: ../src/add_dialog.c ../src/main.c
 msgid "Can't add files to the archive:"
-msgstr ""
+msgstr "Failide lisamine arhiivi ei õnnestu:"
 
 #: ../src/main.c
 msgid "Can't allocate memory for the archive structure!"
-msgstr ""
+msgstr "Arhiivi struktuuri loomiseks ei õnnestu mälu eraldada!"
 
 #: ../src/window.c
 msgid "Can't allocate memory for the archive structure:"
-msgstr ""
+msgstr "Arhiivi struktuuri loomiseks ei õnnestu mälu eraldada:"
 
 #: ../src/window.c
 msgid "Can't convert the archive to self-extracting:"
-msgstr ""
+msgstr "Arhiivi ei õnnestu konverteerida ise lahtipakkivaks:"
 
 #: ../src/new_dialog.c
 msgid "Can't create a new archive:"
-msgstr ""
+msgstr "Uue arhiivi loomine ei õnnestu:"
 
 #: ../src/extract_dialog.c ../src/main.c
 msgid "Can't create directory!"
-msgstr ""
+msgstr "Kausta loomine ei õnnestu!"
 
 #: ../src/archive.c
 msgid "Can't create temporary directory:"
-msgstr ""
+msgstr "Ajutise kausta loomine ei õnnestu:"
 
 #: ../src/extract_dialog.c ../src/main.c ../src/window.c
 msgid "Can't extract files from the archive:"
-msgstr ""
+msgstr "Failide lahtipakkimine arhiivist ei õnnestu:"
 
 #: ../src/rpm.c
 msgid "Can't fseek in file:"
@@ -310,31 +312,31 @@ msgstr ""
 
 #: ../src/arj.c ../src/rar.c
 msgid "Checksum"
-msgstr ""
+msgstr "Kontrollsumma"
 
 #: ../src/pref_dialog.c
 msgid "Choose the application to use"
-msgstr ""
+msgstr "Vali kasutatav rakendus"
 
 #: ../src/new_dialog.c
 msgid "Choose the archive type to create"
-msgstr ""
+msgstr "Vali loodava arhiivi tüüp"
 
 #: ../src/pref_dialog.c
 msgid "Choose the directory to use"
-msgstr ""
+msgstr "Vali kasutatav kaust"
 
 #: ../src/interface.c
 msgid "Close archive"
-msgstr ""
+msgstr "Sulge arhiiv"
 
 #: ../src/interface.c
 msgid "Cmd-line outp_ut"
-msgstr ""
+msgstr "Käsureavälj_und"
 
 #: ../src/window.c
 msgid "Command"
-msgstr ""
+msgstr "Käsk"
 
 #: ../src/pref_dialog.c
 msgid ""
