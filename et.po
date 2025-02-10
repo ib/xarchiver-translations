@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://github.com/ib/xarchiver/issues\n"
 "POT-Creation-Date: 2024-09-26 11:30+0200\n"
-"PO-Revision-Date: 2025-02-10 16:00+0000\n"
+"PO-Revision-Date: 2025-02-10 17:02+0000\n"
 "Last-Translator: Priit Jõerüüt <hwlate@joeruut.com>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/xarchiver/"
 "translations/et/>\n"
@@ -410,7 +410,7 @@ msgstr ""
 
 #: ../xarchiver.desktop.in.h
 msgid "Create, extract and modify archives"
-msgstr ""
+msgstr "Loo, paki lahti ja muuda arhiivifaile"
 
 #: ../src/interface.c
 msgid "Cut"
@@ -496,7 +496,7 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "Extract"
-msgstr ""
+msgstr "Paki lahti"
 
 #: ../src/main.c
 msgid ""
@@ -538,7 +538,7 @@ msgstr ""
 
 #: ../src/extract_dialog.c
 msgid "Extract to:"
-msgstr ""
+msgstr "Paki asukohta:"
 
 #: ../src/extract_dialog.c
 msgid "Extract with full path"
@@ -623,7 +623,7 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "Location:"
-msgstr ""
+msgstr "Asukoht:"
 
 #: ../src/main.c
 #, c-format
@@ -822,7 +822,7 @@ msgstr ""
 
 #: ../src/extract_dialog.c
 msgid "Please select the archives you want to extract"
-msgstr ""
+msgstr "Palun vali lahtipakitavad arhiivifailid"
 
 #: ../src/extract_dialog.c
 msgid "Please select the destination directory"
@@ -851,7 +851,7 @@ msgstr ""
 
 #: ../src/pref_dialog.c
 msgid "Preferred extraction directory:"
-msgstr ""
+msgstr "Eelistatud kaust lahtipakkimiseks:"
 
 #: ../src/pref_dialog.c
 msgid "Preferred temp directory:"
@@ -879,7 +879,7 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "Rename"
-msgstr ""
+msgstr "Muuda nime"
 
 #: ../src/interface.c
 msgid "Replace"
@@ -939,7 +939,7 @@ msgstr ""
 
 #: ../src/pref_dialog.c
 msgid "Show archive location bar"
-msgstr ""
+msgstr "Näita arhiivi asukohariba"
 
 #: ../src/pref_dialog.c
 msgid "Show archive tree sidebar"
@@ -1263,7 +1263,7 @@ msgstr ""
 
 #: ../src/extract_dialog.c ../src/interface.c
 msgid "_Extract"
-msgstr ""
+msgstr "Paki _lahti"
 
 #: ../src/interface.c
 msgid "_HTML file"
@@ -1271,7 +1271,7 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "_Help"
-msgstr ""
+msgstr "_Abiteave"
 
 #: ../src/interface.c
 msgid "_List as"
@@ -1291,7 +1291,7 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "_Properties"
-msgstr ""
+msgstr "_Omadused"
 
 #: ../src/interface.c
 msgid "_Select"
@@ -1374,3 +1374,5 @@ msgid ""
 "xarchiver: %s\n"
 "Try xarchiver --help to see a full list of available command-line options.\n"
 msgstr ""
+"xarchiver: %s\n"
+"Kõikide käsureavõtmete nägemiseks proovi xarchiver --help .\n"
