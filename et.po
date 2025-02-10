@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://github.com/ib/xarchiver/issues\n"
 "POT-Creation-Date: 2024-09-26 11:30+0200\n"
-"PO-Revision-Date: 2025-01-27 14:39+0000\n"
+"PO-Revision-Date: 2025-02-10 16:00+0000\n"
 "Last-Translator: Priit Jõerüüt <hwlate@joeruut.com>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/xarchiver/"
 "translations/et/>\n"
@@ -304,11 +304,11 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "Cancel current operation"
-msgstr ""
+msgstr "Katkesta praegune tegevus"
 
 #: ../src/gzip_et_al.c
 msgid "Check Type"
-msgstr ""
+msgstr "Kontrolli tüüpi"
 
 #: ../src/arj.c ../src/rar.c
 msgid "Checksum"
@@ -343,64 +343,66 @@ msgid ""
 "Command-line output is captured and can be reviewed, but this consumes "
 "additional memory."
 msgstr ""
+"Käsurea väljundit on võimalik salvestada ja üle vaadata, aga see suurendab "
+"mälukasutust."
 
 #: ../src/window.c
 msgid "Comment"
-msgstr ""
+msgstr "Kommentaar"
 
 #: ../src/interface.c
 msgid "Comment:"
-msgstr ""
+msgstr "Kommentaar:"
 
 #: ../src/window.c
 #, c-format
 msgid "Comment:\n"
-msgstr ""
+msgstr "Kommentaar:\n"
 
 #: ../src/7zip.c ../src/arj.c ../src/gzip_et_al.c ../src/rar.c ../src/zip.c
 msgid "Compressed"
-msgstr ""
+msgstr "Pakitud"
 
 #: ../src/interface.c
 msgid "Compressed size:"
-msgstr ""
+msgstr "Andmemaht pakituna:"
 
 #: ../src/window.c
 #, c-format
 msgid "Compressed size: "
-msgstr ""
+msgstr "Andmemaht pakituna: "
 
 #: ../src/add_dialog.c
 msgid "Compression"
-msgstr ""
+msgstr "Pakkimine"
 
 #: ../src/gzip_et_al.c
 msgid "Compression ratio"
-msgstr ""
+msgstr "Pakkimistihedus"
 
 #: ../src/interface.c
 msgid "Compression ratio:"
-msgstr ""
+msgstr "Pakkimistihedus:"
 
 #: ../src/pref_dialog.c
 msgid "Confirm deletion of files"
-msgstr ""
+msgstr "Failide kustutamisel küsi kinnitust"
 
 #: ../src/window.c
 msgid "Converting archive, please wait..."
-msgstr ""
+msgstr "Konverteerime arhiivi, palun oota..."
 
 #: ../src/interface.c
 msgid "Copy"
-msgstr ""
+msgstr "Kopeeri"
 
 #: ../src/new_dialog.c
 msgid "Cr_eate"
-msgstr ""
+msgstr "_Loo"
 
 #: ../src/interface.c ../src/new_dialog.c
 msgid "Create a new archive"
-msgstr ""
+msgstr "Loo uus arhiiv"
 
 #: ../src/add_dialog.c
 msgid "Create a solid archive"
@@ -462,15 +464,15 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "Edit"
-msgstr ""
+msgstr "Muuda"
 
 #: ../src/interface.c
 msgid "Encrypted:"
-msgstr ""
+msgstr "Krüptitud:"
 
 #: ../src/add_dialog.c
 msgid "Encryption"
-msgstr ""
+msgstr "Krüptimine"
 
 #: ../src/extract_dialog.c
 msgid "Ensure a containing directory"
@@ -561,23 +563,23 @@ msgstr ""
 
 #: ../src/add_dialog.c ../src/extract_dialog.c
 msgid "File Paths"
-msgstr ""
+msgstr "Failide asukohad"
 
 #: ../src/window.c
 msgid "Filename"
-msgstr ""
+msgstr "Failinimi"
 
 #: ../src/extract_dialog.c
 msgid "Files"
-msgstr ""
+msgstr "Failid"
 
 #: ../src/zpaq.c
 msgid "Files with absolute pathnames cannot be deleted!"
-msgstr ""
+msgstr "Absoluutse asukohaga faile ei saa kustutada!"
 
 #: ../src/extract_dialog.c ../src/window.c
 msgid "Files:"
-msgstr ""
+msgstr "Failid:"
 
 #: ../src/interface.c
 msgid "Forward"
@@ -585,19 +587,19 @@ msgstr ""
 
 #: ../src/add_dialog.c ../src/extract_dialog.c
 msgid "Freshen existing files only"
-msgstr ""
+msgstr "Värskenda vaid olemasolevad failid"
 
 #: ../src/window.c
 msgid "From File"
-msgstr ""
+msgstr "Failist"
 
 #: ../src/cpio.c ../src/rpm.c
 msgid "Group"
-msgstr ""
+msgstr "Grupp"
 
 #: ../src/pref_dialog.c
 msgid "Icons size (requires restart):"
-msgstr ""
+msgstr "Ikooni suurus (eeldab uuesti käivitamist):"
 
 #: ../src/pref_dialog.c
 msgid "If checked the archive comment is shown after the archive is loaded."
@@ -687,103 +689,103 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "Open"
-msgstr ""
+msgstr "Ava"
 
 #: ../src/open-with-dlg.c
 #, c-format
 msgid "Open <i>%s</i> with:"
-msgstr ""
+msgstr "Ava <i>%s</i> rakendusega:"
 
 #: ../src/interface.c
 msgid "Open With"
-msgstr ""
+msgstr "Ava rakendusega"
 
 #: ../src/window.c
 msgid "Open a text file"
-msgstr ""
+msgstr "Ava tekstifail"
 
 #: ../src/interface.c ../src/window.c
 msgid "Open an archive"
-msgstr ""
+msgstr "Ava arhiivifail"
 
 #: ../src/pref_dialog.c
 msgid "Open archive files with:"
-msgstr ""
+msgstr "Ava arhiivifailid rakendusega:"
 
 #: ../src/open-with-dlg.c
 msgid "Open file"
-msgstr ""
+msgstr "Ava fail"
 
 #: ../src/pref_dialog.c
 msgid "Open image files with:"
-msgstr ""
+msgstr "Ava pildifailid rakendusega:"
 
 #: ../src/pref_dialog.c
 msgid "Open text files with:"
-msgstr ""
+msgstr "Ava tekstifailid rakendusega:"
 
 #: ../src/open-with-dlg.c
 msgid "Open the selected files"
-msgstr ""
+msgstr "Ava valitud failid"
 
 #: ../src/window.c
 msgid "Opening archive, please wait..."
-msgstr ""
+msgstr "Avame arhiivi, palun oota..."
 
 #: ../src/interface.c
 msgid "Opening archive:"
-msgstr ""
+msgstr "Avame arhiivi:"
 
 #: ../src/window.c
 msgid "Operation aborted!"
-msgstr ""
+msgstr "Tegevus on katkestatud!"
 
 #: ../src/add_dialog.c ../src/extract_dialog.c
 msgid "Options"
-msgstr ""
+msgstr "Valikud"
 
 #: ../src/7zip.c ../src/ar.c ../src/arj.c ../src/cpio.c ../src/gzip_et_al.c
 #: ../src/lha.c ../src/rar.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
 #: ../src/unar.c ../src/zip.c ../src/zpaq.c
 msgid "Original Size"
-msgstr ""
+msgstr "Algne suurus"
 
 #: ../src/extract_dialog.c
 msgid "Overwrite existing files"
-msgstr ""
+msgstr "Kirjuta olemasolevad failid üle"
 
 #: ../src/cpio.c ../src/rpm.c
 msgid "Owner"
-msgstr ""
+msgstr "Omanik"
 
 #: ../src/squashfs.c ../src/tar.c
 msgid "Owner/Group"
-msgstr ""
+msgstr "Omanik/grupp"
 
 #: ../src/add_dialog.c ../src/extract_dialog.c
 msgid "Password:"
-msgstr ""
+msgstr "Salasõna:"
 
 #: ../src/interface.c
 msgid "Paste"
-msgstr ""
+msgstr "Aseta"
 
 #: ../src/extract_dialog.c
 msgid "Path"
-msgstr ""
+msgstr "Asukoht"
 
 #: ../src/interface.c
 msgid "Path:"
-msgstr ""
+msgstr "Asukoht:"
 
 #: ../src/interface.c
 msgid "Pattern:"
-msgstr ""
+msgstr "Muster:"
 
 #: ../src/ar.c ../src/arj.c ../src/cpio.c ../src/lha.c ../src/rpm.c
 #: ../src/squashfs.c ../src/tar.c ../src/zip.c ../src/zpaq.c
 msgid "Permissions"
-msgstr ""
+msgstr "Õigused"
 
 #: ../src/window.c
 msgid "Please check the 'Store archiver output' option to see it."
