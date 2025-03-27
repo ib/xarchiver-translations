@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://github.com/ib/xarchiver/issues\n"
 "POT-Creation-Date: 2024-09-26 11:30+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-03-27 09:12+0000\n"
+"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/xarchiver/"
+"translations/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 #: ../src/window.c
 #, c-format
@@ -23,1047 +25,1096 @@ msgid ""
 "\n"
 "Name: "
 msgstr ""
+"\n"
+"பெயர்: "
 
 #: ../src/new_dialog.c
 #, c-format
 msgid "\"%s\" is already open!"
-msgstr ""
+msgstr "\"%s\" ஏற்கனவே திறந்திருக்கும்!"
 
 #: ../src/window.c
 #, c-format
 msgid "%d dir %s (%s)"
 msgid_plural "%d dirs %s (%s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d அடைவு %s ( %s)"
+msgstr[1] "%d dirs %s ( %s)"
 
 #: ../src/window.c
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d கோப்பு"
+msgstr[1] "%d கோப்புகள்"
 
 #: ../src/window.c
 #, c-format
 msgid "%d file %s (%s)"
 msgid_plural "%d files %s (%s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d கோப்பு %s ( %s)"
+msgstr[1] "%d கோப்புகள் %s ( %s)"
 
 #: ../src/add_dialog.c
-#, c-format
+#, c-format, fuzzy
 msgid ""
 "%hu is least compression\n"
 "%hu is default compression\n"
 "%hu is best compression"
 msgstr ""
+"%HU குறைந்த சுருக்கமானது\n"
+" %HU என்பது இயல்புநிலை சுருக்கமாகும்\n"
+" %HU சிறந்த சுருக்கமாகும்"
 
 #: ../src/pref_dialog.c
 msgid "/tmp"
-msgstr ""
+msgstr "/டி.எம்.பி."
 
 #: ../src/interface.c
 msgid "<span weight='bold' size='larger'>Enter password for:</span>"
 msgstr ""
+"<ச்பான் எடை = 'தைரியமான' அளவு = 'பெரியது'> இதற்கான கடவுச்சொல்லை உள்ளிடவும்: </span>"
 
 #: ../src/interface.c
 msgid "<span weight='bold' size='larger'>Password required for:</span>"
-msgstr ""
+msgstr "<ச்பான் எடை = 'தைரியமான' அளவு = 'பெரியது'> கடவுச்சொல் தேவை: </span>"
 
 #: ../src/window.c
 #, c-format
 msgid "<th>Files:</th>"
-msgstr ""
+msgstr "<th> கோப்புகள்: </th>"
 
 #: ../src/window.c
 #, c-format
 msgid "<th>Size:</th>"
-msgstr ""
+msgstr "<th> அளவு: </th>"
 
 #: ../src/window.c
 msgid "A GTK+ only lightweight archive manager"
-msgstr ""
+msgstr "ஒரு சி.டி.கே+ இலகுரக காப்பக மேலாளர் மட்டுமே"
 
 #: ../src/interface.c
 msgid "A_ction"
-msgstr ""
+msgstr "A_ction"
 
 #: ../src/interface.c
 msgid "A_dd"
-msgstr ""
+msgstr "A_dd"
 
 #: ../src/add_dialog.c
 msgid "Actions"
-msgstr ""
+msgstr "செயல்கள்"
 
 #: ../src/interface.c
 msgid "Add"
-msgstr ""
+msgstr "கூட்டு"
 
 #: ../src/add_dialog.c ../src/interface.c
 msgid "Add files"
-msgstr ""
+msgstr "கோப்புகளைச் சேர்"
 
 #: ../src/main.c
 msgid ""
 "Add the given files by asking the name of\n"
 "                                     the archive and quit"
 msgstr ""
+"பெயரைக் கேட்டு கொடுக்கப்பட்ட கோப்புகளைச் சேர்க்கவும்\n"
+" காப்பகம் மற்றும் வெளியேறுதல்"
 
 #: ../src/main.c
 msgid ""
 "Add to archive by asking which files and\n"
 "                                     quit"
 msgstr ""
+"எந்த கோப்புகள் மற்றும் எந்த கோப்புகளை கேட்டு காப்பகத்தைச் சேர்க்கவும்\n"
+" வெளியேறு"
 
 #: ../src/window.c
 msgid "Adding files to archive, please wait..."
-msgstr ""
+msgstr "காப்பகத்திற்கு கோப்புகளைச் சேர்ப்பது, தயவுசெய்து காத்திருங்கள் ..."
 
 #: ../src/interface.c
 msgid "Adding to archive:"
-msgstr ""
+msgstr "காப்பகத்தில் சேர்க்கிறது:"
 
 #: ../src/pref_dialog.c
 msgid "Advanced"
-msgstr ""
+msgstr "மேம்பட்ட"
 
 #: ../src/pref_dialog.c
 msgid "Advanced incremental search (requires restart)"
-msgstr ""
+msgstr "மேம்பட்ட அதிகரிக்கும் தேடல் (மறுதொடக்கம் தேவை)"
 
 #: ../src/extract_dialog.c ../src/new_dialog.c ../src/window.c
 msgid "All files"
-msgstr ""
+msgstr "அனைத்து கோப்புகள்"
 
 #: ../src/pref_dialog.c
 msgid "Allow subdirs with clipboard and drag-and-drop"
 msgstr ""
+"இடைநிலைப்பலகை மற்றும் இழுவை மற்றும் சொட்டு கொண்டு துணைப் போட்டிகளை அனுமதிக்கவும்"
 
 #: ../src/window.c
 msgid "An error occurred while accessing the archive:"
-msgstr ""
+msgstr "காப்பகத்தை அணுகும்போது பிழை ஏற்பட்டது:"
 
 #: ../src/add_dialog.c ../src/main.c ../src/window.c
 msgid "An error occurred!"
-msgstr ""
+msgstr "பிழை ஏற்பட்டது!"
 
 #: ../src/extract_dialog.c ../src/pref_dialog.c
 msgid "Archive"
-msgstr ""
+msgstr "காப்பகம்"
 
 #: ../src/interface.c
 msgid "Archive Properties"
-msgstr ""
+msgstr "காப்பக பண்புகள்"
 
 #: ../src/interface.c
 msgid "Archive _comment"
-msgstr ""
+msgstr "காப்பகம் _ கமென்ட்"
 
 #: ../src/window.c
 #, c-format
 msgid "Archive content:\n"
-msgstr ""
+msgstr "காப்பக உள்ளடக்கம்:\n"
 
 #: ../src/window.c
 msgid "Archive format is not recognized!"
-msgstr ""
+msgstr "காப்பக வடிவம் அங்கீகரிக்கப்படவில்லை!"
 
 #: ../xarchiver.desktop.in.h
 msgid "Archive manager"
-msgstr ""
+msgstr "காப்பக மேலாளர்"
 
 #: ../src/interface.c
 msgid "Archive tree"
-msgstr ""
+msgstr "காப்பக மரம்"
 
 #: ../src/pref_dialog.c
 msgid ""
 "Archive tree nodes already expand when the node name is selected by mouse "
 "click or keyboard shortcut."
 msgstr ""
+"மவுச் சொடுக்கு அல்லது விசைப்பலகை குறுக்குவழி மூலம் முனை பெயர் தேர்ந்தெடுக்கப்படும்போது "
+"காப்பக மர முனைகள் ஏற்கனவே விரிவடைகின்றன."
 
 #: ../src/new_dialog.c
 msgid "Archive type:"
-msgstr ""
+msgstr "காப்பக வகை:"
 
 #: ../src/interface.c
 msgid "Archiver executable:"
-msgstr ""
+msgstr "காப்பகம் இயங்கக்கூடியது:"
 
 #: ../src/window.c
 msgid "Archiver output"
-msgstr ""
+msgstr "காப்பக வெளியீடு"
 
 #: ../src/window.c
 msgid "Are you sure you want to do this?"
-msgstr ""
+msgstr "இதை நீங்கள் செய்ய விரும்புகிறீர்களா?"
 
 #: ../src/7zip.c ../src/arj.c ../src/rar.c
 msgid "Attributes"
-msgstr ""
+msgstr "பண்புக்கூறுகள்"
 
 #: ../src/pref_dialog.c
 msgid "Automatically expand archive tree nodes on selection"
-msgstr ""
+msgstr "தேர்வில் காப்பக மர முனைகளை தானாக விரிவாக்குங்கள்"
 
 #: ../src/interface.c
 msgid "Back"
-msgstr ""
+msgstr "பின்"
 
 #: ../src/open-with-dlg.c
 msgid "Browse"
-msgstr ""
+msgstr "உலாவு"
 
 #: ../src/add_dialog.c ../src/main.c
 msgid "Can't add files to the archive:"
-msgstr ""
+msgstr "காப்பகத்திற்கு கோப்புகளைச் சேர்க்க முடியாது:"
 
 #: ../src/main.c
 msgid "Can't allocate memory for the archive structure!"
-msgstr ""
+msgstr "காப்பக கட்டமைப்பிற்கு நினைவகத்தை ஒதுக்க முடியாது!"
 
 #: ../src/window.c
 msgid "Can't allocate memory for the archive structure:"
-msgstr ""
+msgstr "காப்பக கட்டமைப்பிற்கு நினைவகத்தை ஒதுக்க முடியாது:"
 
 #: ../src/window.c
 msgid "Can't convert the archive to self-extracting:"
-msgstr ""
+msgstr "காப்பகத்தை தன்வய பிரித்தெடுப்பதாக மாற்ற முடியாது:"
 
 #: ../src/new_dialog.c
 msgid "Can't create a new archive:"
-msgstr ""
+msgstr "புதிய காப்பகத்தை உருவாக்க முடியாது:"
 
 #: ../src/extract_dialog.c ../src/main.c
 msgid "Can't create directory!"
-msgstr ""
+msgstr "கோப்பகத்தை உருவாக்க முடியாது!"
 
 #: ../src/archive.c
 msgid "Can't create temporary directory:"
-msgstr ""
+msgstr "தற்காலிக கோப்பகத்தை உருவாக்க முடியாது:"
 
 #: ../src/extract_dialog.c ../src/main.c ../src/window.c
 msgid "Can't extract files from the archive:"
-msgstr ""
+msgstr "காப்பகத்திலிருந்து கோப்புகளைப் பிரித்தெடுக்க முடியாது:"
 
 #: ../src/rpm.c
 msgid "Can't fseek in file:"
-msgstr ""
+msgstr "கோப்பில் fseek முடியாது:"
 
 #: ../src/rpm.c
 msgid "Can't fseek to position 104:"
-msgstr ""
+msgstr "104 நிலைக்கு வர முடியாது:"
 
 #: ../src/extract_dialog.c
 msgid "Can't multi-extract archives:"
-msgstr ""
+msgstr "பல பிரித்தெடுத்த காப்பகங்கள்:"
 
 #: ../src/rpm.c
 #, c-format
 msgid "Can't open RPM file \"%s\":"
-msgstr ""
+msgstr "RPM கோப்பைத் திறக்க முடியாது \"%s\":"
 
 #: ../src/window.c
 #, c-format
 msgid "Can't open file \"%s\":"
-msgstr ""
+msgstr "\"%s\" கோப்பைத் திறக்க முடியாது:"
 
 #: ../src/main.c
 msgid "Can't open the archive!"
-msgstr ""
+msgstr "காப்பகத்தைத் திறக்க முடியாது!"
 
 #: ../src/extract_dialog.c ../src/window.c
 msgid "Can't perform extraction!"
-msgstr ""
+msgstr "பிரித்தெடுத்தல் செய்ய முடியாது!"
 
 #: ../src/interface.c ../src/main.c ../src/window.c
 msgid "Can't perform this action:"
-msgstr ""
+msgstr "இந்த செயலைச் செய்ய முடியாது:"
 
 #: ../src/rpm.c
 msgid "Can't read data from file:"
-msgstr ""
+msgstr "கோப்பிலிருந்து தரவைப் படிக்க முடியாது:"
 
 #: ../src/archive.c
 msgid "Can't run the archiver executable:"
-msgstr ""
+msgstr "செயல்படுத்தக்கூடிய காப்பகத்தை இயக்க முடியாது:"
 
 #: ../src/window.c
 msgid "Can't write the sfx module to the archive:"
-msgstr ""
+msgstr "காப்பகத்திற்கு SFX தொகுதியை எழுத முடியாது:"
 
 #: ../src/interface.c
 msgid "Cancel current operation"
-msgstr ""
+msgstr "தற்போதைய செயல்பாட்டை ரத்துசெய்"
 
 #: ../src/gzip_et_al.c
 msgid "Check Type"
-msgstr ""
+msgstr "சோதனை வகை"
 
 #: ../src/arj.c ../src/rar.c
 msgid "Checksum"
-msgstr ""
+msgstr "செக்சம்"
 
 #: ../src/pref_dialog.c
 msgid "Choose the application to use"
-msgstr ""
+msgstr "பயன்படுத்த பயன்பாட்டைத் தேர்வுசெய்க"
 
 #: ../src/new_dialog.c
 msgid "Choose the archive type to create"
-msgstr ""
+msgstr "உருவாக்க காப்பக வகையைத் தேர்வுசெய்க"
 
 #: ../src/pref_dialog.c
 msgid "Choose the directory to use"
-msgstr ""
+msgstr "பயன்படுத்த கோப்பகத்தைத் தேர்வுசெய்க"
 
 #: ../src/interface.c
 msgid "Close archive"
-msgstr ""
+msgstr "காப்பகம் மூடு"
 
 #: ../src/interface.c
 msgid "Cmd-line outp_ut"
-msgstr ""
+msgstr "கட்டளை-வரி வெளியீடு"
 
 #: ../src/window.c
 msgid "Command"
-msgstr ""
+msgstr "கட்டளை"
 
 #: ../src/pref_dialog.c
 msgid ""
 "Command-line output is captured and can be reviewed, but this consumes "
 "additional memory."
 msgstr ""
+"கட்டளை-வரி வெளியீடு கைப்பற்றப்பட்டு மதிப்பாய்வு செய்யப்படலாம், ஆனால் இது கூடுதல் நினைவகத்தை"
+" பயன்படுத்துகிறது."
 
 #: ../src/window.c
 msgid "Comment"
-msgstr ""
+msgstr "கருத்து"
 
 #: ../src/interface.c
 msgid "Comment:"
-msgstr ""
+msgstr "கருத்து:"
 
 #: ../src/window.c
 #, c-format
 msgid "Comment:\n"
-msgstr ""
+msgstr "கருத்து:\n"
 
 #: ../src/7zip.c ../src/arj.c ../src/gzip_et_al.c ../src/rar.c ../src/zip.c
 msgid "Compressed"
-msgstr ""
+msgstr "சுருக்கப்பட்டது"
 
 #: ../src/interface.c
 msgid "Compressed size:"
-msgstr ""
+msgstr "சுருக்கப்பட்ட அளவு:"
 
 #: ../src/window.c
 #, c-format
 msgid "Compressed size: "
-msgstr ""
+msgstr "சுருக்கப்பட்ட அளவு: "
 
 #: ../src/add_dialog.c
 msgid "Compression"
-msgstr ""
+msgstr "சுருக்க"
 
 #: ../src/gzip_et_al.c
 msgid "Compression ratio"
-msgstr ""
+msgstr "சுருக்க விகிதம்"
 
 #: ../src/interface.c
 msgid "Compression ratio:"
-msgstr ""
+msgstr "சுருக்க விகிதம்:"
 
 #: ../src/pref_dialog.c
 msgid "Confirm deletion of files"
-msgstr ""
+msgstr "கோப்புகளை நீக்குவதை உறுதிப்படுத்தவும்"
 
 #: ../src/window.c
 msgid "Converting archive, please wait..."
-msgstr ""
+msgstr "காப்பகத்தை மாற்ற, தயவுசெய்து காத்திருங்கள் ..."
 
 #: ../src/interface.c
 msgid "Copy"
-msgstr ""
+msgstr "நகலெடு"
 
 #: ../src/new_dialog.c
 msgid "Cr_eate"
-msgstr ""
+msgstr "Cr_eate"
 
 #: ../src/interface.c ../src/new_dialog.c
 msgid "Create a new archive"
-msgstr ""
+msgstr "புதிய காப்பகத்தை உருவாக்கவும்"
 
 #: ../src/add_dialog.c
 msgid "Create a solid archive"
-msgstr ""
+msgstr "ஒரு திட காப்பகத்தை உருவாக்கவும்"
 
 #: ../xarchiver.desktop.in.h
 msgid "Create, extract and modify archives"
-msgstr ""
+msgstr "காப்பகங்களை உருவாக்கவும், பிரித்தெடுக்கவும் மாற்றவும்"
 
 #: ../src/interface.c
 msgid "Cut"
-msgstr ""
+msgstr "வெட்டு"
 
 #: ../src/gzip_et_al.c
 msgid "Data Frames/Skippable Frames"
-msgstr ""
+msgstr "தரவு பிரேம்கள்/தவிர்க்கக்கூடிய பிரேம்கள்"
 
 #: ../src/7zip.c ../src/ar.c ../src/arj.c ../src/cpio.c ../src/gzip_et_al.c
 #: ../src/lha.c ../src/rar.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
 #: ../src/unar.c ../src/zip.c ../src/zpaq.c
 msgid "Date"
-msgstr ""
+msgstr "திகதி"
 
 #: ../src/pref_dialog.c
 msgid "Default custom command:"
-msgstr ""
+msgstr "இயல்புநிலை தனிப்பயன் கட்டளை:"
 
 #: ../src/interface.c
 msgid "Delete"
-msgstr ""
+msgstr "நீக்கு"
 
 #: ../src/add_dialog.c
 msgid "Delete files after adding"
-msgstr ""
+msgstr "சேர்த்த பிறகு கோப்புகளை நீக்கு"
 
 #: ../src/window.c
 msgid "Deleting files from archive, please wait..."
-msgstr ""
+msgstr "காப்பகத்திலிருந்து கோப்புகளை நீக்குதல், தயவுசெய்து காத்திருங்கள் ..."
 
 #: ../src/interface.c
 msgid "Dese_lect all"
-msgstr ""
+msgstr "அனைத்தையும் தேர்வு செய்யுங்கள்"
 
 #: ../src/extract_dialog.c
 msgid "Destination"
-msgstr ""
+msgstr "இலக்கு"
 
 #: ../src/window.c
 msgid "Do you really want to cancel?"
-msgstr ""
+msgstr "நீங்கள் உண்மையில் ரத்து செய்ய விரும்புகிறீர்களா?"
 
 #: ../src/new_dialog.c
 msgid "Do you want to overwrite it?"
-msgstr ""
+msgstr "அதை மேலெழுத விரும்புகிறீர்களா?"
 
 #: ../src/window.c
 msgid "Doing so will probably corrupt your archive!"
-msgstr ""
+msgstr "அவ்வாறு செய்வது உங்கள் காப்பகத்தை சிதைக்கும்!"
 
 #: ../src/interface.c
 msgid "Edit"
-msgstr ""
+msgstr "தொகு"
 
 #: ../src/interface.c
 msgid "Encrypted:"
-msgstr ""
+msgstr "மறைகுறியாக்கப்பட்டது:"
 
 #: ../src/add_dialog.c
 msgid "Encryption"
-msgstr ""
+msgstr "குறியாக்கம்"
 
 #: ../src/extract_dialog.c
 msgid "Ensure a containing directory"
-msgstr ""
+msgstr "கொண்ட கோப்பகத்தை உறுதிப்படுத்தவும்"
 
 #: ../src/extract_dialog.c
 msgid ""
 "Ensure that the contents of the extracted archive is always in a containing "
 "directory."
 msgstr ""
+"பிரித்தெடுக்கப்பட்ட காப்பகத்தின் உள்ளடக்கங்கள் எப்போதும் கொண்ட கோப்பகத்தில் இருப்பதை உறுதிசெய்க."
 
 #: ../src/interface.c
 msgid "Enter passwo_rd"
-msgstr ""
+msgstr "கடவுச்சொல்லை உள்ளிடவும்"
 
 #: ../src/pref_dialog.c
 msgid ""
 "Even if other, perhaps more powerful programs are installed to handle zip "
 "archives, the traditional \"unzip\" and \"zip\" will still be used."
 msgstr ""
+"மற்றொன்று, சிப் காப்பகங்களைக் கையாள இன்னும் சக்திவாய்ந்த நிரல்கள் நிறுவப்பட்டிருந்தாலும், "
+"பாரம்பரிய \"அன்சிப்\" மற்றும் \"சிப்\" இன்னும் பயன்படுத்தப்படும்."
 
 #: ../src/interface.c
 msgid "Extract"
-msgstr ""
+msgstr "பிரித்தெடுக்கவும்"
 
 #: ../src/main.c
 msgid ""
 "Extract archive by asking the extraction\n"
 "                                     directory and quit"
 msgstr ""
+"பிரித்தெடுப்பதைக் கேட்டு காப்பகத்தை பிரித்தெடுக்கவும்\n"
+" அடைவு மற்றும் வெளியேறுதல்"
 
 #: ../src/main.c
 msgid ""
 "Extract archive to a containing directory\n"
 "                                     and quit"
 msgstr ""
+"கொண்ட கோப்பகத்திற்கு காப்பகத்தைப் பிரித்தெடுக்கவும்\n"
+" மற்றும் வெளியேறு"
 
 #: ../src/main.c
 msgid ""
 "Extract archive to the destination\n"
 "                                     directory and quit"
 msgstr ""
+"இலக்குக்கு காப்பகத்தை பிரித்தெடுக்கவும்\n"
+" அடைவு மற்றும் வெளியேறுதல்"
 
 #: ../src/extract_dialog.c ../src/interface.c
 msgid "Extract files"
-msgstr ""
+msgstr "கோப்புகளைப் பிரித்தெடுக்கவும்"
 
 #: ../src/main.c
 msgid ""
 "Extract multiple archives by asking the\n"
 "                                     extraction directory and quit"
 msgstr ""
+"அதைக் கேட்டு பல காப்பகங்களைப் பிரித்தெடுக்கவும்\n"
+" பிரித்தெடுத்தல் அடைவு மற்றும் வெளியேறுதல்"
 
 #: ../src/extract_dialog.c
 msgid ""
 "Extract only those files that already exist on disk and that are newer than "
 "the disk copies."
 msgstr ""
+"ஏற்கனவே வட்டில் இருக்கும் அந்தக் கோப்புகளை மட்டும் பிரித்தெடுக்கவும், அவை வட்டு நகல்களை விட "
+"புதியவை."
 
 #: ../src/extract_dialog.c
 msgid "Extract to directories with archive names"
-msgstr ""
+msgstr "காப்பக பெயர்களைக் கொண்ட கோப்பகங்களுக்கு பிரித்தெடுக்கவும்"
 
 #: ../src/extract_dialog.c
 msgid "Extract to:"
-msgstr ""
+msgstr "இதற்கு பிரித்தெடுங்கள்:"
 
 #: ../src/extract_dialog.c
 msgid "Extract with full path"
-msgstr ""
+msgstr "முழு பாதையுடன் பிரித்தெடுக்கவும்"
 
 #: ../src/interface.c
 #, c-format
 msgid "Extracting \"%s\"..."
-msgstr ""
+msgstr "\"%s\" பிரித்தெடுத்தல் ..."
 
 #: ../src/window.c
 msgid "Extracting files from archive, please wait..."
 msgstr ""
+"காப்பகத்திலிருந்து கோப்புகளைப் பிரித்தெடுப்பது, தயவுசெய்து காத்திருங்கள் ..."
 
 #: ../src/interface.c
 msgid "Extracting from archive:"
-msgstr ""
+msgstr "காப்பகத்திலிருந்து பிரித்தெடுக்கும்:"
 
 #: ../src/window.c
 msgid "Failed to launch the application!"
-msgstr ""
+msgstr "விண்ணப்பத்தைத் தொடங்கத் தவறிவிட்டது!"
 
 #: ../src/add_dialog.c ../src/extract_dialog.c
 msgid "File Paths"
-msgstr ""
+msgstr "கோப்பு பாதைகள்"
 
 #: ../src/window.c
 msgid "Filename"
-msgstr ""
+msgstr "கோப்புப்பெயர்"
 
 #: ../src/extract_dialog.c
 msgid "Files"
-msgstr ""
+msgstr "கோப்புகள்"
 
 #: ../src/zpaq.c
 msgid "Files with absolute pathnames cannot be deleted!"
-msgstr ""
+msgstr "முழுமையான பாதை பெயர்களைக் கொண்ட கோப்புகளை நீக்க முடியாது!"
 
 #: ../src/extract_dialog.c ../src/window.c
 msgid "Files:"
-msgstr ""
+msgstr "கோப்புகள்:"
 
 #: ../src/interface.c
 msgid "Forward"
-msgstr ""
+msgstr "முன்னோக்கி"
 
 #: ../src/add_dialog.c ../src/extract_dialog.c
 msgid "Freshen existing files only"
-msgstr ""
+msgstr "இருக்கும் கோப்புகளை மட்டும் புதுப்பிக்கவும்"
 
 #: ../src/window.c
 msgid "From File"
-msgstr ""
+msgstr "கோப்பிலிருந்து"
 
 #: ../src/cpio.c ../src/rpm.c
 msgid "Group"
-msgstr ""
+msgstr "குழு"
 
 #: ../src/pref_dialog.c
 msgid "Icons size (requires restart):"
-msgstr ""
+msgstr "ஐகான்களின் அளவு (மறுதொடக்கம் தேவை):"
 
 #: ../src/pref_dialog.c
 msgid "If checked the archive comment is shown after the archive is loaded."
 msgstr ""
+"சரிபார்க்கப்பட்டால் காப்பகம் ஏற்றப்பட்ட பிறகு காப்பக கருத்து காட்டப்படும்."
 
 #: ../src/pref_dialog.c
 msgid ""
 "If you install \"xdg-open\" from the \"xdg-utils\" package, each file will "
 "be opened with its default application."
 msgstr ""
+"\"எக்ச்டிசி-ஓபன்\" ஐ \"எக்ச்டிசி-யுடில்ச்\" தொகுப்பிலிருந்து நிறுவினால், ஒவ்வொரு கோப்பும் "
+"அதன் இயல்புநிலை பயன்பாட்டுடன் திறக்கப்படும்."
 
 #: ../src/add_dialog.c
 msgid ""
 "In a solid archive the files are grouped together resulting in a better "
 "compression ratio."
 msgstr ""
+"ஒரு திட காப்பகத்தில் கோப்புகள் ஒன்றாக தொகுக்கப்பட்டு சிறந்த சுருக்க விகிதத்தை "
+"ஏற்படுத்துகின்றன."
 
 #: ../src/add_dialog.c
 msgid "Include subdirectories"
-msgstr ""
+msgstr "துணை அடைவுகளைச் சேர்"
 
 #: ../src/interface.c
 msgid "Location:"
-msgstr ""
+msgstr "இடம்:"
 
 #: ../src/main.c
 #, c-format
 msgid "Maintained by "
-msgstr ""
+msgstr "மூலம் பராமரிக்கப்படுகிறது "
 
 #: ../src/interface.c
 msgid "Make SF_X"
-msgstr ""
+msgstr "Sf_x ஐ உருவாக்குங்கள்"
 
 #: ../src/gzip_et_al.c ../src/rar.c ../src/unar.c ../src/zip.c
 msgid "Method"
-msgstr ""
+msgstr "முறை"
 
 #: ../src/interface.c
 msgid "Modified on:"
-msgstr ""
+msgstr "மாற்றப்பட்டது:"
 
 #: ../src/extract_dialog.c
 msgid "Multi-Extract"
-msgstr ""
+msgstr "பல பிரித்தெடுத்தல்"
 
 #: ../src/interface.c
 msgid "Name:"
-msgstr ""
+msgstr "பெயர்:"
 
 #: ../src/interface.c
 msgid "New"
-msgstr ""
+msgstr "புதிய"
 
 #: ../src/window.c
 msgid "No"
-msgstr ""
+msgstr "இல்லை"
 
 #: ../src/add_dialog.c
 msgid "No compression"
-msgstr ""
+msgstr "சுருக்கம் இல்லை"
 
 #: ../src/main.c
 msgid "Nullsoft Installer"
-msgstr ""
+msgstr "NULLSOFT நிறுவி"
 
 #: ../src/interface.c
 msgid "Number of files:"
-msgstr ""
+msgstr "கோப்புகளின் எண்ணிக்கை:"
 
 #: ../src/window.c
 #, c-format
 msgid "Number of files: "
-msgstr ""
+msgstr "கோப்புகளின் எண்ணிக்கை: "
 
 #: ../src/zip.c
 msgid "OS"
-msgstr ""
+msgstr "Os"
 
 #: ../src/gzip_et_al.c ../src/lha.c ../src/rar.c
 msgid "Occupancy"
-msgstr ""
+msgstr "வன்கவர்வு"
 
 #: ../src/new_dialog.c ../src/window.c
 msgid "Only archives"
-msgstr ""
+msgstr "காப்பகங்கள் மட்டுமே"
 
 #: ../src/interface.c
 msgid "Open"
-msgstr ""
+msgstr "திற"
 
 #: ../src/open-with-dlg.c
 #, c-format
 msgid "Open <i>%s</i> with:"
-msgstr ""
+msgstr "<i>%s </i> உடன் திறக்கவும்:"
 
 #: ../src/interface.c
 msgid "Open With"
-msgstr ""
+msgstr "திற With"
 
 #: ../src/window.c
 msgid "Open a text file"
-msgstr ""
+msgstr "உரை கோப்பைத் திறக்கவும்"
 
 #: ../src/interface.c ../src/window.c
 msgid "Open an archive"
-msgstr ""
+msgstr "ஒரு காப்பகத்தைத் திறக்கவும்"
 
 #: ../src/pref_dialog.c
 msgid "Open archive files with:"
-msgstr ""
+msgstr "காப்பக கோப்புகளைத் திறக்கவும்:"
 
 #: ../src/open-with-dlg.c
 msgid "Open file"
-msgstr ""
+msgstr "கோப்பை திற"
 
 #: ../src/pref_dialog.c
 msgid "Open image files with:"
-msgstr ""
+msgstr "இதனுடன் படக் கோப்புகளைத் திறக்கவும்:"
 
 #: ../src/pref_dialog.c
 msgid "Open text files with:"
-msgstr ""
+msgstr "இதனுடன் உரை கோப்புகளைத் திறக்கவும்:"
 
 #: ../src/open-with-dlg.c
 msgid "Open the selected files"
-msgstr ""
+msgstr "தேர்ந்தெடுக்கப்பட்ட கோப்புகளைத் திறக்கவும்"
 
 #: ../src/window.c
 msgid "Opening archive, please wait..."
-msgstr ""
+msgstr "காப்பகத்தைத் திறக்கிறது, தயவுசெய்து காத்திருங்கள் ..."
 
 #: ../src/interface.c
 msgid "Opening archive:"
-msgstr ""
+msgstr "காப்பகத்தைத் திறத்தல்:"
 
 #: ../src/window.c
 msgid "Operation aborted!"
-msgstr ""
+msgstr "அறுவை மருத்தீடு நிறுத்தப்பட்டது!"
 
 #: ../src/add_dialog.c ../src/extract_dialog.c
 msgid "Options"
-msgstr ""
+msgstr "விருப்பங்கள்"
 
 #: ../src/7zip.c ../src/ar.c ../src/arj.c ../src/cpio.c ../src/gzip_et_al.c
 #: ../src/lha.c ../src/rar.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
 #: ../src/unar.c ../src/zip.c ../src/zpaq.c
 msgid "Original Size"
-msgstr ""
+msgstr "அசல் அளவு"
 
 #: ../src/extract_dialog.c
 msgid "Overwrite existing files"
-msgstr ""
+msgstr "இருக்கும் கோப்புகளை மேலெழுதவும்"
 
 #: ../src/cpio.c ../src/rpm.c
 msgid "Owner"
-msgstr ""
+msgstr "உரிமையாளர்"
 
 #: ../src/squashfs.c ../src/tar.c
 msgid "Owner/Group"
-msgstr ""
+msgstr "உரிமையாளர்/குழு"
 
 #: ../src/add_dialog.c ../src/extract_dialog.c
 msgid "Password:"
-msgstr ""
+msgstr "கடவுச்சொல்:"
 
 #: ../src/interface.c
 msgid "Paste"
-msgstr ""
+msgstr "ஒட்டு"
 
 #: ../src/extract_dialog.c
 msgid "Path"
-msgstr ""
+msgstr "பாதை"
 
 #: ../src/interface.c
 msgid "Path:"
-msgstr ""
+msgstr "பாதை:"
 
 #: ../src/interface.c
 msgid "Pattern:"
-msgstr ""
+msgstr "முறை:"
 
 #: ../src/ar.c ../src/arj.c ../src/cpio.c ../src/lha.c ../src/rpm.c
 #: ../src/squashfs.c ../src/tar.c ../src/zip.c ../src/zpaq.c
 msgid "Permissions"
-msgstr ""
+msgstr "அனுமதிகள்"
 
 #: ../src/window.c
 msgid "Please check the 'Store archiver output' option to see it."
 msgstr ""
+"அதைப் பார்க்க 'சேமிப்பாளர் வெளியீட்டை சேமித்து வைக்கவும்' விருப்பத்தை சரிபார்க்கவும்."
 
 #: ../src/add_dialog.c ../src/interface.c
 msgid "Please enter it!"
-msgstr ""
+msgstr "தயவுசெய்து அதை உள்ளிடவும்!"
 
 #: ../src/extract_dialog.c
 msgid "Please enter the extraction path."
-msgstr ""
+msgstr "பிரித்தெடுக்கும் பாதையை உள்ளிடவும்."
 
 #: ../src/extract_dialog.c
 msgid "Please enter the password."
-msgstr ""
+msgstr "கடவுச்சொல்லை உள்ளிடவும்."
 
 #: ../src/extract_dialog.c
 msgid "Please fill the \"Extract to\" field!"
-msgstr ""
+msgstr "தயவுசெய்து \"பிரித்தெடுத்தல்\" புலத்தை நிரப்பவும்!"
 
 #: ../src/window.c
 msgid "Please go to Preferences->Advanced and set it."
-msgstr ""
+msgstr "தயவுசெய்து விருப்பத்தேர்வுகள்-> மேம்பட்டது மற்றும் அதை அமைக்கவும்."
 
 #: ../src/main.c
 #, c-format
 msgid "Please report bugs to <%s>."
-msgstr ""
+msgstr "பிழைகளை <%s> க்கு புகாரளிக்கவும்."
 
 #: ../src/window.c
 msgid "Please select the 7zCon.sfx module"
-msgstr ""
+msgstr "7Zcon.sfx தொகுதியைத் தேர்ந்தெடுக்கவும்"
 
 #: ../src/extract_dialog.c
 msgid "Please select the archives you want to extract"
-msgstr ""
+msgstr "நீங்கள் பிரித்தெடுக்க விரும்பும் காப்பகங்களைத் தேர்ந்தெடுக்கவும்"
 
 #: ../src/extract_dialog.c
 msgid "Please select the destination directory"
-msgstr ""
+msgstr "இலக்கு கோப்பகத்தைத் தேர்ந்தெடுக்கவும்"
 
 #: ../src/window.c
 msgid "Please wait..."
-msgstr ""
+msgstr "தயவுசெய்து காத்திருங்கள் ..."
 
 #: ../src/cpio.c ../src/lha.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
 #: ../src/unar.c
 msgid "Points to"
-msgstr ""
+msgstr "புள்ளிகள்"
 
 #: ../src/pref_dialog.c
 msgid "Prefer unzip for zip files (requires restart)"
-msgstr ""
+msgstr "சிப் கோப்புகளுக்கு அன்சிப்பை விரும்புங்கள் (மறுதொடக்கம் தேவை)"
 
 #: ../src/pref_dialog.c
 msgid "Preferences"
-msgstr ""
+msgstr "விருப்பத்தேர்வுகள்"
 
 #: ../src/pref_dialog.c
 msgid "Preferred archive format:"
-msgstr ""
+msgstr "விருப்பமான காப்பக வடிவம்:"
 
 #: ../src/pref_dialog.c
 msgid "Preferred extraction directory:"
-msgstr ""
+msgstr "விருப்பமான பிரித்தெடுத்தல் அடைவு:"
 
 #: ../src/pref_dialog.c
 msgid "Preferred temp directory:"
-msgstr ""
+msgstr "விருப்பமான தற்காலிக அடைவு:"
 
 #: ../src/window.c
 msgid "Print the archive content as HTML"
-msgstr ""
+msgstr "காப்பக உள்ளடக்கத்தை உஉகுமொ ஆக அச்சிடுக"
 
 #: ../src/window.c
 msgid "Print the archive content as text"
-msgstr ""
+msgstr "காப்பக உள்ளடக்கத்தை உரையாக அச்சிடுக"
 
 #: ../src/arj.c ../src/gzip_et_al.c
 msgid "Ratio"
-msgstr ""
+msgstr "விகிதம்"
 
 #: ../src/interface.c
 msgid "Re_name"
-msgstr ""
+msgstr "Re_name"
 
 #: ../src/window.c
 msgid "Reloading archive, please wait..."
-msgstr ""
+msgstr "காப்பகத்தை மீண்டும் ஏற்றுகிறது, தயவுசெய்து காத்திருங்கள் ..."
 
 #: ../src/interface.c
 msgid "Rename"
-msgstr ""
+msgstr "மறுபெயரிடுங்கள்"
 
 #: ../src/interface.c
 msgid "Replace"
-msgstr ""
+msgstr "மாற்றவும்"
 
 #: ../src/interface.c
 msgid "Root"
-msgstr ""
+msgstr "மூலம்"
 
 #: ../src/window.c
 msgid "Save the archive as"
-msgstr ""
+msgstr "காப்பகத்தை சேமிக்கவும்"
 
 #: ../src/window.c
 msgid "Save the self-extracting archive as"
-msgstr ""
+msgstr "தன்வய பிரித்தெடுக்கும் காப்பகத்தை சேமிக்கவும்"
 
 #: ../src/pref_dialog.c
 msgid "Save window geometry"
-msgstr ""
+msgstr "சாளர வடிவவியலை சேமிக்கவும்"
 
 #: ../src/gzip_et_al.c ../src/unar.c ../src/zip.c
 msgid "Saving"
-msgstr ""
+msgstr "சேமிப்பு"
 
 #: ../src/main.c ../src/window.c
 msgid "Select \"New\" to create or \"Open\" to open an archive"
 msgstr ""
+"ஒரு காப்பகத்தைத் திறக்க \"புதியது\" அல்லது \"திறக்க\" என்பதைத் தேர்ந்தெடுக்கவும்"
 
 #: ../src/interface.c
 msgid "Select _all"
-msgstr ""
+msgstr "_All ஐத் தேர்ந்தெடுக்கவும்"
 
 #: ../src/interface.c
 msgid "Select _by pattern"
-msgstr ""
+msgstr "_Py வடிவத்தைத் தேர்ந்தெடுக்கவும்"
 
 #: ../src/open-with-dlg.c
 msgid "Select an application"
-msgstr ""
+msgstr "ஒரு பயன்பாட்டைத் தேர்ந்தெடுக்கவும்"
 
 #: ../src/interface.c
 msgid "Select by Pattern"
-msgstr ""
+msgstr "வடிவத்தால் தேர்ந்தெடுக்கவும்"
 
 #: ../src/extract_dialog.c
 msgid "Selected files"
-msgstr ""
+msgstr "தேர்ந்தெடுக்கப்பட்ட கோப்புகள்"
 
 #: ../src/add_dialog.c
 msgid "Selection"
-msgstr ""
+msgstr "தேர்வு"
 
 #: ../src/pref_dialog.c
 msgid "Show archive comment"
-msgstr ""
+msgstr "காப்பக கருத்தைக் காட்டு"
 
 #: ../src/pref_dialog.c
 msgid "Show archive location bar"
-msgstr ""
+msgstr "காப்பக இருப்பிட பட்டியைக் காட்டு"
 
 #: ../src/pref_dialog.c
 msgid "Show archive tree sidebar"
-msgstr ""
+msgstr "காப்பக மரம் பக்கப்பட்டியைக் காட்டு"
 
 #: ../src/window.c
 msgid "Show command"
-msgstr ""
+msgstr "கட்டளை காட்டு"
 
 #: ../src/main.c
 msgid ""
 "Show found command-line programs to be\n"
 "                                     used and exit"
 msgstr ""
+"கண்டுபிடிக்கப்பட்ட கட்டளை வரி நிரல்களைக் காட்டு\n"
+" பயன்படுத்தப்பட்டது மற்றும் வெளியேறுதல்"
 
 #: ../src/pref_dialog.c
 msgid "Show toolbar"
-msgstr ""
+msgstr "கருவிப்பட்டியைக் காட்டு"
 
 #: ../src/main.c
 msgid "Show version and exit\n"
-msgstr ""
+msgstr "பதிப்பைக் காட்டு மற்றும் வெளியேறவும்\n"
 
 #: ../src/extract_dialog.c
 msgid "Size"
-msgstr ""
+msgstr "அளவு"
 
 #: ../src/window.c
 msgid "Size:"
-msgstr ""
+msgstr "அளவு:"
 
 #: ../src/extract_dialog.c
 msgid "Some errors occurred:"
-msgstr ""
+msgstr "சில பிழைகள் நிகழ்ந்தன:"
 
 #: ../src/extract_dialog.c ../src/interface.c ../src/window.c
 msgid "Sorry, I could not perform the operation!"
-msgstr ""
+msgstr "மன்னிக்கவும், என்னால் செயல்பாட்டைச் செய்ய முடியவில்லை!"
 
 #: ../src/extract_dialog.c ../src/main.c ../src/window.c
 msgid "Sorry, this archive format is not supported:"
-msgstr ""
+msgstr "மன்னிக்கவும், இந்த காப்பக வடிவம் ஆதரிக்கப்படவில்லை:"
 
 #: ../src/pref_dialog.c
 msgid "Sort archive by filename"
-msgstr ""
+msgstr "கோப்பு பெயர் மூலம் காப்பகத்தை வரிசைப்படுத்தவும்"
 
 #: ../src/interface.c
 msgid "Stop"
-msgstr ""
+msgstr "நிறுத்து"
 
 #: ../src/pref_dialog.c
 msgid "Store archiver output"
-msgstr ""
+msgstr "காப்பக வெளியீட்டை சேமிக்கவும்"
 
 #: ../src/gzip_et_al.c
 msgid "Streams/Blocks/Padding"
-msgstr ""
+msgstr "நீரோடைகள்/தொகுதிகள்/திணிப்பு"
 
 #: ../src/window.c
 msgid "Test result:"
-msgstr ""
+msgstr "சோதனை முடிவு:"
 
 #: ../src/window.c
 msgid "Testing archive, please wait..."
-msgstr ""
+msgstr "காப்பகத்தை சோதித்தல், தயவுசெய்து காத்திருங்கள் ..."
 
 #: ../src/new_dialog.c
 #, c-format
 msgid "The archive \"%s\" already exists!"
-msgstr ""
+msgstr "காப்பகம் \"%s\" ஏற்கனவே உள்ளது!"
 
 #: ../src/window.c
 msgid "The archive is okay."
-msgstr ""
+msgstr "காப்பகம் பரவாயில்லை."
 
 #: ../src/extract_dialog.c
 msgid ""
 "The archive's complete directory structure is recreated in the extraction "
 "directory."
 msgstr ""
+"காப்பகத்தின் முழுமையான அடைவு அமைப்பு பிரித்தெடுத்தல் கோப்பகத்தில் மீண்டும் "
+"உருவாக்கப்படுகிறது."
 
 #: ../src/extract_dialog.c
 msgid ""
 "The archive's directory structure is not recreated; all files are placed in "
 "the extraction directory."
 msgstr ""
+"காப்பகத்தின் அடைவு அமைப்பு மீண்டும் உருவாக்கப்படவில்லை; எல்லா கோப்புகளும் பிரித்தெடுத்தல் "
+"கோப்பகத்தில் வைக்கப்பட்டுள்ளன."
 
 #: ../src/extract_dialog.c
 msgid ""
 "The archive's directory structure is recreated in the extraction directory, "
 "but with the parent directories of the selected files removed."
 msgstr ""
+"காப்பகத்தின் அடைவு அமைப்பு பிரித்தெடுத்தல் கோப்பகத்தில் மீண்டும் உருவாக்கப்படுகிறது, ஆனால் "
+"தேர்ந்தெடுக்கப்பட்ட கோப்புகளின் பெற்றோர் கோப்பகங்களுடன் அகற்றப்பட்டது."
 
 #: ../src/add_dialog.c ../src/main.c
 msgid ""
 "The archiver doesn't support compression of directories or multiple files!"
-msgstr ""
+msgstr "கோப்பை அல்லது பல கோப்புகளின் சுருக்கத்தை காப்பகம் ஆதரிக்காது!"
 
 #: ../src/extract_dialog.c
 msgid "The archiver doesn't support this feature!"
-msgstr ""
+msgstr "காப்பகமானது இந்த அம்சத்தை ஆதரிக்கவில்லை!"
 
 #: ../src/gzip_et_al.c
 msgid "The archiver lacks necessary support for password protected decryption!"
 msgstr ""
+"கடவுச்சொல் பாதுகாக்கப்பட்ட மறைகுறியாக்கத்திற்கு காப்பகத்திற்கு தேவையான உதவி இல்லை!"
 
 #: ../src/pref_dialog.c
 msgid "The filename column is sorted after loading the archive."
-msgstr ""
+msgstr "காப்பகத்தை ஏற்றிய பின் கோப்பு பெயர் நெடுவரிசை வரிசைப்படுத்தப்படுகிறது."
 
 #: ../src/pref_dialog.c
 msgid ""
 "The incremental search is also performed within filenames rather than just "
 "at the beginning of them."
 msgstr ""
+"அதிகரிக்கும் தேடல் அவற்றின் தொடக்கத்தில் இல்லாமல் கோப்பு பெயர்களுக்குள் செய்யப்படுகிறது."
 
 #: ../src/extract_dialog.c ../src/main.c ../src/window.c
 #, c-format
 msgid "The proper archiver for \"%s\" is not installed!"
-msgstr ""
+msgstr "\"%s\" க்கான சரியான காப்பகம் நிறுவப்படவில்லை!"
 
 #: ../src/extract_dialog.c
 msgid "This archive is encrypted!"
-msgstr ""
+msgstr "இந்த காப்பகம் குறியாக்கம் செய்யப்பட்டுள்ளது!"
 
 #: ../src/interface.c
 msgid "This is Xarchiver's LED status. When it's flashing Xarchiver is busy."
 msgstr ""
+"இது xarchiver இன் எல்.ஈ.டி நிலை. அது ஒளிரும் போது Xarchiver பிசியாக இருக்கும்."
 
 #: ../src/pref_dialog.c
 msgid ""
 "This option includes the subdirectories when you add files from the "
 "clipboard or with drag-and-drop."
 msgstr ""
+"இந்த விருப்பத்தில் நீங்கள் கிளிப்போர்டில் இருந்து கோப்புகளைச் சேர்க்கும்போது அல்லது இழுவை "
+"மற்றும் சொட்டுடன் சேர்க்கும்போது துணை அடைவுகள் அடங்கும்."
 
 #: ../src/extract_dialog.c
 msgid ""
@@ -1071,141 +1122,153 @@ msgid ""
 "that are newer than those with the same name on disk, and in addition it "
 "extracts those files that do not already exist on disk."
 msgstr ""
+"இந்த விருப்பம் புத்துணர்ச்சியின் அதே செயல்பாட்டைச் செய்கிறது, வட்டில் ஒரே பெயரைக் காட்டிலும் "
+"புதிய கோப்புகளை பிரித்தெடுக்கிறது, கூடுதலாக அது ஏற்கனவே வட்டில் இல்லாத கோப்புகளை "
+"பிரித்தெடுக்கிறது."
 
 #: ../src/add_dialog.c
 msgid ""
 "This option will add any new files and update any files which are already in "
 "the archive but older there."
 msgstr ""
+"இந்த விருப்பம் எந்த புதிய கோப்புகளையும் சேர்த்து, ஏற்கனவே காப்பகத்தில் இருக்கும் ஆனால் பழைய "
+"எந்த கோப்புகளையும் புதுப்பிக்கும்."
 
 #: ../src/add_dialog.c
 msgid ""
 "This option will only add files which are already in the archive but older "
 "there; unlike the update option it will not add any new files."
 msgstr ""
+"இந்த விருப்பம் ஏற்கனவே காப்பகத்தில் இருக்கும், ஆனால் பழைய கோப்புகளை மட்டுமே சேர்க்கும்; "
+"புதுப்பிப்பு விருப்பத்தைப் போலன்றி இது புதிய கோப்புகளைச் சேர்க்காது."
 
 #: ../src/7zip.c ../src/ar.c ../src/arj.c ../src/cpio.c ../src/gzip_et_al.c
 #: ../src/lha.c ../src/rar.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
 #: ../src/unar.c ../src/zip.c ../src/zpaq.c
 msgid "Time"
-msgstr ""
+msgstr "நேரம்"
 
 #: ../src/interface.c
 msgid "Total Progress:"
-msgstr ""
+msgstr "மொத்த முன்னேற்றம்:"
 
 #: ../src/extract_dialog.c
 msgid "Touch files"
-msgstr ""
+msgstr "கோப்புகளைத் தொடவும்"
 
 #: ../src/interface.c
 msgid "Type:"
-msgstr ""
+msgstr "தட்டச்சு:"
 
 #: ../src/ar.c ../src/lha.c
 msgid "UID/GID"
-msgstr ""
+msgstr "Uid/gid"
 
 #: ../src/interface.c
 msgid "Uncompressed size:"
-msgstr ""
+msgstr "சுருக்கப்படாத அளவு:"
 
 #: ../src/window.c
 #, c-format
 msgid "Uncompressed size: "
-msgstr ""
+msgstr "சுருக்கப்படாத அளவு: "
 
 #: ../src/rpm.c
 msgid "Unknown compression type!"
-msgstr ""
+msgstr "அறியப்படாத சுருக்க வகை!"
 
 #: ../src/interface.c
 msgid "Uns_ort"
-msgstr ""
+msgstr "Us_ort"
 
 #: ../src/7zip.c
 msgid "Unsupported binary format!"
-msgstr ""
+msgstr "ஆதரிக்கப்படாத பைனரி வடிவம்!"
 
 #: ../src/interface.c
 msgid "Up"
-msgstr ""
+msgstr "மேலே"
 
 #: ../src/extract_dialog.c
 msgid "Update existing files"
-msgstr ""
+msgstr "இருக்கும் கோப்புகளைப் புதுப்பிக்கவும்"
 
 #: ../src/add_dialog.c
 msgid "Update existing files and add new ones"
-msgstr ""
+msgstr "இருக்கும் கோப்புகளைப் புதுப்பித்து புதியவற்றைச் சேர்க்கவும்"
 
 #: ../src/open-with-dlg.c
 msgid "Use a custom command:"
-msgstr ""
+msgstr "தனிப்பயன் கட்டளையைப் பயன்படுத்தவும்:"
 
 #: ../src/gzip_et_al.c ../src/rar.c ../src/zip.c
 msgid "Version"
-msgstr ""
+msgstr "பதிப்பு"
 
 #: ../src/interface.c
 msgid "View"
-msgstr ""
+msgstr "பார்வை"
 
 #: ../src/pref_dialog.c
 msgid "Web browser to use:"
-msgstr ""
+msgstr "பயன்படுத்த வலை உலாவி:"
 
 #: ../src/extract_dialog.c
 msgid ""
 "When this option is used, the modification times of the files will be the "
 "times of extraction instead of the times recorded in the archive."
 msgstr ""
+"இந்த விருப்பம் பயன்படுத்தப்படும்போது, காப்பகத்தில் பதிவுசெய்யப்பட்ட நேரங்களுக்கு பதிலாக "
+"கோப்புகளின் மாற்ற நேரங்கள் பிரித்தெடுக்கும் நேரங்களாக இருக்கும்."
 
 #: ../src/zpaq.c
 msgid "Will not handle files with wildcard characters!"
-msgstr ""
+msgstr "வைல்டு அட்டை எழுத்துக்களுடன் கோப்புகளை கையாள மாட்டேன்!"
 
 #: ../src/pref_dialog.c
 msgid "Window"
-msgstr ""
+msgstr "சாளரம்"
 
 #: ../src/add_dialog.c ../src/extract_dialog.c
 msgid "With full path"
-msgstr ""
+msgstr "முழு பாதையுடன்"
 
 #: ../src/extract_dialog.c
 msgid "Without any path"
-msgstr ""
+msgstr "எந்த பாதையும் இல்லாமல்"
 
 #: ../src/add_dialog.c ../src/extract_dialog.c
 msgid "Without parent path"
-msgstr ""
+msgstr "பெற்றோர் பாதை இல்லாமல்"
 
 #: ../src/window.c
 msgid "Yes"
-msgstr ""
+msgstr "ஆம்"
 
 #: ../src/window.c
 msgid "You are about to delete entries from the archive."
-msgstr ""
+msgstr "நீங்கள் காப்பகத்திலிருந்து உள்ளீடுகளை நீக்க உள்ளீர்கள்."
 
 #: ../src/window.c
 msgid ""
 "You can drop either archives to open or files to add. It is not possible to "
 "do both at the same time."
 msgstr ""
+"திறக்க காப்பகங்களை அல்லது சேர்க்க கோப்புகளை கைவிடலாம். இரண்டையும் ஒரே நேரத்தில் செய்ய "
+"முடியாது."
 
 #: ../src/interface.c ../src/window.c
 msgid "You can't add content to this archive type!"
-msgstr ""
+msgstr "இந்த காப்பக வகைக்கு நீங்கள் உள்ளடக்கத்தை சேர்க்க முடியாது!"
 
 #: ../src/window.c
 msgid "You didn't set which browser to use!"
-msgstr ""
+msgstr "எந்த உலாவியைப் பயன்படுத்த வேண்டும் என்பதை நீங்கள் அமைக்கவில்லை!"
 
 #: ../src/window.c
 msgid "You didn't set which program to use for opening this file!"
 msgstr ""
+"இந்த கோப்பைத் திறக்க எந்த நிரலைப் பயன்படுத்த வேண்டும் என்பதை நீங்கள் அமைக்கவில்லை!"
 
 #: ../src/extract_dialog.c ../src/window.c
 #, c-format
@@ -1213,149 +1276,150 @@ msgid ""
 "You don't have the right permissions to extract the files to the directory "
 "\"%s\"."
 msgstr ""
+"கோப்புகளை \"%s\" கோப்பகத்திற்கு பிரித்தெடுக்க சரியான அனுமதிகள் உங்களிடம் இல்லை."
 
 #: ../src/extract_dialog.c
 msgid "You haven't added any of them!"
-msgstr ""
+msgstr "அவற்றில் எதையும் நீங்கள் சேர்க்கவில்லை!"
 
 #: ../src/add_dialog.c ../src/main.c
 msgid "You haven't selected any files to add!"
-msgstr ""
+msgstr "சேர்க்க நீங்கள் எந்த கோப்புகளையும் தேர்ந்தெடுக்கவில்லை!"
 
 #: ../src/main.c
 msgid "You missed the archive name!"
-msgstr ""
+msgstr "காப்பக பெயரை நீங்கள் தவறவிட்டீர்கள்!"
 
 #: ../src/add_dialog.c ../src/extract_dialog.c ../src/interface.c
 msgid "You missed the password!"
-msgstr ""
+msgstr "நீங்கள் கடவுச்சொல்லை தவறவிட்டீர்கள்!"
 
 #: ../src/extract_dialog.c
 msgid "You missed where to extract the files!"
-msgstr ""
+msgstr "கோப்புகளை எங்கு பிரித்தெடுப்பது என்பதை நீங்கள் தவறவிட்டீர்கள்!"
 
 #: ../src/main.c
 msgid "[ARCHIVE]"
-msgstr ""
+msgstr "[காப்பகம்]"
 
 #: ../src/add_dialog.c
 msgid "_Add"
-msgstr ""
+msgstr "_ADD"
 
 #: ../src/interface.c
 msgid "_Archive"
-msgstr ""
+msgstr "_ஆர்கிவ்"
 
 #: ../src/interface.c
 msgid "_Contents"
-msgstr ""
+msgstr "_ உள்ளடக்கங்கள்"
 
 #: ../src/extract_dialog.c ../src/interface.c
 msgid "_Extract"
-msgstr ""
+msgstr "_ எக்ச்ட்ராக்ட்"
 
 #: ../src/interface.c
 msgid "_HTML file"
-msgstr ""
+msgstr "உஉகுமொ கோப்பு"
 
 #: ../src/interface.c
 msgid "_Help"
-msgstr ""
+msgstr "உதவி (_H)"
 
 #: ../src/interface.c
 msgid "_List as"
-msgstr ""
+msgstr "_ பட்டியல்"
 
 #: ../src/interface.c
 msgid "_Multi-Extract"
-msgstr ""
+msgstr "_ முல்டி-பிரித்தெடுத்தல்"
 
 #: ../src/interface.c
 msgid "_Password:"
-msgstr ""
+msgstr "_PASSWORD:"
 
 #: ../src/interface.c
 msgid "_Preferences"
-msgstr ""
+msgstr "விருப்பத்தேர்வுகள்"
 
 #: ../src/interface.c
 msgid "_Properties"
-msgstr ""
+msgstr "_Properties"
 
 #: ../src/interface.c
 msgid "_Select"
-msgstr ""
+msgstr "_ தேர்ந்தெடுக்கவும்"
 
 #: ../src/interface.c
 msgid "_Test"
-msgstr ""
+msgstr "_ தேர்வு"
 
 #: ../src/interface.c
 msgid "_Text file"
-msgstr ""
+msgstr "_ உரை கோப்பு"
 
 #: ../src/window.c
 msgid "and"
-msgstr ""
+msgstr "மற்றும்"
 
 #: ../xarchiver.desktop.in.h
 msgid "archive;compress;decompress;extract;pack;uncompress;unpack;"
-msgstr ""
+msgstr "காப்பக;"
 
 #: ../src/add_dialog.c
 msgid "best"
-msgstr ""
+msgstr "சிறந்த"
 
 #: ../src/pref_dialog.c
 msgid "choose..."
-msgstr ""
+msgstr "தேர்வு ..."
 
 #: ../src/main.c
 msgid "destination"
-msgstr ""
+msgstr "இலக்கு"
 
 #: ../src/interface.c
 msgid "example: *.txt; ac*"
-msgstr ""
+msgstr "எடுத்துக்காட்டு: *.txt; ac*"
 
 #: ../src/main.c
 msgid "file1 ... fileN"
-msgstr ""
+msgstr "கோப்பு 1 ... கோப்பு"
 
 #: ../src/pref_dialog.c
 msgid "large"
-msgstr ""
+msgstr "பெரிய"
 
 #: ../src/add_dialog.c
 msgid "least"
-msgstr ""
+msgstr "குறைந்தது"
 
 #: ../src/pref_dialog.c
 msgid "medium"
-msgstr ""
+msgstr "சராசரி"
 
 #: ../src/window.c
 msgid "selected"
-msgstr ""
+msgstr "தேர்ந்தெடுக்கப்பட்டது"
 
 #: ../src/pref_dialog.c
 msgid "small"
-msgstr ""
+msgstr "சிறிய"
 
 #: ../src/pref_dialog.c
 msgid "small/medium"
-msgstr ""
+msgstr "சிறிய/நடுத்தர"
 
 #. Do not translate this string.
 #. Instead, add your name here if you like.
 #. One translator per line!
 #: ../src/window.c
 msgid "translator-credits"
-msgstr ""
+msgstr "மொழிபெயர்ப்பாளர்-வரவு"
 
 #: ../src/pref_dialog.c
 msgid "very large"
-msgstr ""
+msgstr "மிகப் பெரியது"
 
 #: ../src/main.c
 #, c-format
@@ -1363,3 +1427,6 @@ msgid ""
 "xarchiver: %s\n"
 "Try xarchiver --help to see a full list of available command-line options.\n"
 msgstr ""
+"Xarchiver: %s\n"
+" கிடைக்கக்கூடிய கட்டளை-வரி விருப்பங்களின் முழு பட்டியலையும் காண Xarchiver --- உதவியை "
+"முயற்சிக்கவும்.\n"
