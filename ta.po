@@ -72,11 +72,11 @@ msgstr "/டி.எம்.பி."
 #: ../src/interface.c
 msgid "<span weight='bold' size='larger'>Enter password for:</span>"
 msgstr ""
-"<ச்பான் எடை = 'தைரியமான' அளவு = 'பெரியது'> இதற்கான கடவுச்சொல்லை உள்ளிடவும்: </span>"
+"<span weight='bold' size='larger'> இதற்கான கடவுச்சொல்லை உள்ளிடவும்: </span>"
 
 #: ../src/interface.c
 msgid "<span weight='bold' size='larger'>Password required for:</span>"
-msgstr "<ச்பான் எடை = 'தைரியமான' அளவு = 'பெரியது'> கடவுச்சொல் தேவை: </span>"
+msgstr "<span weight='bold' size='larger'> கடவுச்சொல் தேவை: </span>"
 
 #: ../src/window.c
 #, c-format
