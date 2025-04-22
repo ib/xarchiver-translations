@@ -9,14 +9,16 @@ msgstr ""
 "Project-Id-Version: xarchiver git\n"
 "Report-Msgid-Bugs-To: https://github.com/ib/xarchiver/issues\n"
 "POT-Creation-Date: 2024-09-26 11:30+0200\n"
-"PO-Revision-Date: 2009-09-08 20:07+0200\n"
-"Last-Translator: Evaggelos Balaskas <ebalaskas@ebalaskas.gr>\n"
-"Language-Team: Greek <nls@tux.hellug.gr>\n"
+"PO-Revision-Date: 2025-04-22 14:59+0000\n"
+"Last-Translator: GiannosOB <giannos2105@gmail.com>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/xarchiver/"
+"translations/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.1-dev\n"
 "X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -33,7 +35,7 @@ msgstr ""
 #: ../src/new_dialog.c
 #, c-format
 msgid "\"%s\" is already open!"
-msgstr "Το \"%s\" είναι ήδη ανοιχτό"
+msgstr "Το \"%s\" είναι ήδη ανοιχτό!"
 
 #: ../src/window.c
 #, c-format
@@ -47,7 +49,7 @@ msgstr[1] "%d κατάλογοι %s (%s)"
 #| msgid "Add files"
 msgid "%d file"
 msgid_plural "%d files"
-msgstr[0] "Προσθήκη αρχείων"
+msgstr[0] "Προσθήκη αρχείου"
 msgstr[1] "Προσθήκη αρχείων"
 
 #: ../src/window.c
@@ -58,14 +60,15 @@ msgstr[0] "%d αρχείο %s (%s)"
 msgstr[1] "%d αρχεία %s (%s)"
 
 #: ../src/add_dialog.c
-#, fuzzy, c-format
-#| msgid "0 = no compression, 1 is default, 4 = fastest but least compression"
+#, c-format
 msgid ""
 "%hu is least compression\n"
 "%hu is default compression\n"
 "%hu is best compression"
 msgstr ""
-"0 = χωρίς συμπίεση, προεπιλεγμένο το 1, 4 = η πιο γρήγορη, αλλά και μικρότερη"
+"%hu είναι η μικρότερη συμπίεση\n"
+"%hu είναι η προεπιλεγμένη συμπίεση\n"
+"%hu είναι η καλύτερη συμπίεση"
 
 #: ../src/pref_dialog.c
 msgid "/tmp"
@@ -115,20 +118,20 @@ msgid "Add files"
 msgstr "Προσθήκη αρχείων"
 
 #: ../src/main.c
-#, fuzzy
-#| msgid "Add the given files by asking the name of the archive and quits."
 msgid ""
 "Add the given files by asking the name of\n"
 "                                     the archive and quit"
-msgstr "Προσθήκη των αρχείων σε συμπιεσμένο αρχείο."
+msgstr ""
+"Προσθέστε τα συγκεκριμένα αρχεία ζητώντας το όνομα του\n"
+"                                     του αρχείου και τερματίστε"
 
 #: ../src/main.c
-#, fuzzy
-#| msgid "Add files to archive by asking their filenames and quits."
 msgid ""
 "Add to archive by asking which files and\n"
 "                                     quit"
-msgstr "Προσθήκη αρχείων στο συμπιεσμένο αρχείο."
+msgstr ""
+"Προσθέστε στο αρχείο ρωτώντας ποια αρχεία και\n"
+"                                     quit"
 
 #: ../src/window.c
 msgid "Adding files to archive, please wait..."
@@ -259,10 +262,8 @@ msgid "Can't create a new archive:"
 msgstr "Δεν είναι δυνατή η δημιουργία νέου συμπιεσμένου αρχείου:"
 
 #: ../src/extract_dialog.c ../src/main.c
-#, fuzzy
-#| msgid "Can't create temporary directory:"
 msgid "Can't create directory!"
-msgstr "Δεν ήταν δυνατή η δημιουργία προσωρινού καταλόγου:"
+msgstr "Δεν μπορείτε να δημιουργήσετε κατάλογο!"
 
 #: ../src/archive.c
 msgid "Can't create temporary directory:"
@@ -295,10 +296,8 @@ msgid "Can't open file \"%s\":"
 msgstr "Δεν ήταν δυνατό το άνοιγμα του αρχείου \"%s\":"
 
 #: ../src/main.c
-#, fuzzy
-#| msgid "Can't add files to the archive:"
 msgid "Can't open the archive!"
-msgstr "Δεν είναι δυνατή η προσθήκη αρχείων στο συμπιεσμένο αρχείο:"
+msgstr "Δεν μπορώ να ανοίξω το αρχείο!"
 
 #: ../src/extract_dialog.c ../src/window.c
 msgid "Can't perform extraction!"
@@ -503,10 +502,8 @@ msgid "Encryption"
 msgstr "Κρυπτογράφηση"
 
 #: ../src/extract_dialog.c
-#, fuzzy
-#| msgid "Preferred extract directory:"
 msgid "Ensure a containing directory"
-msgstr "Προτιμώμενος κατάλογος εξαγωγής:"
+msgstr "Εξασφαλίστε έναν κατάλογο που περιέχει"
 
 #: ../src/extract_dialog.c
 msgid ""
@@ -529,44 +526,40 @@ msgid "Extract"
 msgstr "Αποσυμπίεση"
 
 #: ../src/main.c
-#, fuzzy
-#| msgid "Extract archive by asking the extraction directory and quits."
 msgid ""
 "Extract archive by asking the extraction\n"
 "                                     directory and quit"
 msgstr ""
-"Εξαγωγή του συμπιεσμένου αρχείου με ερώτηση για τον κατάλογο προορισμού."
+"Αποσπάστε το αρχείο ζητώντας την εξαγωγή\n"
+"                                     κατάλογο και τερματίστε"
 
 #: ../src/main.c
-#, fuzzy
-#| msgid "Extract archive to the destination directory and quits."
 msgid ""
 "Extract archive to a containing directory\n"
 "                                     and quit"
 msgstr ""
-"Εξαγωγή του συμπιεσμένου αρχείου με ερώτηση για τον κατάλογο προορισμού."
+"Εξαγωγή αρχείου σε έναν κατάλογο που περιέχει\n"
+"                                     και τερματίστε"
 
 #: ../src/main.c
-#, fuzzy
-#| msgid "Extract archive to the destination directory and quits."
 msgid ""
 "Extract archive to the destination\n"
 "                                     directory and quit"
 msgstr ""
-"Εξαγωγή του συμπιεσμένου αρχείου με ερώτηση για τον κατάλογο προορισμού."
+"Εξαγωγή αρχείου στον προορισμό\n"
+"                                     κατάλογο και τερματισμός"
 
 #: ../src/extract_dialog.c ../src/interface.c
 msgid "Extract files"
 msgstr "Αποσυμπίεση αρχείων"
 
 #: ../src/main.c
-#, fuzzy
-#| msgid "Extract archive by asking the extraction directory and quits."
 msgid ""
 "Extract multiple archives by asking the\n"
 "                                     extraction directory and quit"
 msgstr ""
-"Εξαγωγή του συμπιεσμένου αρχείου με ερώτηση για τον κατάλογο προορισμού."
+"Εξάγετε πολλαπλά αρχεία ζητώντας από το\n"
+"                                     κατάλογο εξαγωγής και να τερματίσετε"
 
 #: ../src/extract_dialog.c
 msgid ""
@@ -607,7 +600,7 @@ msgstr "Αποσυμπίεση:"
 
 #: ../src/window.c
 msgid "Failed to launch the application!"
-msgstr "Απέτυχε η εκκίνηση της εφαρμογής."
+msgstr "Απέτυχε η εκκίνηση της εφαρμογής!"
 
 #: ../src/add_dialog.c ../src/extract_dialog.c
 msgid "File Paths"
@@ -800,10 +793,8 @@ msgid "Opening archive, please wait..."
 msgstr "Άνοιγμα αρχείου, παρακαλώ περιμένετε..."
 
 #: ../src/interface.c
-#, fuzzy
-#| msgid "Open an archive"
 msgid "Opening archive:"
-msgstr "Άνοιγμα συμπιεσμένου αρχείου"
+msgstr "Άνοιγμα αρχειοθέτησης:"
 
 #: ../src/window.c
 msgid "Operation aborted!"
@@ -876,7 +867,7 @@ msgstr "Παρακαλώ εισάγετε τον κωδικό πρόσβασης
 
 #: ../src/extract_dialog.c
 msgid "Please fill the \"Extract to\" field!"
-msgstr "Παρακαλώ συμπληρώστε το πεδίο \"Αποσυμπίεση σε\""
+msgstr "Παρακαλούμε συμπληρώστε το πεδίο «Αποσυμπίεση σε»!"
 
 #: ../src/window.c
 msgid "Please go to Preferences->Advanced and set it."
@@ -900,10 +891,8 @@ msgid "Please select the destination directory"
 msgstr "Παρακαλώ επιλέξτε κατάλογο προορισμού"
 
 #: ../src/window.c
-#, fuzzy
-#| msgid "Please enter it!"
 msgid "Please wait..."
-msgstr "Παρακαλώ εισάγετε τον!"
+msgstr "Παρακαλώ περιμένετε..."
 
 #: ../src/cpio.c ../src/lha.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
 #: ../src/unar.c
@@ -1033,22 +1022,20 @@ msgid "Show command"
 msgstr "Εμφάνιση σχολίου συμπιεσμένου αρχείου"
 
 #: ../src/main.c
-#, fuzzy
-#| msgid "Add the given files by asking the name of the archive and quits."
 msgid ""
 "Show found command-line programs to be\n"
 "                                     used and exit"
-msgstr "Προσθήκη των αρχείων σε συμπιεσμένο αρχείο."
+msgstr ""
+"Εμφάνιση των προγραμμάτων γραμμής εντολών που βρέθηκαν να είναι\n"
+"                                     που χρησιμοποιούνται και έξοδος"
 
 #: ../src/pref_dialog.c
 msgid "Show toolbar"
 msgstr ""
 
 #: ../src/main.c
-#, fuzzy
-#| msgid "Show version and exit"
 msgid "Show version and exit\n"
-msgstr "Εμφάνιση πληροφοριών έκδοσης και τερματισμός"
+msgstr "Εμφάνιση έκδοσης και έξοδος\n"
 
 #: ../src/extract_dialog.c
 msgid "Size"
