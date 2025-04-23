@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: xarchiver git\n"
 "Report-Msgid-Bugs-To: https://github.com/ib/xarchiver/issues\n"
 "POT-Creation-Date: 2024-09-26 11:30+0200\n"
-"PO-Revision-Date: 2025-04-22 19:40+0000\n"
+"PO-Revision-Date: 2025-04-24 04:12+0000\n"
 "Last-Translator: GiannosOB <giannos2105@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/xarchiver/"
 "translations/el/>\n"
@@ -197,6 +197,8 @@ msgid ""
 "Archive tree nodes already expand when the node name is selected by mouse "
 "click or keyboard shortcut."
 msgstr ""
+"Οι αρχειοθετημένοι κόμβοι του δέντρου επεκτείνονται ήδη όταν το όνομα του "
+"κόμβου επιλέγεται με κλικ του ποντικιού ή με συντόμευση πληκτρολογίου."
 
 #: ../src/new_dialog.c
 msgid "Archive type:"
@@ -220,7 +222,7 @@ msgstr "Ιδιότητες"
 
 #: ../src/pref_dialog.c
 msgid "Automatically expand archive tree nodes on selection"
-msgstr ""
+msgstr "Αυτόματη επέκταση αρχείωθετημένων κόμβων του δέντρου κατά την επιλογή"
 
 #: ../src/interface.c
 msgid "Back"
@@ -316,11 +318,11 @@ msgstr "Ακύρωση τρέχουσας λειτουργίας"
 
 #: ../src/gzip_et_al.c
 msgid "Check Type"
-msgstr ""
+msgstr "Έλεγχος τύπου"
 
 #: ../src/arj.c ../src/rar.c
 msgid "Checksum"
-msgstr ""
+msgstr "Άθροισμα ελέγχων"
 
 #: ../src/pref_dialog.c
 msgid "Choose the application to use"
@@ -351,6 +353,8 @@ msgid ""
 "Command-line output is captured and can be reviewed, but this consumes "
 "additional memory."
 msgstr ""
+"Η έξοδος της γραμμής εντολών καταγράφεται και μπορεί να επανεξεταστεί, αλλά "
+"αυτό καταναλώνει πρόσθετη μνήμη."
 
 #: ../src/window.c
 msgid "Comment"
@@ -424,7 +428,7 @@ msgstr "Αποκοπή"
 
 #: ../src/gzip_et_al.c
 msgid "Data Frames/Skippable Frames"
-msgstr ""
+msgstr "Πλαίσια δεδομένων/πλαίσια που μπορούν να μετακινηθούν"
 
 #: ../src/7zip.c ../src/ar.c ../src/arj.c ../src/cpio.c ../src/gzip_et_al.c
 #: ../src/lha.c ../src/rar.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
@@ -470,7 +474,7 @@ msgstr "Αν προχωρήσετε, είναι πιθανό να καταστρ
 
 #: ../src/interface.c
 msgid "Edit"
-msgstr ""
+msgstr "Επεξεργασία"
 
 #: ../src/interface.c
 msgid "Encrypted:"
@@ -489,6 +493,8 @@ msgid ""
 "Ensure that the contents of the extracted archive is always in a containing "
 "directory."
 msgstr ""
+"Βεβαιωθείτε ότι τα περιεχόμενα του αρχείου που εξάγεται βρίσκονται πάντα σε "
+"έναν κατάλογο που περιέχει."
 
 #: ../src/interface.c
 msgid "Enter passwo_rd"
@@ -499,6 +505,9 @@ msgid ""
 "Even if other, perhaps more powerful programs are installed to handle zip "
 "archives, the traditional \"unzip\" and \"zip\" will still be used."
 msgstr ""
+"Ακόμα και αν εγκατασταθούν άλλα, ίσως πιο ισχυρά προγράμματα για το χειρισμό "
+"αρχείων zip, τα παραδοσιακά «unzip» και «zip» θα εξακολουθήσουν να "
+"χρησιμοποιούνται."
 
 #: ../src/interface.c
 msgid "Extract"
@@ -563,7 +572,7 @@ msgstr "Εξαγωγή με πλήρη διαδρομή"
 #: ../src/interface.c
 #, c-format
 msgid "Extracting \"%s\"..."
-msgstr ""
+msgstr "Εξαγωγή «%s»..."
 
 #: ../src/window.c
 msgid "Extracting files from archive, please wait..."
@@ -591,7 +600,7 @@ msgstr "Αρχεία"
 
 #: ../src/zpaq.c
 msgid "Files with absolute pathnames cannot be deleted!"
-msgstr ""
+msgstr "Αρχεία με απόλυτα ονόματα διαδρομής δεν μπορούν να διαγραφούν!"
 
 #: ../src/extract_dialog.c ../src/window.c
 msgid "Files:"
@@ -628,6 +637,8 @@ msgid ""
 "If you install \"xdg-open\" from the \"xdg-utils\" package, each file will "
 "be opened with its default application."
 msgstr ""
+"Αν εγκαταστήσετε το «xdg-open» από το πακέτο «xdg-utils», κάθε αρχείο θα "
+"ανοίγει με την προεπιλεγμένη εφαρμογή του."
 
 #: ../src/add_dialog.c
 msgid ""
@@ -648,7 +659,7 @@ msgstr "Τοποθεσία:"
 #: ../src/main.c
 #, c-format
 msgid "Maintained by "
-msgstr ""
+msgstr "Συντηρείται από "
 
 #: ../src/interface.c
 msgid "Make SF_X"
@@ -672,7 +683,7 @@ msgstr "Όνομα:"
 
 #: ../src/interface.c
 msgid "New"
-msgstr ""
+msgstr "Νέο"
 
 #: ../src/window.c
 msgid "No"
@@ -684,7 +695,7 @@ msgstr "Χωρίς συμπίεση"
 
 #: ../src/main.c
 msgid "Nullsoft Installer"
-msgstr ""
+msgstr "Εγκαταστάτης Nullsoft"
 
 #: ../src/interface.c
 msgid "Number of files:"
@@ -701,7 +712,7 @@ msgstr "ΛΣ"
 
 #: ../src/gzip_et_al.c ../src/lha.c ../src/rar.c
 msgid "Occupancy"
-msgstr ""
+msgstr "Πληρότητα"
 
 #: ../src/new_dialog.c ../src/window.c
 msgid "Only archives"
@@ -903,7 +914,7 @@ msgstr "Μετονομασία"
 
 #: ../src/interface.c
 msgid "Replace"
-msgstr ""
+msgstr "Αντικατάσταση"
 
 #: ../src/interface.c
 msgid "Root"
@@ -923,7 +934,7 @@ msgstr "Αποθήκευση διαστάσεων παραθύρου"
 
 #: ../src/gzip_et_al.c ../src/unar.c ../src/zip.c
 msgid "Saving"
-msgstr ""
+msgstr "Αποθήκευση"
 
 #: ../src/main.c ../src/window.c
 msgid "Select \"New\" to create or \"Open\" to open an archive"
@@ -981,7 +992,7 @@ msgstr ""
 
 #: ../src/pref_dialog.c
 msgid "Show toolbar"
-msgstr ""
+msgstr "Εμφάνιση γραμμής εργαλείων"
 
 #: ../src/main.c
 msgid "Show version and exit\n"
@@ -1013,7 +1024,7 @@ msgstr "Ταξινόμηση με βάση το όνομα αρχείου"
 
 #: ../src/interface.c
 msgid "Stop"
-msgstr ""
+msgstr "Σταματήσε"
 
 #: ../src/pref_dialog.c
 msgid "Store archiver output"
@@ -1021,11 +1032,11 @@ msgstr "Αποθήκευση εξόδου προγράμματος"
 
 #: ../src/gzip_et_al.c
 msgid "Streams/Blocks/Padding"
-msgstr ""
+msgstr "Ροές / μπλοκ / επιθέματα"
 
 #: ../src/window.c
 msgid "Test result:"
-msgstr ""
+msgstr "Αποτέλεσμα δοκιμής:"
 
 #: ../src/window.c
 msgid "Testing archive, please wait..."
@@ -1075,6 +1086,8 @@ msgstr "Το πρόγραμμα συμπίεσης δεν υποστηρίζει
 #: ../src/gzip_et_al.c
 msgid "The archiver lacks necessary support for password protected decryption!"
 msgstr ""
+"Ο αρχειοθέτης δεν διαθέτει την απαραίτητη υποστήριξη για αποκρυπτογράφηση με "
+"κωδικό πρόσβασης!"
 
 #: ../src/pref_dialog.c
 msgid "The filename column is sorted after loading the archive."
@@ -1087,6 +1100,8 @@ msgid ""
 "The incremental search is also performed within filenames rather than just "
 "at the beginning of them."
 msgstr ""
+"Η αυξητική αναζήτηση πραγματοποιείται επίσης εντός των ονομάτων αρχείων και "
+"όχι μόνο στην αρχή τους."
 
 #: ../src/extract_dialog.c ../src/main.c ../src/window.c
 #, c-format
@@ -1171,15 +1186,15 @@ msgstr "Αποσυμπιεσμένο μέγεθος: "
 
 #: ../src/rpm.c
 msgid "Unknown compression type!"
-msgstr ""
+msgstr "Άγνωστος τύπος συμπίεσης!"
 
 #: ../src/interface.c
 msgid "Uns_ort"
-msgstr ""
+msgstr "Uns_ort"
 
 #: ../src/7zip.c
 msgid "Unsupported binary format!"
-msgstr ""
+msgstr "Μη υποστηριζόμενη δυαδική μορφή!"
 
 #: ../src/interface.c
 msgid "Up"
@@ -1219,7 +1234,7 @@ msgstr ""
 
 #: ../src/zpaq.c
 msgid "Will not handle files with wildcard characters!"
-msgstr ""
+msgstr "Δεν χειρίζεται αρχεία με χαρακτήρες μπαλαντέρ!"
 
 #: ../src/pref_dialog.c
 msgid "Window"
@@ -1231,11 +1246,11 @@ msgstr "Με πλήρη διαδρομή"
 
 #: ../src/extract_dialog.c
 msgid "Without any path"
-msgstr ""
+msgstr "Χωρίς καμία διαδρομή"
 
 #: ../src/add_dialog.c ../src/extract_dialog.c
 msgid "Without parent path"
-msgstr ""
+msgstr "Χωρίς μητρική διαδρομή"
 
 #: ../src/window.c
 msgid "Yes"
@@ -1250,6 +1265,8 @@ msgid ""
 "You can drop either archives to open or files to add. It is not possible to "
 "do both at the same time."
 msgstr ""
+"Μπορείτε να αφήσετε είτε αρχεία προς άνοιγμα είτε αρχεία προς προσθήκη. Δεν "
+"είναι δυνατόν να τα κάνετε και τα δύο ταυτόχρονα."
 
 #: ../src/interface.c ../src/window.c
 msgid "You can't add content to this archive type!"
@@ -1296,7 +1313,7 @@ msgstr "Δεν εισάγατε τη διαδρομή προορισμού!"
 
 #: ../src/main.c
 msgid "[ARCHIVE]"
-msgstr ""
+msgstr "[ΑΡΧΕΙΟΘΈΤΗΣΗ]"
 
 #: ../src/add_dialog.c
 msgid "_Add"
@@ -1356,15 +1373,17 @@ msgstr "Αρχείο _κειμένου"
 
 #: ../src/window.c
 msgid "and"
-msgstr ""
+msgstr "και"
 
 #: ../xarchiver.desktop.in.h
 msgid "archive;compress;decompress;extract;pack;uncompress;unpack;"
 msgstr ""
+"αρχειοθέτηση;συμπίεση;αποσυμπίεση;εξαγωγή;πακετάρισμα;Αποσυμπίεση;ξεπακετάρετε;"
+""
 
 #: ../src/add_dialog.c
 msgid "best"
-msgstr ""
+msgstr "καλύτερο"
 
 #: ../src/pref_dialog.c
 msgid "choose..."
@@ -1388,11 +1407,11 @@ msgstr "μεγάλο"
 
 #: ../src/add_dialog.c
 msgid "least"
-msgstr ""
+msgstr "ελάχιστο"
 
 #: ../src/pref_dialog.c
 msgid "medium"
-msgstr ""
+msgstr "μέτριο"
 
 #: ../src/window.c
 msgid "selected"
@@ -1404,7 +1423,7 @@ msgstr "μικρό"
 
 #: ../src/pref_dialog.c
 msgid "small/medium"
-msgstr ""
+msgstr "μικρό/μεσαίο"
 
 #. Do not translate this string.
 #. Instead, add your name here if you like.
