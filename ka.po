@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://github.com/ib/xarchiver/issues\n"
 "POT-Creation-Date: 2025-08-01 17:51+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-01-29 07:19+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <https://hosted.weblate.org/projects/xarchiver/"
+"translations/ka/>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: ../src/window.c
 #, c-format
@@ -23,6 +25,8 @@ msgid ""
 "\n"
 "Name: "
 msgstr ""
+"\n"
+"სახელი: "
 
 #: ../src/new_dialog.c
 #, c-format
@@ -60,7 +64,7 @@ msgstr ""
 
 #: ../src/pref_dialog.c
 msgid "/tmp"
-msgstr ""
+msgstr "/tmp"
 
 #: ../src/interface.c
 msgid "<span weight='bold' size='larger'>Enter password for:</span>"
@@ -73,12 +77,12 @@ msgstr ""
 #: ../src/window.c
 #, c-format
 msgid "<th>Files:</th>"
-msgstr ""
+msgstr "<th>ფაილები:</th>"
 
 #: ../src/window.c
 #, c-format
 msgid "<th>Size:</th>"
-msgstr ""
+msgstr "<th>ზომა:</th>"
 
 #: ../src/window.c
 msgid "A GTK+ only lightweight archive manager"
@@ -86,19 +90,19 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "A_ction"
-msgstr ""
+msgstr "_ქმედება"
 
 #: ../src/interface.c
 msgid "A_dd"
-msgstr ""
+msgstr "დ_ამატება"
 
 #: ../src/add_dialog.c
 msgid "Actions"
-msgstr ""
+msgstr "ქმედებები"
 
 #: ../src/interface.c
 msgid "Add"
-msgstr ""
+msgstr "დამატება"
 
 #: ../src/add_dialog.c ../src/interface.c
 msgid "Add files"
@@ -126,7 +130,7 @@ msgstr ""
 
 #: ../src/pref_dialog.c
 msgid "Advanced"
-msgstr ""
+msgstr "დამატებითი"
 
 #: ../src/pref_dialog.c
 msgid "Advanced incremental search (requires restart)"
@@ -150,7 +154,7 @@ msgstr ""
 
 #: ../src/extract_dialog.c ../src/pref_dialog.c
 msgid "Archive"
-msgstr ""
+msgstr "არქივი"
 
 #: ../src/interface.c
 msgid "Archive Properties"
@@ -201,7 +205,7 @@ msgstr ""
 
 #: ../src/7zip.c ../src/arj.c ../src/rar.c
 msgid "Attributes"
-msgstr ""
+msgstr "ატრიბუტები"
 
 #: ../src/pref_dialog.c
 msgid "Automatically expand archive tree nodes on selection"
@@ -209,11 +213,11 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "Back"
-msgstr ""
+msgstr "უკან"
 
 #: ../src/open-with-dlg.c
 msgid "Browse"
-msgstr ""
+msgstr "დათვალიერება"
 
 #: ../src/add_dialog.c ../src/main.c
 msgid "Can't add files to the archive:"
@@ -303,7 +307,7 @@ msgstr ""
 
 #: ../src/arj.c ../src/rar.c
 msgid "Checksum"
-msgstr ""
+msgstr "საკონტროლო ჯამი"
 
 #: ../src/pref_dialog.c
 msgid "Choose the application to use"
@@ -327,7 +331,7 @@ msgstr ""
 
 #: ../src/window.c
 msgid "Command"
-msgstr ""
+msgstr "ბრძანება"
 
 #: ../src/pref_dialog.c
 msgid ""
@@ -337,11 +341,11 @@ msgstr ""
 
 #: ../src/window.c
 msgid "Comment"
-msgstr ""
+msgstr "კომენტარი"
 
 #: ../src/interface.c
 msgid "Comment:"
-msgstr ""
+msgstr "კომენტარი:"
 
 #: ../src/window.c
 #, c-format
