@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://github.com/ib/xarchiver/issues\n"
 "POT-Creation-Date: 2025-08-01 17:51+0200\n"
-"PO-Revision-Date: 2026-01-29 07:19+0000\n"
+"PO-Revision-Date: 2026-01-30 20:01+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://hosted.weblate.org/projects/xarchiver/"
 "translations/ka/>\n"
@@ -31,28 +31,28 @@ msgstr ""
 #: ../src/new_dialog.c
 #, c-format
 msgid "\"%s\" is already open!"
-msgstr ""
+msgstr "\"%s\" უკვე ღიაა!"
 
 #: ../src/window.c
 #, c-format
 msgid "%d dir %s (%s)"
 msgid_plural "%d dirs %s (%s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d სქღლდ %s (%s)"
+msgstr[1] "%d სქღლდ %s (%s)"
 
 #: ../src/window.c
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d ფაილი"
+msgstr[1] "%d ფაილი"
 
 #: ../src/window.c
 #, c-format
 msgid "%d file %s (%s)"
 msgid_plural "%d files %s (%s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d ფაილი %s (%s)"
+msgstr[1] "%d ფაილი %s (%s)"
 
 #: ../src/add_dialog.c
 #, c-format
@@ -61,6 +61,9 @@ msgid ""
 "%hu is default compression\n"
 "%hu is best compression"
 msgstr ""
+"%hu უმცირესი შეკუმშვაა\n"
+"%hu ნაგულისხმევი შეკუმშვაა\n"
+"%hu საუკეთესო შეკუმშვაა"
 
 #: ../src/pref_dialog.c
 msgid "/tmp"
@@ -68,11 +71,12 @@ msgstr "/tmp"
 
 #: ../src/interface.c
 msgid "<span weight='bold' size='larger'>Enter password for:</span>"
-msgstr ""
+msgstr "<span weight='bold' size='larger'>შეიყვანეთ პაროლი არქივისთვის:</span>"
 
 #: ../src/interface.c
 msgid "<span weight='bold' size='larger'>Password required for:</span>"
 msgstr ""
+"<span weight='bold' size='larger'>პაროლი აუცილებელია არქივისთვის:</span>"
 
 #: ../src/window.c
 #, c-format
@@ -106,7 +110,7 @@ msgstr "დამატება"
 
 #: ../src/add_dialog.c ../src/interface.c
 msgid "Add files"
-msgstr ""
+msgstr "ფაილების დამატება"
 
 #: ../src/main.c
 msgid ""
@@ -126,7 +130,7 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "Adding to archive:"
-msgstr ""
+msgstr "დაემატება არქივში:"
 
 #: ../src/pref_dialog.c
 msgid "Advanced"
@@ -138,7 +142,7 @@ msgstr ""
 
 #: ../src/extract_dialog.c ../src/new_dialog.c ../src/window.c
 msgid "All files"
-msgstr ""
+msgstr "ყველა ფაილი"
 
 #: ../src/pref_dialog.c
 msgid "Allow subdirs with clipboard and drag-and-drop"
@@ -150,7 +154,7 @@ msgstr ""
 
 #: ../src/add_dialog.c ../src/main.c ../src/window.c
 msgid "An error occurred!"
-msgstr ""
+msgstr "აღმოჩენილია შეცდომა!"
 
 #: ../src/extract_dialog.c ../src/pref_dialog.c
 msgid "Archive"
@@ -158,28 +162,28 @@ msgstr "არქივი"
 
 #: ../src/interface.c
 msgid "Archive Properties"
-msgstr ""
+msgstr "არქივის თვისებები"
 
 #: ../src/interface.c
 msgid "Archive _comment"
-msgstr ""
+msgstr "არქივის _კომენტარი"
 
 #: ../src/window.c
 #, c-format
 msgid "Archive content:\n"
-msgstr ""
+msgstr "არქივის შემცველობა:\n"
 
 #: ../src/window.c
 msgid "Archive format is not recognized!"
-msgstr ""
+msgstr "არქივის ფორმატი უცნობია!"
 
 #: ../xarchiver.desktop.in.h
 msgid "Archive manager"
-msgstr ""
+msgstr "არქივის მმართველი"
 
 #: ../src/interface.c
 msgid "Archive tree"
-msgstr ""
+msgstr "არქივის ხე"
 
 #: ../src/pref_dialog.c
 msgid ""
@@ -189,19 +193,19 @@ msgstr ""
 
 #: ../src/new_dialog.c
 msgid "Archive type:"
-msgstr ""
+msgstr "არქივის ტიპი:"
 
 #: ../src/interface.c
 msgid "Archiver executable:"
-msgstr ""
+msgstr "არქივატორის გამშვები ფაილი:"
 
 #: ../src/window.c
 msgid "Archiver output"
-msgstr ""
+msgstr "არქივატორის გამოტანილი ინფორმაცია"
 
 #: ../src/window.c
 msgid "Are you sure you want to do this?"
-msgstr ""
+msgstr "მართლა გნებავთ ამის გაკეთება?"
 
 #: ../src/7zip.c ../src/arj.c ../src/rar.c
 msgid "Attributes"
@@ -221,7 +225,7 @@ msgstr "დათვალიერება"
 
 #: ../src/add_dialog.c ../src/main.c
 msgid "Can't add files to the archive:"
-msgstr ""
+msgstr "ფაილების არქივში ჩამატება შეუძლებელია:"
 
 #: ../src/main.c
 msgid "Can't allocate memory for the archive structure!"
@@ -237,23 +241,23 @@ msgstr ""
 
 #: ../src/new_dialog.c
 msgid "Can't create a new archive:"
-msgstr ""
+msgstr "ახალი არქივის შექმნა შეუძლებელია:"
 
 #: ../src/extract_dialog.c ../src/main.c
 msgid "Can't create directory!"
-msgstr ""
+msgstr "შეცდომა საქაღალდის შექმნისას!"
 
 #: ../src/archive.c
 msgid "Can't create temporary directory:"
-msgstr ""
+msgstr "დროებითი საქაღალდის შექმნა შეუძლებელია:"
 
 #: ../src/extract_dialog.c ../src/main.c ../src/window.c
 msgid "Can't extract files from the archive:"
-msgstr ""
+msgstr "არქივიდან ფაილების ამოღება შეუძლებელია:"
 
 #: ../src/rpm.c
 msgid "Can't fseek in file:"
-msgstr ""
+msgstr "ფაილში გადახვევა შეუძლებელია:"
 
 #: ../src/rpm.c
 msgid "Can't fseek to position 104:"
@@ -275,23 +279,23 @@ msgstr ""
 
 #: ../src/main.c
 msgid "Can't open the archive!"
-msgstr ""
+msgstr "არქივის გახსნა შეუძლებელია!"
 
 #: ../src/extract_dialog.c ../src/window.c
 msgid "Can't perform extraction!"
-msgstr ""
+msgstr "ამოღების შესრულება შეუძლებელია!"
 
 #: ../src/interface.c ../src/main.c ../src/window.c
 msgid "Can't perform this action:"
-msgstr ""
+msgstr "ამ ქმედების შესრულება შეუძლებელია:"
 
 #: ../src/rpm.c
 msgid "Can't read data from file:"
-msgstr ""
+msgstr "დისკიდან მონაცემების წაკითხვა შეუძლებელია:"
 
 #: ../src/archive.c
 msgid "Can't run the archiver executable:"
-msgstr ""
+msgstr "არქივატორის გამშვები ფაილის გაშვება შეუძლებელია:"
 
 #: ../src/window.c
 msgid "Can't write the sfx module to the archive:"
@@ -299,11 +303,11 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "Cancel current operation"
-msgstr ""
+msgstr "მიმდინარე ოპერაციის გაუქმება"
 
 #: ../src/gzip_et_al.c
 msgid "Check Type"
-msgstr ""
+msgstr "შემოწმების ტიპი"
 
 #: ../src/arj.c ../src/rar.c
 msgid "Checksum"
@@ -323,7 +327,7 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "Close archive"
-msgstr ""
+msgstr "არქივის დახურვა"
 
 #: ../src/interface.c
 msgid "Cmd-line outp_ut"
@@ -350,36 +354,36 @@ msgstr "კომენტარი:"
 #: ../src/window.c
 #, c-format
 msgid "Comment:\n"
-msgstr ""
+msgstr "კომენტარი:\n"
 
 #: ../src/7zip.c ../src/arj.c ../src/gzip_et_al.c ../src/rar.c ../src/zip.c
 msgid "Compressed"
-msgstr ""
+msgstr "შეკუმშული"
 
 #: ../src/interface.c
 msgid "Compressed size:"
-msgstr ""
+msgstr "შეკუმშული ზომა:"
 
 #: ../src/window.c
 #, c-format
 msgid "Compressed size: "
-msgstr ""
+msgstr "შეკუმშული ზომა: "
 
 #: ../src/add_dialog.c
 msgid "Compression"
-msgstr ""
+msgstr "შეკუმშვა"
 
 #: ../src/gzip_et_al.c
 msgid "Compression ratio"
-msgstr ""
+msgstr "შეკუმშვის დონე"
 
 #: ../src/interface.c
 msgid "Compression ratio:"
-msgstr ""
+msgstr "შეკუმშვის დონე:"
 
 #: ../src/pref_dialog.c
 msgid "Confirm deletion of files"
-msgstr ""
+msgstr "დაადასტურეთ ფაილების წაშლა"
 
 #: ../src/window.c
 msgid "Converting archive, please wait..."
@@ -387,19 +391,19 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "Copy"
-msgstr ""
+msgstr "კოპირება"
 
 #: ../src/new_dialog.c
 msgid "Cr_eate"
-msgstr ""
+msgstr "შე_ქმნა"
 
 #: ../src/interface.c ../src/new_dialog.c
 msgid "Create a new archive"
-msgstr ""
+msgstr "ახალი არქივის შექმნა"
 
 #: ../src/add_dialog.c
 msgid "Create a solid archive"
-msgstr ""
+msgstr "მყარი არქივის შექმნა"
 
 #: ../xarchiver.desktop.in.h
 msgid "Create, extract and modify archives"
@@ -407,7 +411,7 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "Cut"
-msgstr ""
+msgstr "ამოჭრა"
 
 #: ../src/gzip_et_al.c
 msgid "Data Frames/Skippable Frames"
@@ -417,7 +421,7 @@ msgstr ""
 #: ../src/lha.c ../src/rar.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
 #: ../src/unar.c ../src/zip.c ../src/zpaq.c
 msgid "Date"
-msgstr ""
+msgstr "თარიღი"
 
 #: ../src/pref_dialog.c
 msgid "Default custom command:"
@@ -425,7 +429,7 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "Delete"
-msgstr ""
+msgstr "წაშლა"
 
 #: ../src/add_dialog.c
 msgid "Delete files after adding"
@@ -441,15 +445,15 @@ msgstr ""
 
 #: ../src/extract_dialog.c
 msgid "Destination"
-msgstr ""
+msgstr "სამიზნე"
 
 #: ../src/window.c
 msgid "Do you really want to cancel?"
-msgstr ""
+msgstr "ნამდვილად გსურთ ამ ამოცანის გაუქმება?"
 
 #: ../src/new_dialog.c
 msgid "Do you want to overwrite it?"
-msgstr ""
+msgstr "გნებავთ, თავზე გადააწეროთ?"
 
 #: ../src/window.c
 msgid "Doing so will probably corrupt your archive!"
@@ -457,19 +461,19 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "Edit"
-msgstr ""
+msgstr "ჩასწორება"
 
 #: ../src/add_dialog.c
 msgid "Encrypt filenames"
-msgstr ""
+msgstr "ფაილის სახელების დაშიფვრა"
 
 #: ../src/interface.c
 msgid "Encrypted:"
-msgstr ""
+msgstr "დაშიფრული:"
 
 #: ../src/add_dialog.c
 msgid "Encryption"
-msgstr ""
+msgstr "დაშიფვრა"
 
 #: ../src/extract_dialog.c
 msgid "Ensure a containing directory"
@@ -497,7 +501,7 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "Extract"
-msgstr ""
+msgstr "გაშლა"
 
 #: ../src/main.c
 msgid ""
@@ -519,7 +523,7 @@ msgstr ""
 
 #: ../src/extract_dialog.c ../src/interface.c
 msgid "Extract files"
-msgstr ""
+msgstr "ფაილების გაშლა"
 
 #: ../src/main.c
 msgid ""
@@ -539,11 +543,11 @@ msgstr ""
 
 #: ../src/extract_dialog.c
 msgid "Extract to:"
-msgstr ""
+msgstr "გაშლის სამიზნე:"
 
 #: ../src/extract_dialog.c
 msgid "Extract with full path"
-msgstr ""
+msgstr "ამოღება სრული ბილიკით"
 
 #: ../src/interface.c
 #, c-format
@@ -564,15 +568,15 @@ msgstr ""
 
 #: ../src/add_dialog.c ../src/extract_dialog.c
 msgid "File Paths"
-msgstr ""
+msgstr "ფაილის ბილიკები"
 
 #: ../src/window.c
 msgid "Filename"
-msgstr ""
+msgstr "ფაილის სახელი"
 
 #: ../src/extract_dialog.c
 msgid "Files"
-msgstr ""
+msgstr "ფაილები"
 
 #: ../src/zpaq.c
 msgid "Files with absolute pathnames cannot be deleted!"
@@ -580,11 +584,11 @@ msgstr ""
 
 #: ../src/extract_dialog.c ../src/window.c
 msgid "Files:"
-msgstr ""
+msgstr "ფაილები:"
 
 #: ../src/interface.c
 msgid "Forward"
-msgstr ""
+msgstr "წინ"
 
 #: ../src/add_dialog.c ../src/extract_dialog.c
 msgid "Freshen existing files only"
@@ -592,11 +596,11 @@ msgstr ""
 
 #: ../src/window.c
 msgid "From File"
-msgstr ""
+msgstr "ფაილიდან"
 
 #: ../src/cpio.c ../src/rpm.c
 msgid "Group"
-msgstr ""
+msgstr "ჯგუფი"
 
 #: ../src/pref_dialog.c
 msgid "Icons size (requires restart):"
@@ -620,77 +624,77 @@ msgstr ""
 
 #: ../src/add_dialog.c
 msgid "Include subdirectories"
-msgstr ""
+msgstr "ქვესაქაღლდეების ჩათვლა"
 
 #: ../src/interface.c
 msgid "Location:"
-msgstr ""
+msgstr "მდებარეობა:"
 
 #: ../src/main.c
 #, c-format
 msgid "Maintained by "
-msgstr ""
+msgstr "პროექტს უძღვება "
 
 #: ../src/interface.c
 msgid "Make SF_X"
-msgstr ""
+msgstr "SF_X-ის შექმნა"
 
 #: ../src/gzip_et_al.c ../src/rar.c ../src/unar.c ../src/zip.c
 msgid "Method"
-msgstr ""
+msgstr "მეთოდი"
 
 #: ../src/interface.c
 msgid "Modified on:"
-msgstr ""
+msgstr "ცვლილების დრო:"
 
 #: ../src/extract_dialog.c
 msgid "Multi-Extract"
-msgstr ""
+msgstr "მრავლის ამოღება"
 
 #: ../src/interface.c
 msgid "Name:"
-msgstr ""
+msgstr "სახელი:"
 
 #: ../src/interface.c
 msgid "New"
-msgstr ""
+msgstr "ახალი"
 
 #: ../src/window.c
 msgid "No"
-msgstr ""
+msgstr "არა"
 
 #: ../src/add_dialog.c
 msgid "No compression"
-msgstr ""
+msgstr "შეკუმშვის გარეშე"
 
 #: ../src/main.c
 msgid "Nullsoft Installer"
-msgstr ""
+msgstr "Nullsoft Installer"
 
 #: ../src/interface.c
 msgid "Number of files:"
-msgstr ""
+msgstr "ფაილების რაოდენობა:"
 
 #: ../src/window.c
 #, c-format
 msgid "Number of files: "
-msgstr ""
+msgstr "ფაილების რაოდენობა: "
 
 #: ../src/zip.c
 msgid "OS"
-msgstr ""
+msgstr "OS"
 
 #: ../src/gzip_et_al.c ../src/lha.c ../src/rar.c
 msgid "Occupancy"
-msgstr ""
+msgstr "დაკავებულობა"
 
 #: ../src/new_dialog.c ../src/window.c
 msgid "Only archives"
-msgstr ""
+msgstr "მხოლოდ არქივები"
 
 #: ../src/interface.c
 msgid "Open"
-msgstr ""
+msgstr "გახსნა"
 
 #: ../src/open-with-dlg.c
 #, c-format
@@ -699,94 +703,94 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "Open With"
-msgstr ""
+msgstr "გახსნა პროგრამით"
 
 #: ../src/window.c
 msgid "Open a text file"
-msgstr ""
+msgstr "ტექსტური ფაილის გახსნა"
 
 #: ../src/interface.c ../src/window.c
 msgid "Open an archive"
-msgstr ""
+msgstr "არქივის გახსნა"
 
 #: ../src/pref_dialog.c
 msgid "Open archive files with:"
-msgstr ""
+msgstr "არქივის ფაილების გახსნა პროგრამით:"
 
 #: ../src/open-with-dlg.c
 msgid "Open file"
-msgstr ""
+msgstr "ფაილის გახსნა"
 
 #: ../src/pref_dialog.c
 msgid "Open image files with:"
-msgstr ""
+msgstr "გამოსახულების ფაილების გახსნა პროგრამით:"
 
 #: ../src/pref_dialog.c
 msgid "Open text files with:"
-msgstr ""
+msgstr "ტექსტური ფაილების გახსნა პროგრამით:"
 
 #: ../src/open-with-dlg.c
 msgid "Open the selected files"
-msgstr ""
+msgstr "მონიშნული ფაილების გახსნა"
 
 #: ../src/window.c
 msgid "Opening archive, please wait..."
-msgstr ""
+msgstr "მიმდინარეობს არქივის გახსნა. მოითმინეთ..."
 
 #: ../src/interface.c
 msgid "Opening archive:"
-msgstr ""
+msgstr "არქივის გახსნა:"
 
 #: ../src/window.c
 msgid "Operation aborted!"
-msgstr ""
+msgstr "ოპერაცია შეწყდა!"
 
 #: ../src/add_dialog.c ../src/extract_dialog.c
 msgid "Options"
-msgstr ""
+msgstr "მორგება"
 
 #: ../src/7zip.c ../src/ar.c ../src/arj.c ../src/cpio.c ../src/gzip_et_al.c
 #: ../src/lha.c ../src/rar.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
 #: ../src/unar.c ../src/zip.c ../src/zpaq.c
 msgid "Original Size"
-msgstr ""
+msgstr "საწყისი ზომა"
 
 #: ../src/extract_dialog.c
 msgid "Overwrite existing files"
-msgstr ""
+msgstr "არსებულ ფაილებზე გადაწერა"
 
 #: ../src/cpio.c ../src/rpm.c
 msgid "Owner"
-msgstr ""
+msgstr "მფლობელი"
 
 #: ../src/squashfs.c ../src/tar.c
 msgid "Owner/Group"
-msgstr ""
+msgstr "მფლობელი/ჯგუფი"
 
 #: ../src/add_dialog.c ../src/extract_dialog.c
 msgid "Password:"
-msgstr ""
+msgstr "პაროლი:"
 
 #: ../src/interface.c
 msgid "Paste"
-msgstr ""
+msgstr "ჩასმა"
 
 #: ../src/extract_dialog.c
 msgid "Path"
-msgstr ""
+msgstr "ბილიკი"
 
 #: ../src/interface.c
 msgid "Path:"
-msgstr ""
+msgstr "ბილიკი:"
 
 #: ../src/interface.c
 msgid "Pattern:"
-msgstr ""
+msgstr "შაბლონი:"
 
 #: ../src/ar.c ../src/arj.c ../src/cpio.c ../src/lha.c ../src/rpm.c
 #: ../src/squashfs.c ../src/tar.c ../src/zip.c ../src/zpaq.c
 msgid "Permissions"
-msgstr ""
+msgstr "უფლებები"
 
 #: ../src/window.c
 msgid "Please check the 'Store archiver output' option to see it."
@@ -815,7 +819,7 @@ msgstr ""
 #: ../src/main.c
 #, c-format
 msgid "Please report bugs to <%s>."
-msgstr ""
+msgstr "გთხოვთ, შეცდომების შესახებ გვაცნობეთ აქ <%s>."
 
 #: ../src/window.c
 msgid "Please select the 7zCon.sfx module"
@@ -831,12 +835,12 @@ msgstr ""
 
 #: ../src/window.c
 msgid "Please wait..."
-msgstr ""
+msgstr "გთხოვთ, მოითმინეთ..."
 
 #: ../src/cpio.c ../src/lha.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
 #: ../src/unar.c
 msgid "Points to"
-msgstr ""
+msgstr "მიუთითებს"
 
 #: ../src/pref_dialog.c
 msgid "Prefer unzip for zip files (requires restart)"
@@ -844,7 +848,7 @@ msgstr ""
 
 #: ../src/pref_dialog.c
 msgid "Preferences"
-msgstr ""
+msgstr "მორგება"
 
 #: ../src/pref_dialog.c
 msgid "Preferred archive format:"
@@ -868,11 +872,11 @@ msgstr ""
 
 #: ../src/arj.c ../src/gzip_et_al.c
 msgid "Ratio"
-msgstr ""
+msgstr "პროპორციები"
 
 #: ../src/interface.c
 msgid "Re_name"
-msgstr ""
+msgstr "სახელის გადარ_ქმევა"
 
 #: ../src/window.c
 msgid "Reloading archive, please wait..."
@@ -880,15 +884,15 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "Rename"
-msgstr ""
+msgstr "სახელის გადარქმევა"
 
 #: ../src/interface.c
 msgid "Replace"
-msgstr ""
+msgstr "ჩანაცვლება"
 
 #: ../src/interface.c
 msgid "Root"
-msgstr ""
+msgstr "Root"
 
 #: ../src/interface.c
 msgid "S_ort"
@@ -904,11 +908,11 @@ msgstr ""
 
 #: ../src/pref_dialog.c
 msgid "Save window geometry"
-msgstr ""
+msgstr "ფანჯრის გეომეტრიის შენახვა"
 
 #: ../src/gzip_et_al.c ../src/unar.c ../src/zip.c
 msgid "Saving"
-msgstr ""
+msgstr "შენახვა"
 
 #: ../src/main.c ../src/window.c
 msgid "Select \"New\" to create or \"Open\" to open an archive"
@@ -924,19 +928,19 @@ msgstr ""
 
 #: ../src/open-with-dlg.c
 msgid "Select an application"
-msgstr ""
+msgstr "აირჩიეთ აპლიკაცია"
 
 #: ../src/interface.c
 msgid "Select by Pattern"
-msgstr ""
+msgstr "მონიშვნა ნიმუშით"
 
 #: ../src/extract_dialog.c
 msgid "Selected files"
-msgstr ""
+msgstr "მონიშნული ფაილები"
 
 #: ../src/add_dialog.c
 msgid "Selection"
-msgstr ""
+msgstr "მონიშნული"
 
 #: ../src/pref_dialog.c
 msgid "Show archive comment"
@@ -952,7 +956,7 @@ msgstr ""
 
 #: ../src/window.c
 msgid "Show command"
-msgstr ""
+msgstr "ბრძანების ჩვენება"
 
 #: ../src/main.c
 msgid ""
@@ -962,7 +966,7 @@ msgstr ""
 
 #: ../src/pref_dialog.c
 msgid "Show toolbar"
-msgstr ""
+msgstr "ხელსაწყოთა ზოლის ჩვენება"
 
 #: ../src/main.c
 msgid "Show version and exit\n"
@@ -970,11 +974,11 @@ msgstr ""
 
 #: ../src/extract_dialog.c
 msgid "Size"
-msgstr ""
+msgstr "ზომა"
 
 #: ../src/window.c
 msgid "Size:"
-msgstr ""
+msgstr "ზომა:"
 
 #: ../src/extract_dialog.c
 msgid "Some errors occurred:"
@@ -994,7 +998,7 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "Stop"
-msgstr ""
+msgstr "გაჩერება"
 
 #: ../src/pref_dialog.c
 msgid "Store archiver output"
@@ -1117,7 +1121,7 @@ msgstr ""
 #: ../src/lha.c ../src/rar.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
 #: ../src/unar.c ../src/zip.c ../src/zpaq.c
 msgid "Time"
-msgstr ""
+msgstr "დრო"
 
 #: ../src/interface.c
 msgid "Total Progress:"
@@ -1129,7 +1133,7 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "Type:"
-msgstr ""
+msgstr "ტიპი:"
 
 #: ../src/ar.c ../src/lha.c
 msgid "UID/GID"
@@ -1137,7 +1141,7 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "Uncompressed size:"
-msgstr ""
+msgstr "შეუკუმშავი ზომა:"
 
 #: ../src/window.c
 #, c-format
@@ -1158,7 +1162,7 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "Up"
-msgstr ""
+msgstr "მაღლა"
 
 #: ../src/extract_dialog.c
 msgid "Update existing files"
@@ -1174,11 +1178,11 @@ msgstr ""
 
 #: ../src/gzip_et_al.c ../src/rar.c ../src/zip.c
 msgid "Version"
-msgstr ""
+msgstr "ვერსია"
 
 #: ../src/interface.c
 msgid "View"
-msgstr ""
+msgstr "ხედი"
 
 #: ../src/pref_dialog.c
 msgid "Web browser to use:"
@@ -1196,7 +1200,7 @@ msgstr ""
 
 #: ../src/pref_dialog.c
 msgid "Window"
-msgstr ""
+msgstr "ფანჯარა"
 
 #: ../src/add_dialog.c ../src/extract_dialog.c
 msgid "With full path"
@@ -1212,7 +1216,7 @@ msgstr ""
 
 #: ../src/window.c
 msgid "Yes"
-msgstr ""
+msgstr "დიახ"
 
 #: ../src/window.c
 msgid "You are about to delete entries from the archive."
@@ -1269,19 +1273,19 @@ msgstr ""
 
 #: ../src/add_dialog.c
 msgid "_Add"
-msgstr ""
+msgstr "_დამატება"
 
 #: ../src/interface.c
 msgid "_Archive"
-msgstr ""
+msgstr "_დაარქივება"
 
 #: ../src/interface.c
 msgid "_Contents"
-msgstr ""
+msgstr "შემ_ცველობა"
 
 #: ../src/extract_dialog.c ../src/interface.c
 msgid "_Extract"
-msgstr ""
+msgstr "_გაშლა"
 
 #: ../src/interface.c
 msgid "_HTML file"
@@ -1289,7 +1293,7 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "_Help"
-msgstr ""
+msgstr "_დახმარება"
 
 #: ../src/interface.c
 msgid "_List as"
@@ -1301,23 +1305,23 @@ msgstr ""
 
 #: ../src/interface.c
 msgid "_Password:"
-msgstr ""
+msgstr "_პაროლი:"
 
 #: ../src/interface.c
 msgid "_Preferences"
-msgstr ""
+msgstr "_მორგება"
 
 #: ../src/interface.c
 msgid "_Properties"
-msgstr ""
+msgstr "_თვისებები"
 
 #: ../src/interface.c
 msgid "_Select"
-msgstr ""
+msgstr "_მონიშვნა"
 
 #: ../src/interface.c
 msgid "_Test"
-msgstr ""
+msgstr "_ტესტი"
 
 #: ../src/interface.c
 msgid "_Text file"
@@ -1333,7 +1337,7 @@ msgstr ""
 
 #: ../src/add_dialog.c
 msgid "best"
-msgstr ""
+msgstr "საუკეთესო"
 
 #: ../src/pref_dialog.c
 msgid "choose..."
@@ -1353,7 +1357,7 @@ msgstr ""
 
 #: ../src/pref_dialog.c
 msgid "large"
-msgstr ""
+msgstr "დიდი"
 
 #: ../src/add_dialog.c
 msgid "least"
@@ -1361,15 +1365,15 @@ msgstr ""
 
 #: ../src/pref_dialog.c
 msgid "medium"
-msgstr ""
+msgstr "საშუალო"
 
 #: ../src/window.c
 msgid "selected"
-msgstr ""
+msgstr "არჩულია"
 
 #: ../src/pref_dialog.c
 msgid "small"
-msgstr ""
+msgstr "პატარა"
 
 #: ../src/pref_dialog.c
 msgid "small/medium"
@@ -1380,7 +1384,7 @@ msgstr ""
 #. One translator per line!
 #: ../src/window.c
 msgid "translator-credits"
-msgstr ""
+msgstr "თემური დოღონაძე"
 
 #: ../src/pref_dialog.c
 msgid "very large"
