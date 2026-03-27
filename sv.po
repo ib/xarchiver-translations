@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: xarchiver\n"
 "Report-Msgid-Bugs-To: https://github.com/ib/xarchiver/issues\n"
 "POT-Creation-Date: 2025-08-01 17:51+0200\n"
-"PO-Revision-Date: 2009-12-16 18:30+0100\n"
-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"PO-Revision-Date: 2026-03-29 00:09+0000\n"
+"Last-Translator: bittin1ddc447d824349b2 <bittin@reimu.nl>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/xarchiver/"
+"translations/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: ../src/window.c
 #, c-format
@@ -39,12 +41,11 @@ msgstr[0] "%d katalog %s (%s)"
 msgstr[1] "%d kataloger %s (%s)"
 
 #: ../src/window.c
-#, fuzzy, c-format
-#| msgid "Add files"
+#, c-format
 msgid "%d file"
 msgid_plural "%d files"
-msgstr[0] "Lägg till filer"
-msgstr[1] "Lägg till filer"
+msgstr[0] "%d fil"
+msgstr[1] "%d filer"
 
 #: ../src/window.c
 #, c-format
@@ -54,14 +55,15 @@ msgstr[0] "%d fil %s (%s)"
 msgstr[1] "%d filer %s (%s)"
 
 #: ../src/add_dialog.c
-#, fuzzy, c-format
-#| msgid "0 = no compression, 1 is default, 4 = fastest but least compression"
+#, c-format
 msgid ""
 "%hu is least compression\n"
 "%hu is default compression\n"
 "%hu is best compression"
 msgstr ""
-"0 = ingen komprimering, 1 är standard, 4 = snabbast men minst komprimering"
+"%hu är minst kompression\n"
+"%hu är standard kompression\n"
+"%hu är bästa kompression"
 
 #: ../src/pref_dialog.c
 msgid "/tmp"
@@ -110,22 +112,20 @@ msgid "Add files"
 msgstr "Lägg till filer"
 
 #: ../src/main.c
-#, fuzzy
-#| msgid "Add the given files by asking the name of the archive and quits."
 msgid ""
 "Add the given files by asking the name of\n"
 "                                     the archive and quit"
 msgstr ""
-"Lägg till angivna filer genom att fråga efter namnet på arkivet och avsluta."
+"Lägg till angivna filer genom att fråga efter namnet på\n"
+"                                     arkivet och avsluta"
 
 #: ../src/main.c
-#, fuzzy
-#| msgid "Add files to archive by asking their filenames and quits."
 msgid ""
 "Add to archive by asking which files and\n"
 "                                     quit"
 msgstr ""
-"Lägg till filer till arkivet genom att fråga efter deras filnamn och avsluta."
+"Lägg till filer till arkivet genom att fråga efter deras filnamn och\n"
+"                                     avsluta"
 
 #: ../src/window.c
 msgid "Adding files to archive, please wait..."
@@ -140,20 +140,16 @@ msgid "Advanced"
 msgstr "Avancerat"
 
 #: ../src/pref_dialog.c
-#, fuzzy
-#| msgid "Icons size (requires restart):"
 msgid "Advanced incremental search (requires restart)"
-msgstr "Ikonstorlek (kräver omstart)"
+msgstr "Avancerad inkrementell sökning (kräver omstart)"
 
 #: ../src/extract_dialog.c ../src/new_dialog.c ../src/window.c
 msgid "All files"
 msgstr "Alla filer"
 
 #: ../src/pref_dialog.c
-#, fuzzy
-#| msgid "Allow subdirs with drag and drop"
 msgid "Allow subdirs with clipboard and drag-and-drop"
-msgstr "Tillåt underkataloger med dra och släpp"
+msgstr "Tillåt underkataloger med urklipp och dra och släpp"
 
 #: ../src/window.c
 msgid "An error occurred while accessing the archive:"
@@ -176,8 +172,7 @@ msgid "Archive _comment"
 msgstr "Arkiv_kommentar"
 
 #: ../src/window.c
-#, fuzzy, c-format
-#| msgid "Archive contents:\n"
+#, c-format
 msgid "Archive content:\n"
 msgstr "Arkivinnehåll:\n"
 
@@ -198,16 +193,16 @@ msgid ""
 "Archive tree nodes already expand when the node name is selected by mouse "
 "click or keyboard shortcut."
 msgstr ""
+"Arkivträdnoder expanderar redan när nodnamnet väljs med musklick eller "
+"tangentbords-genväg."
 
 #: ../src/new_dialog.c
 msgid "Archive type:"
 msgstr "Arkivtyp:"
 
 #: ../src/interface.c
-#, fuzzy
-#| msgid "Can't run the archiver executable:"
 msgid "Archiver executable:"
-msgstr "Kan inte köra arkiveraren:"
+msgstr "Körbar fil för arkivprogrammet:"
 
 #: ../src/window.c
 msgid "Archiver output"
@@ -223,7 +218,7 @@ msgstr "Attribut"
 
 #: ../src/pref_dialog.c
 msgid "Automatically expand archive tree nodes on selection"
-msgstr ""
+msgstr "Expandera automatiskt arkivträdnoder vid val"
 
 #: ../src/interface.c
 msgid "Back"
@@ -254,10 +249,8 @@ msgid "Can't create a new archive:"
 msgstr "Kan inte skapa ett nytt arkiv:"
 
 #: ../src/extract_dialog.c ../src/main.c
-#, fuzzy
-#| msgid "Can't create directory \"%s\""
 msgid "Can't create directory!"
-msgstr "Kan inte skapa katalogen \"%s\""
+msgstr "Kan inte skapa katalog!"
 
 #: ../src/archive.c
 msgid "Can't create temporary directory:"
@@ -290,10 +283,8 @@ msgid "Can't open file \"%s\":"
 msgstr "Kan inte öppna filen \"%s\":"
 
 #: ../src/main.c
-#, fuzzy
-#| msgid "Can't open archive \"%s\":"
 msgid "Can't open the archive!"
-msgstr "Kan inte öppna arkivet \"%s\":"
+msgstr "Kan inte öppna arkiv!"
 
 #: ../src/extract_dialog.c ../src/window.c
 msgid "Can't perform extraction!"
@@ -321,7 +312,7 @@ msgstr "Avbryt aktuell åtgärd"
 
 #: ../src/gzip_et_al.c
 msgid "Check Type"
-msgstr ""
+msgstr "Kontrollera typ"
 
 #: ../src/arj.c ../src/rar.c
 msgid "Checksum"
@@ -348,16 +339,16 @@ msgid "Cmd-line outp_ut"
 msgstr "Kommandorads_utskrift"
 
 #: ../src/window.c
-#, fuzzy
-#| msgid "Comment"
 msgid "Command"
-msgstr "Kommentar"
+msgstr "Kommando"
 
 #: ../src/pref_dialog.c
 msgid ""
 "Command-line output is captured and can be reviewed, but this consumes "
 "additional memory."
 msgstr ""
+"Kommandoradsutdata registreras och kan granskas, men detta förbrukar "
+"ytterligare minne."
 
 #: ../src/window.c
 msgid "Comment"
@@ -402,10 +393,8 @@ msgid "Confirm deletion of files"
 msgstr "Bekräfta borttagning av filer"
 
 #: ../src/window.c
-#, fuzzy
-#| msgid "Testing archive, please wait..."
 msgid "Converting archive, please wait..."
-msgstr "Testar arkiv, vänta..."
+msgstr "Konverterar arkiv, vänta..."
 
 #: ../src/interface.c
 msgid "Copy"
@@ -424,10 +413,8 @@ msgid "Create a solid archive"
 msgstr "Skapa ett solit arkiv"
 
 #: ../xarchiver.desktop.in.h
-#, fuzzy
-#| msgid "Create a solid archive"
 msgid "Create, extract and modify archives"
-msgstr "Skapa ett solit arkiv"
+msgstr "Skapa, extrahera och modifiera arkiv"
 
 #: ../src/interface.c
 msgid "Cut"
@@ -435,7 +422,7 @@ msgstr "Klipp ut"
 
 #: ../src/gzip_et_al.c
 msgid "Data Frames/Skippable Frames"
-msgstr ""
+msgstr "Dataramar/överhoppningsbara ramar"
 
 #: ../src/7zip.c ../src/ar.c ../src/arj.c ../src/cpio.c ../src/gzip_et_al.c
 #: ../src/lha.c ../src/rar.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
@@ -444,10 +431,8 @@ msgid "Date"
 msgstr "Datum"
 
 #: ../src/pref_dialog.c
-#, fuzzy
-#| msgid "Use a custom command:"
 msgid "Default custom command:"
-msgstr "Använd ett anpassat kommando:"
+msgstr "Standard anpassat kommando:"
 
 #: ../src/interface.c
 msgid "Delete"
@@ -458,20 +443,16 @@ msgid "Delete files after adding"
 msgstr "Ta bort filer efter de lagts till"
 
 #: ../src/window.c
-#, fuzzy
-#| msgid "Extracting files from archive, please wait..."
 msgid "Deleting files from archive, please wait..."
-msgstr "Extraherar filer från arkivet, vänta..."
+msgstr "Tar bort filer från arkivet, vänta..."
 
 #: ../src/interface.c
 msgid "Dese_lect all"
 msgstr "Avmar_kera allt"
 
 #: ../src/extract_dialog.c
-#, fuzzy
-#| msgid "destination archive"
 msgid "Destination"
-msgstr "målarkiv"
+msgstr "Mål"
 
 #: ../src/window.c
 msgid "Do you really want to cancel?"
@@ -487,13 +468,11 @@ msgstr "Att göra det kan innebära att ditt arkiv skadas!"
 
 #: ../src/interface.c
 msgid "Edit"
-msgstr ""
+msgstr "Redigera"
 
 #: ../src/add_dialog.c
-#, fuzzy
-#| msgid "filenames"
 msgid "Encrypt filenames"
-msgstr "filnamn"
+msgstr "Kryptera filnamn"
 
 #: ../src/interface.c
 msgid "Encrypted:"
@@ -504,16 +483,16 @@ msgid "Encryption"
 msgstr "Kryptering"
 
 #: ../src/extract_dialog.c
-#, fuzzy
-#| msgid "Preferred extract directory:"
 msgid "Ensure a containing directory"
-msgstr "Föredragen extraheringskatalog:"
+msgstr "Säkerställ en innehållande katalog"
 
 #: ../src/extract_dialog.c
 msgid ""
 "Ensure that the contents of the extracted archive is always in a containing "
 "directory."
 msgstr ""
+"Se till att innehållet i det extraherade arkivet alltid finns i den "
+"innehållande katalogen."
 
 #: ../src/interface.c
 msgid "Enter passwo_rd"
@@ -524,50 +503,53 @@ msgid ""
 "Even if other, perhaps more powerful programs are installed to handle zip "
 "archives, the traditional \"unzip\" and \"zip\" will still be used."
 msgstr ""
+"Även om andra, kanske kraftfullare program installeras för att hantera zip-"
+"arkiv, kommer de traditionella \"unzip\" och \"zip\" fortfarande att "
+"användas."
 
 #: ../src/pref_dialog.c
 msgid "Extended drag-and-drop support (requires restart)"
-msgstr ""
+msgstr "Utökat dra och släpp stöd (kräver omstart)"
 
 #: ../src/interface.c
 msgid "Extract"
 msgstr "Extrahera"
 
 #: ../src/main.c
-#, fuzzy
-#| msgid "Extract archive by asking the extraction directory and quits."
 msgid ""
 "Extract archive by asking the extraction\n"
 "                                     directory and quit"
-msgstr "Extrahera arkiv genom att fråga efter målkatalogen och avsluta."
+msgstr ""
+"Extrahera arkiv genom att fråga efter mål\n"
+"                                     katalogen och avsluta"
 
 #: ../src/main.c
-#, fuzzy
-#| msgid "Extract archive to the destination directory and quits."
 msgid ""
 "Extract archive to a containing directory\n"
 "                                     and quit"
-msgstr "Extrahera arkivet till målkatalogen och avslutar."
+msgstr ""
+"Extrahera arkivet till en katalog som redan finns\n"
+"                                     och avsluta"
 
 #: ../src/main.c
-#, fuzzy
-#| msgid "Extract archive to the destination directory and quits."
 msgid ""
 "Extract archive to the destination\n"
 "                                     directory and quit"
-msgstr "Extrahera arkivet till målkatalogen och avslutar."
+msgstr ""
+"Extrahera arkivet till mål\n"
+"                                     katalogen och avsluta"
 
 #: ../src/extract_dialog.c ../src/interface.c
 msgid "Extract files"
 msgstr "Extrahera filer"
 
 #: ../src/main.c
-#, fuzzy
-#| msgid "Extract archive by asking the extraction directory and quits."
 msgid ""
 "Extract multiple archives by asking the\n"
 "                                     extraction directory and quit"
-msgstr "Extrahera arkiv genom att fråga efter målkatalogen och avsluta."
+msgstr ""
+"Extrahera arkiv genom att fråga efter\n"
+"                                     extraktionskatalog och avsluta"
 
 #: ../src/extract_dialog.c
 msgid ""
@@ -578,25 +560,21 @@ msgstr ""
 "diskkopiorna."
 
 #: ../src/extract_dialog.c
-#, fuzzy
-#| msgid "Extract to dir \"Archive Name\""
 msgid "Extract to directories with archive names"
-msgstr "Extrahera till katalogen \"Arkivnamn\""
+msgstr "Extrahera till kataloger med arkivnamn"
 
 #: ../src/extract_dialog.c
 msgid "Extract to:"
 msgstr "Extrahera till:"
 
 #: ../src/extract_dialog.c
-#, fuzzy
-#| msgid "Extract files with full path"
 msgid "Extract with full path"
-msgstr "Extrahera filer med fullständig sökväg"
+msgstr "Extrahera med fullständig sökväg"
 
 #: ../src/interface.c
-#, fuzzy, c-format
+#, c-format
 msgid "Extracting \"%s\"..."
-msgstr "Extrahera"
+msgstr "Extraherar \"%s\"..."
 
 #: ../src/window.c
 msgid "Extracting files from archive, please wait..."
@@ -624,7 +602,7 @@ msgstr "Filer"
 
 #: ../src/zpaq.c
 msgid "Files with absolute pathnames cannot be deleted!"
-msgstr ""
+msgstr "Filer med absoluta sökvägar kan inte raderas!"
 
 #: ../src/extract_dialog.c ../src/window.c
 msgid "Files:"
@@ -635,10 +613,8 @@ msgid "Forward"
 msgstr "Framåt"
 
 #: ../src/add_dialog.c ../src/extract_dialog.c
-#, fuzzy
-#| msgid "Freshen existing files"
 msgid "Freshen existing files only"
-msgstr "Uppdatera befintliga filer"
+msgstr "Fräscha upp befintliga filer endast"
 
 #: ../src/window.c
 msgid "From File"
@@ -662,12 +638,10 @@ msgid ""
 "If you install \"xdg-open\" from the \"xdg-utils\" package, each file will "
 "be opened with its default application."
 msgstr ""
+"Om du installerar \"xdg-open\" från paketet \"xdg-utils\" kommer varje fil "
+"att öppnas med sitt standardprogram."
 
 #: ../src/add_dialog.c
-#, fuzzy
-#| msgid ""
-#| "In a solid archive the files are grouped together featuring a better "
-#| "compression ratio"
 msgid ""
 "In a solid archive the files are grouped together resulting in a better "
 "compression ratio."
@@ -686,7 +660,7 @@ msgstr "Plats:"
 #: ../src/main.c
 #, c-format
 msgid "Maintained by "
-msgstr ""
+msgstr "Underhålls av "
 
 #: ../src/interface.c
 msgid "Make SF_X"
@@ -717,14 +691,12 @@ msgid "No"
 msgstr "Nej"
 
 #: ../src/add_dialog.c
-#, fuzzy
-#| msgid "Compression"
 msgid "No compression"
-msgstr "Komprimering"
+msgstr "Ingen kompression"
 
 #: ../src/main.c
 msgid "Nullsoft Installer"
-msgstr ""
+msgstr "Nullsoft Installer"
 
 #: ../src/interface.c
 msgid "Number of files:"
@@ -741,7 +713,7 @@ msgstr "Operativsystem"
 
 #: ../src/gzip_et_al.c ../src/lha.c ../src/rar.c
 msgid "Occupancy"
-msgstr ""
+msgstr "Ockuperar"
 
 #: ../src/new_dialog.c ../src/window.c
 msgid "Only archives"
@@ -769,16 +741,12 @@ msgid "Open an archive"
 msgstr "Öppna ett arkiv"
 
 #: ../src/pref_dialog.c
-#, fuzzy
-#| msgid "Open image files with:"
 msgid "Open archive files with:"
-msgstr "Öppna bildfiler med:"
+msgstr "Öppna arkivfiler med:"
 
 #: ../src/open-with-dlg.c
-#, fuzzy
-#| msgid "Open a text file"
 msgid "Open file"
-msgstr "Öppna en textfil"
+msgstr "Öppna fil"
 
 #: ../src/pref_dialog.c
 msgid "Open image files with:"
@@ -789,20 +757,16 @@ msgid "Open text files with:"
 msgstr "Öppna textfiler med:"
 
 #: ../src/open-with-dlg.c
-#, fuzzy
-#| msgid "Open the selected files with"
 msgid "Open the selected files"
-msgstr "Öppna de markerade filerna med"
+msgstr "Öppna de valda filerna"
 
 #: ../src/window.c
 msgid "Opening archive, please wait..."
 msgstr "Öppnar arkiv, vänta..."
 
 #: ../src/interface.c
-#, fuzzy
-#| msgid "Open an archive"
 msgid "Opening archive:"
-msgstr "Öppna ett arkiv"
+msgstr "Öppnar arkiv:"
 
 #: ../src/window.c
 msgid "Operation aborted!"
@@ -815,10 +779,8 @@ msgstr "Alternativ"
 #: ../src/7zip.c ../src/ar.c ../src/arj.c ../src/cpio.c ../src/gzip_et_al.c
 #: ../src/lha.c ../src/rar.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
 #: ../src/unar.c ../src/zip.c ../src/zpaq.c
-#, fuzzy
-#| msgid "Original"
 msgid "Original Size"
-msgstr "Ursprunglig"
+msgstr "Ursprunglig storlek"
 
 #: ../src/extract_dialog.c
 msgid "Overwrite existing files"
@@ -901,10 +863,8 @@ msgid "Please select the destination directory"
 msgstr "Välj målkatalogen"
 
 #: ../src/window.c
-#, fuzzy
-#| msgid "Please enter it!"
 msgid "Please wait..."
-msgstr "Mata in det!"
+msgstr "Vänligen vänta..."
 
 #: ../src/cpio.c ../src/lha.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
 #: ../src/unar.c
@@ -912,10 +872,8 @@ msgid "Points to"
 msgstr "Pekar till"
 
 #: ../src/pref_dialog.c
-#, fuzzy
-#| msgid "Icons size (requires restart):"
 msgid "Prefer unzip for zip files (requires restart)"
-msgstr "Ikonstorlek (kräver omstart)"
+msgstr "Föredra unzip för zip-filer (kräver omstart)"
 
 #: ../src/pref_dialog.c
 msgid "Preferences"
@@ -926,8 +884,6 @@ msgid "Preferred archive format:"
 msgstr "Föredraget arkivformat:"
 
 #: ../src/pref_dialog.c
-#, fuzzy
-#| msgid "Preferred extract directory:"
 msgid "Preferred extraction directory:"
 msgstr "Föredragen extraheringskatalog:"
 
@@ -952,10 +908,8 @@ msgid "Re_name"
 msgstr "_Byt namn"
 
 #: ../src/window.c
-#, fuzzy
-#| msgid "Opening archive, please wait..."
 msgid "Reloading archive, please wait..."
-msgstr "Öppnar arkiv, vänta..."
+msgstr "Laddar om arkiv, vänta..."
 
 #: ../src/interface.c
 msgid "Rename"
@@ -963,7 +917,7 @@ msgstr "Byt namn"
 
 #: ../src/interface.c
 msgid "Replace"
-msgstr ""
+msgstr "Ersätt"
 
 #: ../src/interface.c
 msgid "Root"
@@ -971,7 +925,7 @@ msgstr "Rot"
 
 #: ../src/interface.c
 msgid "S_ort"
-msgstr ""
+msgstr "S_ortera"
 
 #: ../src/window.c
 msgid "Save the archive as"
@@ -987,7 +941,7 @@ msgstr "Spara fönstergeometri"
 
 #: ../src/gzip_et_al.c ../src/unar.c ../src/zip.c
 msgid "Saving"
-msgstr ""
+msgstr "Sparar"
 
 #: ../src/main.c ../src/window.c
 msgid "Select \"New\" to create or \"Open\" to open an archive"
@@ -1030,29 +984,24 @@ msgid "Show archive tree sidebar"
 msgstr "Visa sidopanel för arkivträd"
 
 #: ../src/window.c
-#, fuzzy
-#| msgid "_Show comment"
 msgid "Show command"
-msgstr "_Visa kommentar"
+msgstr "Visa kommando"
 
 #: ../src/main.c
-#, fuzzy
-#| msgid "Add the given files by asking the name of the archive and quits."
 msgid ""
 "Show found command-line programs to be\n"
 "                                     used and exit"
 msgstr ""
-"Lägg till angivna filer genom att fråga efter namnet på arkivet och avsluta."
+"Visa funna kommandoradsprogram som\n"
+"                                     används och avsluta"
 
 #: ../src/pref_dialog.c
 msgid "Show toolbar"
-msgstr ""
+msgstr "Visa verktygsfält"
 
 #: ../src/main.c
-#, fuzzy
-#| msgid "Show version and exit"
 msgid "Show version and exit\n"
-msgstr "Visa version och avsluta"
+msgstr "Visa version och avsluta\n"
 
 #: ../src/extract_dialog.c
 msgid "Size"
@@ -1088,11 +1037,11 @@ msgstr "Lagra arkiverarens utdata"
 
 #: ../src/gzip_et_al.c
 msgid "Streams/Blocks/Padding"
-msgstr ""
+msgstr "Strömmar/block/utfyllning"
 
 #: ../src/window.c
 msgid "Test result:"
-msgstr ""
+msgstr "Testresultat:"
 
 #: ../src/window.c
 msgid "Testing archive, please wait..."
@@ -1104,60 +1053,48 @@ msgid "The archive \"%s\" already exists!"
 msgstr "Arkivet \"%s\" finns redan!"
 
 #: ../src/window.c
-#, fuzzy
-#| msgid "This archive is encrypted!"
 msgid "The archive is empty."
-msgstr "Detta arkiv är krypterat!"
+msgstr "Detta arkiv är tomt."
 
 #: ../src/window.c
-#, fuzzy
-#| msgid "This archive is encrypted!"
 msgid "The archive is okay."
-msgstr "Detta arkiv är krypterat!"
+msgstr "Detta arkiv är okej."
 
 #: ../src/extract_dialog.c
-#, fuzzy
-#| msgid ""
-#| "The archive's directory structure is recreated in the extraction directory"
 msgid ""
 "The archive's complete directory structure is recreated in the extraction "
 "directory."
-msgstr "Arkivets katalogstruktur återskapas i extraheringskatalogen"
+msgstr ""
+"Arkivets fullständiga katalogstruktur återskapas i extraheringskatalogen."
 
 #: ../src/extract_dialog.c
-#, fuzzy
-#| msgid ""
-#| "The archive's directory structure is recreated in the extraction directory"
 msgid ""
 "The archive's directory structure is not recreated; all files are placed in "
 "the extraction directory."
-msgstr "Arkivets katalogstruktur återskapas i extraheringskatalogen"
+msgstr ""
+"Arkivets katalogstruktur återskapas inte; alla filer placeras i "
+"extraheringskatalogen."
 
 #: ../src/extract_dialog.c
-#, fuzzy
-#| msgid ""
-#| "The archive's directory structure is recreated in the extraction directory"
 msgid ""
 "The archive's directory structure is recreated in the extraction directory, "
 "but with the parent directories of the selected files removed."
-msgstr "Arkivets katalogstruktur återskapas i extraheringskatalogen"
+msgstr ""
+"Arkivets katalogstruktur återskapas i extraheringskatalogen, men med "
+"föräldrakatalogerna till de valda filerna borttagna."
 
 #: ../src/add_dialog.c ../src/main.c
-#, fuzzy
-#| msgid "The archiver doesn't support this feature!"
 msgid ""
 "The archiver doesn't support compression of directories or multiple files!"
-msgstr "Arkiveraren saknar stöd för denna funktion!"
+msgstr "Arkiveraren stöder inte komprimering av kataloger eller flera filer!"
 
 #: ../src/extract_dialog.c
 msgid "The archiver doesn't support this feature!"
 msgstr "Arkiveraren saknar stöd för denna funktion!"
 
 #: ../src/gzip_et_al.c
-#, fuzzy
-#| msgid "This archive contains password protected files"
 msgid "The archiver lacks necessary support for password protected decryption!"
-msgstr "Detta arkiv innehåller lösenordsskyddade filer"
+msgstr "Arkiveraren saknar nödvändigt stöd för lösenordsskyddad dekryptering!"
 
 #: ../src/pref_dialog.c
 msgid "The filename column is sorted after loading the archive."
@@ -1168,12 +1105,13 @@ msgid ""
 "The incremental search is also performed within filenames rather than just "
 "at the beginning of them."
 msgstr ""
+"Den inkrementella sökningen utförs också inom filnamn snarare än bara i "
+"början av dem."
 
 #: ../src/extract_dialog.c ../src/main.c ../src/window.c
-#, fuzzy, c-format
-#| msgid "the proper archiver is not installed!"
+#, c-format
 msgid "The proper archiver for \"%s\" is not installed!"
-msgstr "den lämpliga arkivhanteraren är inte installerad!"
+msgstr "Den lämpliga arkivhanteraren för \"%s\" är inte installerad!"
 
 #: ../src/extract_dialog.c
 msgid "This archive is encrypted!"
@@ -1187,25 +1125,24 @@ msgid ""
 "If you are using the X Window System and drag-and-drop works without this "
 "extension, do not enable it to avoid drawbacks."
 msgstr ""
+"Detta möjliggör dra-och-släpp överföringar av typen \"text/uri-list\", "
+"vilket bara är nödvändigt om du inte använder X Window System eller om målen "
+"inte stöder XDirectSave.\n"
+"Om du använder X Window System och dra-och-släpp fungerar utan detta "
+"tillägg, aktivera det inte för att undvika nackdelar."
 
 #: ../src/interface.c
-#, fuzzy
-#| msgid "This is Xarchiver led status. When it's flashing Xarchiver is busy"
 msgid "This is Xarchiver's LED status. When it's flashing Xarchiver is busy."
 msgstr ""
-"Detta är Xarchivers LED-status. När den blinkar så är Xarchiver upptagen"
+"Detta är Xarchivers LED-status. När det blinkar så är Xarchiver upptagen."
 
 #: ../src/pref_dialog.c
-#, fuzzy
-#| msgid ""
-#| "This option includes the subdirectories when you add files with drag and "
-#| "drop"
 msgid ""
 "This option includes the subdirectories when you add files from the "
 "clipboard or with drag-and-drop."
 msgstr ""
-"Detta alternativ inkluderar underkatalogerna när du lägger till filer med "
-"dra och släpp"
+"Detta alternativ inkluderar underkatalogerna när du lägger till filer från "
+"urklipp eller med dra och släpp."
 
 #: ../src/extract_dialog.c
 msgid ""
@@ -1218,30 +1155,21 @@ msgstr ""
 "även extraherar de filer som inte redan finns på disken."
 
 #: ../src/add_dialog.c
-#, fuzzy
-#| msgid ""
-#| "This option will add any new files and update any files which have been "
-#| "modified since the archive was last created/modified"
 msgid ""
 "This option will add any new files and update any files which are already in "
 "the archive but older there."
 msgstr ""
-"Detta alternativ kommer att lägga till nya filer och uppdatera de filer som "
-"har ändrats sedan arkivet senast skapades/ändrades"
+"Det här alternativet lägger till nya filer och uppdaterar filer som redan "
+"finns i arkivet men är äldre där."
 
 #: ../src/add_dialog.c
-#, fuzzy
-#| msgid ""
-#| "This option affects the archive only if it has been modified more "
-#| "recently than the version already in the archive; unlike the update "
-#| "option it will not add files that are not already in the archive"
 msgid ""
 "This option will only add files which are already in the archive but older "
 "there; unlike the update option it will not add any new files."
 msgstr ""
-"Detta alternativ påverkar endast arkivet om det har ändrats efter den "
-"version som redan finns i arkivet; i motsats till uppdateringsalternativet "
-"kommer detta inte att lägga till filer som inte redan finns i arkivet"
+"Det här alternativet lägger bara till filer som redan finns i arkivet men är "
+"äldre där; till skillnad från uppdateringsalternativet lägger det inte till "
+"några nya filer."
 
 #: ../src/7zip.c ../src/ar.c ../src/arj.c ../src/cpio.c ../src/gzip_et_al.c
 #: ../src/lha.c ../src/rar.c ../src/rpm.c ../src/squashfs.c ../src/tar.c
@@ -1276,15 +1204,15 @@ msgstr "Okomprimerad storlek: "
 
 #: ../src/rpm.c
 msgid "Unknown compression type!"
-msgstr ""
+msgstr "Okänd komprimeringstyp!"
 
 #: ../src/interface.c
 msgid "Uns_ort"
-msgstr ""
+msgstr "Avs_ortera"
 
 #: ../src/7zip.c
 msgid "Unsupported binary format!"
-msgstr ""
+msgstr "Binär format som inte stöds!"
 
 #: ../src/interface.c
 msgid "Up"
@@ -1295,10 +1223,8 @@ msgid "Update existing files"
 msgstr "Uppdatera befintliga filer"
 
 #: ../src/add_dialog.c
-#, fuzzy
-#| msgid "Update existing files"
 msgid "Update existing files and add new ones"
-msgstr "Uppdatera befintliga filer"
+msgstr "Uppdatera existerande filer och lägg till nya"
 
 #: ../src/open-with-dlg.c
 msgid "Use a custom command:"
@@ -1317,40 +1243,32 @@ msgid "Web browser to use:"
 msgstr "Webbläsare att använda:"
 
 #: ../src/extract_dialog.c
-#, fuzzy
-#| msgid ""
-#| "When this option is used,tar leaves the data modification times of the "
-#| "files it extracts as the times when the files were extracted,instead of "
-#| "setting it to the times recorded in the archive."
 msgid ""
 "When this option is used, the modification times of the files will be the "
 "times of extraction instead of the times recorded in the archive."
 msgstr ""
-"När detta alternativ används kommer \"tar\" att lämna ändringsdatumen för de "
-"filer som extraheras till de datum de extraherades, istället för att använda "
-"de datum som lagrats i arkivet"
+"När det här alternativet används kommer ändringstiderna för filerna att vara "
+"extraktionstiderna istället för de tider som registrerats i arkivet."
 
 #: ../src/zpaq.c
 msgid "Will not handle files with wildcard characters!"
-msgstr ""
+msgstr "Kommer inte att hantera filer med jokertecken!"
 
 #: ../src/pref_dialog.c
 msgid "Window"
 msgstr "Fönster"
 
 #: ../src/add_dialog.c ../src/extract_dialog.c
-#, fuzzy
-#| msgid "Store full paths"
 msgid "With full path"
-msgstr "Lagra fullständiga sökvägar"
+msgstr "Med fullständiga sökvägar"
 
 #: ../src/extract_dialog.c
 msgid "Without any path"
-msgstr ""
+msgstr "Utan några sökvägar"
 
 #: ../src/add_dialog.c ../src/extract_dialog.c
 msgid "Without parent path"
-msgstr ""
+msgstr "Utan föräldra sökvägar"
 
 #: ../src/window.c
 msgid "Yes"
@@ -1365,12 +1283,12 @@ msgid ""
 "You can drop either archives to open or files to add. It is not possible to "
 "do both at the same time."
 msgstr ""
+"Du kan antingen släppa arkiv för att öppna eller filer för att lägga till. "
+"Det är inte möjligt att göra båda samtidigt."
 
 #: ../src/interface.c ../src/window.c
-#, fuzzy
-#| msgid "You can't add content to deb packages!"
 msgid "You can't add content to this archive type!"
-msgstr "Du kan inte lägga till något till deb-paket!"
+msgstr "Du kan inte lägga till innehåll till den här arkivtypen!"
 
 #: ../src/window.c
 msgid "You didn't set which browser to use!"
@@ -1412,7 +1330,7 @@ msgstr "Du glömde att ange var filerna ska extraheras!"
 
 #: ../src/main.c
 msgid "[ARCHIVE]"
-msgstr ""
+msgstr "[ARKIV]"
 
 #: ../src/add_dialog.c
 msgid "_Add"
@@ -1472,35 +1390,31 @@ msgstr "_Textfil"
 
 #: ../src/window.c
 msgid "and"
-msgstr ""
+msgstr "och"
 
 #: ../xarchiver.desktop.in.h
 msgid "archive;compress;decompress;extract;pack;uncompress;unpack;"
-msgstr ""
+msgstr "arkiv;komprimera;dekomprimera;extrahera;packa;uppacka;packa upp;"
 
 #: ../src/add_dialog.c
 msgid "best"
-msgstr ""
+msgstr "bästa"
 
 #: ../src/pref_dialog.c
 msgid "choose..."
 msgstr "välj..."
 
 #: ../src/main.c
-#, fuzzy
-#| msgid "destination archive"
 msgid "destination"
-msgstr "målarkiv"
+msgstr "mål"
 
 #: ../src/interface.c
 msgid "example: *.txt; ac*"
 msgstr "exempel: *.txt; ac*"
 
 #: ../src/main.c
-#, fuzzy
-#| msgid "file1 file2 file3 ... fileN"
 msgid "file1 ... fileN"
-msgstr "fil1 fil2 fil3 ... filN"
+msgstr "fil1 ... filN"
 
 #: ../src/pref_dialog.c
 msgid "large"
@@ -1508,11 +1422,11 @@ msgstr "stor"
 
 #: ../src/add_dialog.c
 msgid "least"
-msgstr ""
+msgstr "minsta"
 
 #: ../src/pref_dialog.c
 msgid "medium"
-msgstr ""
+msgstr "medelmåttig"
 
 #: ../src/window.c
 msgid "selected"
@@ -1524,7 +1438,7 @@ msgstr "liten"
 
 #: ../src/pref_dialog.c
 msgid "small/medium"
-msgstr ""
+msgstr "liten/medelstor"
 
 #. Do not translate this string.
 #. Instead, add your name here if you like.
@@ -1538,10 +1452,8 @@ msgstr ""
 "tp-sv@listor.tp-sv.se"
 
 #: ../src/pref_dialog.c
-#, fuzzy
-#| msgid "large"
 msgid "very large"
-msgstr "stor"
+msgstr "väldigt stor"
 
 #: ../src/main.c
 #, c-format
